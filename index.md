@@ -7,17 +7,30 @@ title: GitHub Trending Digest
 
 每日追踪 GitHub Trending，不只搬运榜单——对每个首次上榜项目做 **社区 Grounding**（GitHub Issues + HN + X/Twitter + Reddit 四源交叉验证），标注风险信号，提取真实使用场景。
 
+---
+
 ## Daily Analysis
 
-| 日期 | 榜单 | 深度分析 |
-|------|------|---------|
-{% assign analyses = site.pages | where_exp: "p", "p.path contains 'daily/' and p.path contains '-analysis.md'" | sort: "path" | reverse %}{% for p in analyses %}{% assign date = p.path | remove: "daily/" | remove: "-analysis.md" %}| {{ date }} | [榜单]({{ site.baseurl }}/daily/{{ date }}) | [**深度分析**]({{ site.baseurl }}/daily/{{ date }}-analysis) |
-{% endfor %}
+- [2026-04-14](daily/2026-04-14-analysis) — Claude Code 生态全面霸榜，GSD 携代币上榜，Voicebox 挑战 ElevenLabs
+- [2026-04-13](daily/2026-04-13-analysis) — Hermes Agent 连续称霸，MarkItDown 回归，multica 挑战 Managed Agents
+- [2026-04-10](daily/2026-04-10-analysis)
+- [2026-04-09](daily/2026-04-09-analysis)
+- [2026-04-08](daily/2026-04-08-analysis)
+- [2026-04-07](daily/2026-04-07-analysis)
+- [2026-04-06](daily/2026-04-06-analysis)
+- [2026-04-05](daily/2026-04-05-analysis)
+- [2026-04-04](daily/2026-04-04-analysis)
+- [2026-04-03](daily/2026-04-03-analysis)
+- [2026-04-02](daily/2026-04-02-analysis)
+- [2026-04-01](daily/2026-04-01-analysis)
+- [2026-03-31](daily/2026-03-31-analysis)
+- [2026-03-30](daily/2026-03-30-analysis)
 
 ## Weekly Reports
 
-{% assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/'" | sort: "path" | reverse %}{% for p in weeklies %}{% assign name = p.path | remove: "weekly/" | remove: ".md" %}- [{{ name }}]({{ site.baseurl }}/weekly/{{ name }})
-{% endfor %}
+- [2026-W16](weekly/2026-W16) — W16 (04-07 ~ 04-13)
+- [2026-W15](weekly/2026-W15) — W15 (03-31 ~ 04-06)
+- [2026-W14](weekly/2026-W14) — W14 (03-24 ~ 03-30)
 
 ## Methodology
 
@@ -32,4 +45,4 @@ title: GitHub Trending Digest
 
 ---
 
-[Analysis Rules & Templates](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) | [GitHub Repo](https://github.com/maxzyma/github-trending-digest)
+[Analysis Rules](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) | [GitHub Repo](https://github.com/maxzyma/github-trending-digest)
