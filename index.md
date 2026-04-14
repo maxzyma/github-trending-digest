@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: GitHub Trending Digest
 ---
 
@@ -9,15 +9,15 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
-| 日期 | 项目数 | 分析 |
-|------|--------|------|
-{% assign analyses = site.static_files | where_exp: "file", "file.path contains '/daily/' and file.path contains '-analysis.md'" | sort: "path" | reverse %}{% for file in analyses %}{% assign date = file.path | split: "/daily/" | last | replace: "-analysis.md", "" %}| {{ date }} | [榜单]({{ site.baseurl }}/daily/{{ date }}) | [**深度分析**]({{ site.baseurl }}/daily/{{ date }}-analysis) |
+| 日期 | 榜单 | 深度分析 |
+|------|------|---------|
+{% assign analyses = site.pages | where_exp: "p", "p.path contains 'daily/' and p.path contains '-analysis.md'" | sort: "path" | reverse %}{% for p in analyses %}{% assign date = p.path | remove: "daily/" | remove: "-analysis.md" %}| {{ date }} | [榜单]({{ site.baseurl }}/daily/{{ date }}) | [**深度分析**]({{ site.baseurl }}/daily/{{ date }}-analysis) |
 {% endfor %}
 
 ## Weekly Reports
 
-{% assign weeklies = site.static_files | where_exp: "file", "file.path contains '/weekly/'" | sort: "path" | reverse %}{% for file in weeklies %}{% unless file.path contains ".gitkeep" %}- [{{ file.path | split: "/weekly/" | last | replace: ".md", "" }}]({{ site.baseurl }}/weekly/{{ file.path | split: "/weekly/" | last | replace: ".md", "" }})
-{% endunless %}{% endfor %}
+{% assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/'" | sort: "path" | reverse %}{% for p in weeklies %}{% assign name = p.path | remove: "weekly/" | remove: ".md" %}- [{{ name }}]({{ site.baseurl }}/weekly/{{ name }})
+{% endfor %}
 
 ## Methodology
 
@@ -32,4 +32,4 @@ title: GitHub Trending Digest
 
 ---
 
-[Analysis Rules & Templates](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) · [GitHub Repo](https://github.com/maxzyma/github-trending-digest)
+[Analysis Rules & Templates](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) | [GitHub Repo](https://github.com/maxzyma/github-trending-digest)
