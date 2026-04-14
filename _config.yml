@@ -7,6 +7,8 @@ url: "https://maxzyma.github.io"
 
 theme: minima
 
+header_pages: []
+
 exclude:
   - repos/
   - README.md
