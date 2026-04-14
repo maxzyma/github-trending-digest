@@ -1,0 +1,19 @@
+title: GitHub Trending Digest
+description: >-
+  Daily deep analysis of GitHub Trending — not just a list, but community-grounded
+  insights with HN/X/Reddit cross-validation, risk signals, and real-world usage from Issues.
+baseurl: "/github-trending-digest"
+url: "https://maxzyma.github.io"
+
+theme: minima
+
+exclude:
+  - repos/
+  - README.md
+  - _config.yml
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
