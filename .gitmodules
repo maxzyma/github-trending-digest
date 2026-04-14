@@ -1,0 +1,162 @@
+[submodule "claude-howto"]
+	path = repos/claude-howto
+	url = https://github.com/luongnv89/claude-howto.git
+[submodule "VibeVoice"]
+	path = repos/VibeVoice
+	url = https://github.com/microsoft/VibeVoice.git
+[submodule "hermes-agent"]
+	path = repos/hermes-agent
+	url = https://github.com/NousResearch/hermes-agent.git
+[submodule "OpenBB"]
+	path = repos/OpenBB
+	url = https://github.com/OpenBB-finance/OpenBB.git
+[submodule "superpowers"]
+	path = repos/superpowers
+	url = https://github.com/obra/superpowers.git
+[submodule "claude-mem"]
+	path = repos/claude-mem
+	url = https://github.com/thedotmack/claude-mem.git
+[submodule "Deep-Live-Cam"]
+	path = repos/Deep-Live-Cam
+	url = https://github.com/hacksider/Deep-Live-Cam.git
+[submodule "last30days-skill"]
+	path = repos/last30days-skill
+	url = https://github.com/mvanhorn/last30days-skill.git
+[submodule "learn-claude-code"]
+	path = repos/learn-claude-code
+	url = https://github.com/shareAI-lab/learn-claude-code.git
+[submodule "fastfetch"]
+	path = repos/fastfetch
+	url = https://github.com/fastfetch-cli/fastfetch.git
+[submodule "airi"]
+	path = repos/airi
+	url = https://github.com/moeru-ai/airi.git
+[submodule "twenty"]
+	path = repos/twenty
+	url = https://github.com/twentyhq/twenty.git
+[submodule "hindsight"]
+	path = repos/hindsight
+	url = https://github.com/vectorize-io/hindsight.git
+[submodule "OfficeCLI"]
+	path = repos/OfficeCLI
+	url = https://github.com/iOfficeAI/OfficeCLI.git
+[submodule "claude-code-best-practice"]
+	path = repos/claude-code-best-practice
+	url = https://github.com/shanraisshan/claude-code-best-practice.git
+[submodule "oh-my-claudecode"]
+	path = repos/oh-my-claudecode
+	url = https://github.com/Yeachan-Heo/oh-my-claudecode.git
+[submodule "agent-lightning"]
+	path = repos/agent-lightning
+	url = https://github.com/microsoft/agent-lightning.git
+[submodule "Skills"]
+	path = repos/Skills
+	url = https://github.com/Dimillian/Skills.git
+[submodule "TaxHacker"]
+	path = repos/TaxHacker
+	url = https://github.com/vas3k/TaxHacker.git
+[submodule "timesfm"]
+	path = repos/timesfm
+	url = https://github.com/google-research/timesfm.git
+[submodule "GLM-OCR"]
+	path = repos/GLM-OCR
+	url = https://github.com/zai-org/GLM-OCR.git
+[submodule "codex"]
+	path = repos/codex
+	url = https://github.com/openai/codex.git
+[submodule "prompts.chat"]
+	path = repos/prompts.chat
+	url = https://github.com/f/prompts.chat.git
+[submodule "openscreen"]
+	path = repos/openscreen
+	url = https://github.com/siddharthvaddem/openscreen.git
+[submodule "oh-my-codex"]
+	path = repos/oh-my-codex
+	url = https://github.com/Yeachan-Heo/oh-my-codex.git
+[submodule "system_prompts_leaks"]
+	path = repos/system_prompts_leaks
+	url = https://github.com/asgeirtj/system_prompts_leaks.git
+[submodule "onyx"]
+	path = repos/onyx
+	url = https://github.com/onyx-dot-app/onyx.git
+[submodule "fff.nvim"]
+	path = repos/fff.nvim
+	url = https://github.com/dmtrKovalenko/fff.nvim.git
+[submodule "mlx-vlm"]
+	path = repos/mlx-vlm
+	url = https://github.com/Blaizzy/mlx-vlm.git
+[submodule "goose"]
+	path = repos/goose
+	url = https://github.com/block/goose.git
+[submodule "agent-framework"]
+	path = repos/agent-framework
+	url = https://github.com/microsoft/agent-framework.git
+[submodule "gallery"]
+	path = repos/gallery
+	url = https://github.com/google-ai-edge/gallery.git
+[submodule "pi-mono"]
+	path = repos/pi-mono
+	url = https://github.com/badlogic/pi-mono.git
+[submodule "LiteRT-LM"]
+	path = repos/LiteRT-LM
+	url = https://github.com/google-ai-edge/LiteRT-LM.git
+[submodule "GitNexus"]
+	path = repos/GitNexus
+	url = https://github.com/abhigyanpatwari/GitNexus.git
+[submodule "shannon"]
+	path = repos/shannon
+	url = https://github.com/KeygraphHQ/shannon.git
+[submodule "qmd"]
+	path = repos/qmd
+	url = https://github.com/tobi/qmd.git
+[submodule "obsidian-skills"]
+	path = repos/obsidian-skills
+	url = https://github.com/kepano/obsidian-skills.git
+[submodule "personaplex"]
+	path = repos/personaplex
+	url = https://github.com/NVIDIA/personaplex.git
+[submodule "andrej-karpathy-skills"]
+	path = repos/andrej-karpathy-skills
+	url = https://github.com/forrestchang/andrej-karpathy-skills.git
+[submodule "DeepTutor"]
+	path = repos/DeepTutor
+	url = https://github.com/HKUDS/DeepTutor.git
+[submodule "seomachine"]
+	path = repos/seomachine
+	url = https://github.com/TheCraigHewitt/seomachine.git
+[submodule "newton"]
+	path = repos/newton
+	url = https://github.com/newton-physics/newton.git
+[submodule "VoxCPM"]
+	path = repos/VoxCPM
+	url = https://github.com/OpenBMB/VoxCPM.git
+[submodule "opendataloader-pdf"]
+	path = repos/opendataloader-pdf
+	url = https://github.com/opendataloader-project/opendataloader-pdf.git
+[submodule "Archon"]
+	path = repos/Archon
+	url = https://github.com/coleam00/Archon.git
+[submodule "Kronos"]
+	path = repos/Kronos
+	url = https://github.com/shiyu-coder/Kronos.git
+[submodule "claudian"]
+	path = repos/claudian
+	url = https://github.com/YishenTu/claudian.git
+[submodule "multica"]
+	path = repos/multica
+	url = https://github.com/multica-ai/multica.git
+[submodule "rustfs"]
+	path = repos/rustfs
+	url = https://github.com/rustfs/rustfs.git
+[submodule "ralph"]
+	path = repos/ralph
+	url = https://github.com/snarktank/ralph.git
+[submodule "claude-cookbooks"]
+	path = repos/claude-cookbooks
+	url = https://github.com/anthropics/claude-cookbooks.git
+[submodule "voicebox"]
+	path = repos/voicebox
+	url = https://github.com/jamiepine/voicebox.git
+[submodule "get-shit-done"]
+	path = repos/get-shit-done
+	url = https://github.com/gsd-build/get-shit-done.git
