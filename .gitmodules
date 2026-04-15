@@ -160,3 +160,6 @@
 [submodule "get-shit-done"]
 	path = repos/get-shit-done
 	url = https://github.com/gsd-build/get-shit-done.git
+[submodule "repos/editor"]
+	path = repos/editor
+	url = https://github.com/pascalorg/editor.git
