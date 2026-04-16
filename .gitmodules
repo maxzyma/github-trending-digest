@@ -163,3 +163,18 @@
 [submodule "repos/editor"]
 	path = repos/editor
 	url = https://github.com/pascalorg/editor.git
+[submodule "repos/dive-into-llms"]
+	path = repos/dive-into-llms
+	url = https://github.com/Lordog/dive-into-llms.git
+[submodule "repos/open-agents"]
+	path = repos/open-agents
+	url = https://github.com/vercel-labs/open-agents.git
+[submodule "repos/GenericAgent"]
+	path = repos/GenericAgent
+	url = https://github.com/lsdefine/GenericAgent.git
+[submodule "repos/magika"]
+	path = repos/magika
+	url = https://github.com/google/magika.git
+[submodule "repos/Claude-Code-Game-Studios"]
+	path = repos/Claude-Code-Game-Studios
+	url = https://github.com/Donchitos/Claude-Code-Game-Studios.git
