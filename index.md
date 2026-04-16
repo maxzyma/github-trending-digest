@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-04-16](daily/2026-04-16-analysis) — Karpathy Skills 连续第 7 天蝉联榜首且仍在加速，6 个新面孔含自主进化 Agent 和 42 万星僵尸传奇 public-apis
 - [2026-04-15](daily/2026-04-15-analysis) — Karpathy Skills 蝉联榜首 +9,263 创新高，Pascal 3D 建筑编辑器空降，Apollo 11 源码回归
 - [2026-04-14](daily/2026-04-14-analysis) — Claude Code 生态全面霸榜，GSD 携代币上榜，Voicebox 挑战 ElevenLabs
 - [2026-04-13](daily/2026-04-13-analysis) — Hermes Agent 连续称霸，MarkItDown 回归，multica 挑战 Managed Agents
