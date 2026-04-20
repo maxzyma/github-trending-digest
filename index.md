@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-04-20](daily/2026-04-20-analysis) — FinceptTerminal 空降榜首，T3 Code 给 Codex/Claude 统一 GUI，WiFi 隔墙感知 RuView 硬核登场
 - [2026-04-19](daily/2026-04-19-analysis) — 榜单大换血 9/10 新面孔：Thunderbird AI 客户端、OpenAI Agents SDK、Evolver 指控 Hermes 抄袭、Claude Code 两个 skill
 - [2026-04-16](daily/2026-04-16-analysis) — Karpathy Skills 连续第 7 天蝉联榜首且仍在加速，6 个新面孔含自主进化 Agent 和 42 万星僵尸传奇 public-apis
 - [2026-04-15](daily/2026-04-15-analysis) — Karpathy Skills 蝉联榜首 +9,263 创新高，Pascal 3D 建筑编辑器空降，Apollo 11 源码回归

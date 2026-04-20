@@ -199,3 +199,12 @@
 [submodule "repos/arc-kit"]
 	path = repos/arc-kit
 	url = https://github.com/tractorjuice/arc-kit.git
+[submodule "repos/FinceptTerminal"]
+	path = repos/FinceptTerminal
+	url = https://github.com/Fincept-Corporation/FinceptTerminal.git
+[submodule "repos/t3code"]
+	path = repos/t3code
+	url = https://github.com/pingdotgg/t3code.git
+[submodule "repos/RuView"]
+	path = repos/RuView
+	url = https://github.com/ruvnet/RuView.git
