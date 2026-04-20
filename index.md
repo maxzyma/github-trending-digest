@@ -32,6 +32,7 @@ title: GitHub Trending Digest
 
 ## Weekly Reports
 
+- [2026-W17](weekly/2026-W17) — W17 (04-14 ~ 04-19) Karpathy 7 连冠后消失、Agent 混战、Thunderbird 跨界 AI
 - [2026-W16](weekly/2026-W16) — W16 (04-07 ~ 04-13)
 - [2026-W15](weekly/2026-W15) — W15 (03-31 ~ 04-06)
 - [2026-W14](weekly/2026-W14) — W14 (03-24 ~ 03-30)
