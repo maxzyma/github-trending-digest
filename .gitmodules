@@ -178,3 +178,24 @@
 [submodule "repos/Claude-Code-Game-Studios"]
 	path = repos/Claude-Code-Game-Studios
 	url = https://github.com/Donchitos/Claude-Code-Game-Studios.git
+[submodule "repos/claude-desktop-debian"]
+	path = repos/claude-desktop-debian
+	url = https://github.com/aaddrick/claude-desktop-debian.git
+[submodule "repos/android-reverse-engineering-skill"]
+	path = repos/android-reverse-engineering-skill
+	url = https://github.com/SimoneAvogadro/android-reverse-engineering-skill.git
+[submodule "repos/thunderbolt"]
+	path = repos/thunderbolt
+	url = https://github.com/thunderbird/thunderbolt.git
+[submodule "repos/omi"]
+	path = repos/omi
+	url = https://github.com/BasedHardware/omi.git
+[submodule "repos/openai-agents-python"]
+	path = repos/openai-agents-python
+	url = https://github.com/openai/openai-agents-python.git
+[submodule "repos/evolver"]
+	path = repos/evolver
+	url = https://github.com/EvoMap/evolver.git
+[submodule "repos/arc-kit"]
+	path = repos/arc-kit
+	url = https://github.com/tractorjuice/arc-kit.git
