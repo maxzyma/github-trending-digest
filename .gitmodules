@@ -208,3 +208,6 @@
 [submodule "repos/RuView"]
 	path = repos/RuView
 	url = https://github.com/ruvnet/RuView.git
+[submodule "repos/worldmonitor"]
+	path = repos/worldmonitor
+	url = https://github.com/koala73/worldmonitor.git
