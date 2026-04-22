@@ -211,3 +211,21 @@
 [submodule "repos/worldmonitor"]
 	path = repos/worldmonitor
 	url = https://github.com/koala73/worldmonitor.git
+[submodule "repos/claude-context"]
+	path = repos/claude-context
+	url = https://github.com/zilliztech/claude-context.git
+[submodule "repos/YTLite"]
+	path = repos/YTLite
+	url = https://github.com/dayanch96/YTLite.git
+[submodule "repos/RAG-Anything"]
+	path = repos/RAG-Anything
+	url = https://github.com/HKUDS/RAG-Anything.git
+[submodule "repos/TrendRadar"]
+	path = repos/TrendRadar
+	url = https://github.com/sansan0/TrendRadar.git
+[submodule "repos/awesome-agent-skills"]
+	path = repos/awesome-agent-skills
+	url = https://github.com/VoltAgent/awesome-agent-skills.git
+[submodule "repos/ai-agents-for-beginners"]
+	path = repos/ai-agents-for-beginners
+	url = https://github.com/microsoft/ai-agents-for-beginners.git
