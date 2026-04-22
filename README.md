@@ -206,3 +206,34 @@ _一句话概括本月最核心的趋势变化_
 每月 1 日:
   5. 汇总上月 weekly/ → 写 monthly/YYYY-MM.md
 ```
+
+## 收尾流程（所有模式通用）
+
+文档写完、钉钉发送后，按顺序执行以下步骤。
+
+### 更新 index.md
+
+在本目录 `index.md` 对应章节**下方第一行**插入新链接：
+
+| 模式 | 章节 | 格式 |
+|------|------|------|
+| Daily | `## Daily Analysis` | `- [YYYY-MM-DD](daily/YYYY-MM-DD-analysis) — 副标题` |
+| Weekly | `## Weekly Reports` | `- [YYYY-WNN](weekly/YYYY-WNN) — 副标题`（参照已有条目） |
+| Monthly | `## Monthly Reports` | `- [YYYY-MM](monthly/YYYY-MM) — 副标题`（如无该章节，在 Weekly Reports 之后新建） |
+
+### 两层提交推送
+
+本目录是 coworkspace 的子模块，push 需要两层：
+
+```bash
+# 1) 子模块内提交推送
+git add .
+git commit -m "feat: add {mode} analysis YYYY-MM-DD"
+git push  # dangerouslyDisableSandbox: true
+
+# 2) 回到父仓库更新引用
+cd $(git rev-parse --show-superproject-working-tree)
+git add notes/02-调研/github-trends
+git commit -m "chore: update github-trending-digest ref"
+git push  # dangerouslyDisableSandbox: true
+```
