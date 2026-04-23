@@ -229,3 +229,18 @@
 [submodule "repos/ai-agents-for-beginners"]
 	path = repos/ai-agents-for-beginners
 	url = https://github.com/microsoft/ai-agents-for-beginners.git
+[submodule "repos/langfuse"]
+	path = repos/langfuse
+	url = https://github.com/langfuse/langfuse.git
+[submodule "repos/OpenMetadata"]
+	path = repos/OpenMetadata
+	url = https://github.com/open-metadata/OpenMetadata.git
+[submodule "repos/Pixelle-Video"]
+	path = repos/Pixelle-Video
+	url = https://github.com/AIDC-AI/Pixelle-Video.git
+[submodule "repos/hackingtool"]
+	path = repos/hackingtool
+	url = https://github.com/Z4nzu/hackingtool.git
+[submodule "repos/vercel-skills"]
+	path = repos/vercel-skills
+	url = https://github.com/vercel-labs/skills.git
