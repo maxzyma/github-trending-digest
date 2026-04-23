@@ -1,0 +1,2 @@
+# Sent markers (idempotency guard for DingTalk webhook)
+*.sent
