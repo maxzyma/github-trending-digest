@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-04-24](daily/2026-04-24-analysis) — Claude Code 生态工具扎堆爆发，多个 NEW 项目同时暴露"商业漏斗 + SEO 堆砌 + 质量虚标"三类红旗
 - [2026-04-23](daily/2026-04-23-analysis) — 企业级基础设施与成熟老项目主导榜单：langfuse 被 ClickHouse 收购、hackingtool v2 重写、Vercel skills 与 Anthropic Skills 生态正面竞合
 - [2026-04-22](daily/2026-04-22-analysis) — Agent 课程/技能列表/舆情监控三件套空降，Zilliz claude-context 撞上 Anthropic 官方 Tool Search
 - [2026-04-21](daily/2026-04-21-analysis) — FinceptTerminal 增量暴涨 +3,109 蝉联榜首，WorldMonitor 全球态势感知登场，Pi-hole 和 Xray-core 经典回归
