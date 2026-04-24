@@ -244,3 +244,21 @@
 [submodule "repos/vercel-skills"]
 	path = repos/vercel-skills
 	url = https://github.com/vercel-labs/skills.git
+[submodule "repos/ml-intern"]
+	path = repos/ml-intern
+	url = https://github.com/huggingface/ml-intern.git
+[submodule "repos/Open-Generative-AI"]
+	path = repos/Open-Generative-AI
+	url = https://github.com/Anil-matcha/Open-Generative-AI.git
+[submodule "repos/free-claude-code"]
+	path = repos/free-claude-code
+	url = https://github.com/Alishahryar1/free-claude-code.git
+[submodule "repos/context-mode"]
+	path = repos/context-mode
+	url = https://github.com/mksglu/context-mode.git
+[submodule "repos/marketingskills"]
+	path = repos/marketingskills
+	url = https://github.com/coreyhaines31/marketingskills.git
+[submodule "repos/aie-book"]
+	path = repos/aie-book
+	url = https://github.com/chiphuyen/aie-book.git
