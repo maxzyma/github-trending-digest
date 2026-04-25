@@ -262,3 +262,9 @@
 [submodule "repos/aie-book"]
 	path = repos/aie-book
 	url = https://github.com/chiphuyen/aie-book.git
+[submodule "repos/osv-scanner"]
+	path = repos/osv-scanner
+	url = https://github.com/google/osv-scanner.git
+[submodule "repos/DeepEP"]
+	path = repos/DeepEP
+	url = https://github.com/deepseek-ai/DeepEP.git
