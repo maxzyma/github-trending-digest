@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-04-26](daily/2026-04-26-analysis) — Roo-Code 宣布关停回归 Cline + Skills 工具栈四箭齐发（mattpocock/davila7/Composio + PowerShell RE），Google/Shopify UCP 协议进入 Trending 与 OpenAI ACP 正面对垒
 - [2026-04-25](daily/2026-04-25-analysis) — 老牌项目回流日：4 个企业级长青项目（PostHog/vaultwarden/typescript-go/osv-scanner）+ DeepEP 同日登榜；build-your-own-x +991 疑似 HN "fake stars" 帖反向引流；free-claude-code 质量缺陷无效继续登顶
 - [2026-04-24](daily/2026-04-24-analysis) — Claude Code 生态工具扎堆爆发，多个 NEW 项目同时暴露"商业漏斗 + SEO 堆砌 + 质量虚标"三类红旗
 - [2026-04-23](daily/2026-04-23-analysis) — 企业级基础设施与成熟老项目主导榜单：langfuse 被 ClickHouse 收购、hackingtool v2 重写、Vercel skills 与 Anthropic Skills 生态正面竞合
