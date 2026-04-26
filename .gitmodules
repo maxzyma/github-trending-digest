@@ -268,3 +268,21 @@
 [submodule "repos/DeepEP"]
 	path = repos/DeepEP
 	url = https://github.com/deepseek-ai/DeepEP.git
+[submodule "repos/mattpocock-skills"]
+	path = repos/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "repos/claude-code-templates"]
+	path = repos/claude-code-templates
+	url = https://github.com/davila7/claude-code-templates.git
+[submodule "repos/ds2api"]
+	path = repos/ds2api
+	url = https://github.com/CJackHwang/ds2api.git
+[submodule "repos/ucp"]
+	path = repos/ucp
+	url = https://github.com/Universal-Commerce-Protocol/ucp.git
+[submodule "repos/awesome-codex-skills"]
+	path = repos/awesome-codex-skills
+	url = https://github.com/ComposioHQ/awesome-codex-skills.git
+[submodule "repos/Roo-Code"]
+	path = repos/Roo-Code
+	url = https://github.com/RooCodeInc/Roo-Code.git
