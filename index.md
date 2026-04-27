@@ -39,7 +39,8 @@ title: GitHub Trending Digest
 
 ## Weekly Reports
 
-- [2026-W17](weekly/2026-W17) — W17 (04-14 ~ 04-19) Karpathy 7 连冠后消失、Agent 混战、Thunderbird 跨界 AI
+- [2026-W17](weekly/2026-W17) — W17 (04-20 ~ 04-26) Claude Code 平台化裂变、Roo-Code 关停 + IDEs aren't the future、free-claude-code 单周 +8,607 质量信号失效、UCP vs ACP 协议开战
+- [2026-W17（旧版）](weekly/2026-W17-old-04-14-to-04-19) — W17 旧版 (04-14 ~ 04-19，非 ISO 标准范围) Karpathy 7 连冠后消失、Agent 混战、Thunderbird 跨界 AI
 - [2026-W16](weekly/2026-W16) — W16 (04-07 ~ 04-13)
 - [2026-W15](weekly/2026-W15) — W15 (03-31 ~ 04-06)
 - [2026-W14](weekly/2026-W14) — W14 (03-24 ~ 03-30)
