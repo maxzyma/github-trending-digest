@@ -286,3 +286,12 @@
 [submodule "repos/Roo-Code"]
 	path = repos/Roo-Code
 	url = https://github.com/RooCodeInc/Roo-Code.git
+[submodule "repos/cua"]
+	path = repos/cua
+	url = https://github.com/trycua/cua.git
+[submodule "repos/beads"]
+	path = repos/beads
+	url = https://github.com/gastownhall/beads.git
+[submodule "repos/openclaw"]
+	path = repos/openclaw
+	url = https://github.com/openclaw/openclaw.git
