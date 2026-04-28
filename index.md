@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-04-28](daily/2026-04-28-analysis) — Figma 信任危机外溢把 11 年老仓 penpot 拽回榜，DeepSeek V4 发布让静默 8 个月的 V3 二次曝光，53K⭐ TradingAgents 被自家 issue 集体揭穿是"自动亏钱论文 demo"
 - [2026-04-27](daily/2026-04-27-analysis) — Coding Agent 底座之战（Beads 任务图 + cua 沙箱）+ openclaw 异常进榜（364K stars / 1,805 真实订阅，比 202:1 + Anthropic 商标维权 + CVE）+ curl/home-assistant 老牌基础设施罕见同日冒头
 - [2026-04-26](daily/2026-04-26-analysis) — Roo-Code 宣布关停回归 Cline + Skills 工具栈四箭齐发（mattpocock/davila7/Composio + PowerShell RE），Google/Shopify UCP 协议进入 Trending 与 OpenAI ACP 正面对垒
 - [2026-04-25](daily/2026-04-25-analysis) — 老牌项目回流日：4 个企业级长青项目（PostHog/vaultwarden/typescript-go/osv-scanner）+ DeepEP 同日登榜；build-your-own-x +991 疑似 HN "fake stars" 帖反向引流；free-claude-code 质量缺陷无效继续登顶
