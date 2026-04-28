@@ -295,3 +295,6 @@
 [submodule "repos/openclaw"]
 	path = repos/openclaw
 	url = https://github.com/openclaw/openclaw.git
+[submodule "repos/TradingAgents"]
+	path = repos/TradingAgents
+	url = https://github.com/TauricResearch/TradingAgents.git
