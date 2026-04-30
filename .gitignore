@@ -1,2 +1,10 @@
 # Sent markers (idempotency guard for DingTalk webhook)
 *.sent
+
+# Push-only derived files (local notification payloads, not for publication)
+daily/*-summary.md
+daily/*-full.md
+weekly/*-summary.md
+weekly/*-full.md
+monthly/*-summary.md
+monthly/*-full.md
