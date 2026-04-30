@@ -298,3 +298,21 @@
 [submodule "repos/TradingAgents"]
 	path = repos/TradingAgents
 	url = https://github.com/TauricResearch/TradingAgents.git
+[submodule "repos/warp"]
+	path = repos/warp
+	url = https://github.com/warpdotdev/warp.git
+[submodule "repos/GhostTrack"]
+	path = repos/GhostTrack
+	url = https://github.com/HunxByts/GhostTrack.git
+[submodule "repos/jcode"]
+	path = repos/jcode
+	url = https://github.com/1jehuang/jcode.git
+[submodule "repos/daily_stock_analysis"]
+	path = repos/daily_stock_analysis
+	url = https://github.com/ZhuLinsen/daily_stock_analysis.git
+[submodule "repos/craft-agents-oss"]
+	path = repos/craft-agents-oss
+	url = https://github.com/lukilabs/craft-agents-oss.git
+[submodule "repos/maigret"]
+	path = repos/maigret
+	url = https://github.com/soxoj/maigret.git
