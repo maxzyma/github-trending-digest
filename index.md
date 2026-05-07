@@ -11,6 +11,8 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-05-07](daily/2026-05-07-analysis) — 金融 AI 行业整合周（SAP 收购 PriorLabs + Anthropic 5/5 纽约发布会 Claude Opus 4.7/Moody's/M365 GA/FIS 反洗钱）领涨；半数 NEW 项目暴露"X 推广 + 社区空心化"虚高信号（DeepSeek-TUI/ruflo/vscode-dark-islands/addyosmani-skills）
+- [2026-05-01](daily/2026-05-01-analysis) — 五一劳动节：Warp 开源热度持续（+8,399），TradingAgents 回榜验证"AI 金融"叙事韧性；OSINT/终端/教育类长期项目稳定占据趋势池
 - [2026-04-30](daily/2026-04-30-analysis) — Warp 开源（+12,822 单日 stars / AGPL-3.0 / 仅客户端）以 OpenAI 做 founding sponsor 投下重磅炸弹；OSINT 类目两极分化（maigret 活跃维护 vs GhostTrack 停更脚本号转发）；中文金融 AI fork:star ≈ 0.99 vanity 异常
 - [2026-04-28](daily/2026-04-28-analysis) — Figma 信任危机外溢把 11 年老仓 penpot 拽回榜，DeepSeek V4 发布让静默 8 个月的 V3 二次曝光，53K⭐ TradingAgents 被自家 issue 集体揭穿是"自动亏钱论文 demo"
 - [2026-04-27](daily/2026-04-27-analysis) — Coding Agent 底座之战（Beads 任务图 + cua 沙箱）+ openclaw 异常进榜（364K stars / 1,805 真实订阅，比 202:1 + Anthropic 商标维权 + CVE）+ curl/home-assistant 老牌基础设施罕见同日冒头
