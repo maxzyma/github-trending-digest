@@ -316,3 +316,45 @@
 [submodule "repos/maigret"]
 	path = repos/maigret
 	url = https://github.com/soxoj/maigret.git
+[submodule "repos/DeepSeek-TUI"]
+	path = repos/DeepSeek-TUI
+	url = https://github.com/Hmbown/DeepSeek-TUI.git
+[submodule "repos/agent-skills"]
+	path = repos/agent-skills
+	url = https://github.com/addyosmani/agent-skills.git
+[submodule "repos/TabPFN"]
+	path = repos/TabPFN
+	url = https://github.com/PriorLabs/TabPFN.git
+[submodule "repos/docuseal"]
+	path = repos/docuseal
+	url = https://github.com/docusealco/docuseal.git
+[submodule "repos/local-deep-research"]
+	path = repos/local-deep-research
+	url = https://github.com/LearningCircuit/local-deep-research.git
+[submodule "repos/ladybird"]
+	path = repos/ladybird
+	url = https://github.com/LadybirdBrowser/ladybird.git
+[submodule "repos/InsForge"]
+	path = repos/InsForge
+	url = https://github.com/InsForge/InsForge.git
+[submodule "repos/dexter"]
+	path = repos/dexter
+	url = https://github.com/virattt/dexter.git
+[submodule "repos/financial-services"]
+	path = repos/financial-services
+	url = https://github.com/anthropics/financial-services.git
+[submodule "repos/ruflo"]
+	path = repos/ruflo
+	url = https://github.com/ruvnet/ruflo.git
+[submodule "repos/free-llm-api-resources"]
+	path = repos/free-llm-api-resources
+	url = https://github.com/cheahjs/free-llm-api-resources.git
+[submodule "repos/vscode-dark-islands"]
+	path = repos/vscode-dark-islands
+	url = https://github.com/bwya77/vscode-dark-islands.git
+[submodule "repos/deer-flow"]
+	path = repos/deer-flow
+	url = https://github.com/bytedance/deer-flow.git
+[submodule "repos/Scrapling"]
+	path = repos/Scrapling
+	url = https://github.com/D4Vinci/Scrapling.git
