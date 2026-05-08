@@ -358,3 +358,15 @@
 [submodule "repos/Scrapling"]
 	path = repos/Scrapling
 	url = https://github.com/D4Vinci/Scrapling.git
+[submodule "repos/dflash"]
+	path = repos/dflash
+	url = https://github.com/z-lab/dflash.git
+[submodule "repos/PageIndex"]
+	path = repos/PageIndex
+	url = https://github.com/VectifyAI/PageIndex.git
+[submodule "repos/9router"]
+	path = repos/9router
+	url = https://github.com/decolua/9router.git
+[submodule "repos/openreel-video"]
+	path = repos/openreel-video
+	url = https://github.com/Augani/openreel-video.git
