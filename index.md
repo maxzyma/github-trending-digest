@@ -11,6 +11,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-05-09](daily/2026-05-09-analysis) — AI Coding Agent Skills 生态周末成形（Anthropic + AWS + Flutter + Vercel 四象限齐备）；金融 AI 板块 stars 与质量背离扩大（HKUDS/AI-Trader 14.7K★ 实证为回测玩具，未来信息泄露+无止损未回应）；高 stars 社区空心化连续 3 天爆发
 - [2026-05-08](daily/2026-05-08-analysis) — 推理 RAG 与浏览器视频编辑崛起（PageIndex 29K stars + HN 192 分登顶 / OpenReel 13 万行代码挑战 CapCut）；4 个 NEW 项目社区验证分化（PageIndex 强/9Router 中/DFlash 中/OpenReel 弱）
 - [2026-05-07](daily/2026-05-07-analysis) — 金融 AI 行业整合周（SAP 收购 PriorLabs + Anthropic 5/5 纽约发布会 Claude Opus 4.7/Moody's/M365 GA/FIS 反洗钱）领涨；半数 NEW 项目暴露"X 推广 + 社区空心化"虚高信号（DeepSeek-TUI/ruflo/vscode-dark-islands/addyosmani-skills）
 - [2026-05-01](daily/2026-05-01-analysis) — 五一劳动节：Warp 开源热度持续（+8,399），TradingAgents 回榜验证"AI 金融"叙事韧性；OSINT/终端/教育类长期项目稳定占据趋势池
