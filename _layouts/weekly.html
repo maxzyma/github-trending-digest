@@ -15,6 +15,11 @@
       if (t === 'dark') document.documentElement.dataset.theme = 'dark';
     })();
   </script>
+
+  {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
+  <script data-goatcounter="https://{{ site.goatcounter.site }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif -%}
 </head>
 <body>
 
@@ -119,6 +124,32 @@
       </article>
     </div>
   </section>
+
+  {%- if site.giscus.repo_id and site.giscus.repo_id != '' -%}
+  <section id="comments" style="margin-top: 3rem;">
+    <div class="sec-h">
+      <h2>§ 讨论<small>登录 GitHub 评论 · 👍 / ❤️ / 🚀 表态</small></h2>
+    </div>
+    <div style="max-width: var(--max-w); margin: 0 auto;">
+      <script src="https://giscus.app/client.js"
+              data-repo="{{ site.giscus.repo }}"
+              data-repo-id="{{ site.giscus.repo_id }}"
+              data-category="{{ site.giscus.category }}"
+              data-category-id="{{ site.giscus.category_id }}"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="preferred_color_scheme"
+              data-lang="zh-CN"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </section>
+  {%- endif -%}
 
   </main>
 
