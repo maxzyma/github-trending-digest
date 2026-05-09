@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.subtitle | default: page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400;1,8..60,500&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    (function() {
+      var t = localStorage.getItem('gtd-theme');
+      if (t === 'light') document.documentElement.dataset.theme = 'light';
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="bg-atmosphere" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-brand">
+        <span class="brand-pulse"></span>
+        <span class="brand-text">GitHub Trending Digest</span>
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <a href="#analysis">本周分析</a>
+        <a href="https://github.com/maxzyma/github-trending-digest" target="_blank" rel="noopener">源码仓库</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">◐ 深 / 浅</button>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding: 0 1.5rem 6rem;">
+
+  {%- comment -%}
+    Weekly layout — single-week dashboard, mirrors daily.html structure.
+    KPI strip uses derived metrics: week_id / date_range / span_days / linked_dailies count.
+  {%- endcomment -%}
+
+  {%- comment -%} Count daily files within this week's date range {%- endcomment -%}
+  {%- assign week_year = page.year | default: '2026' -%}
+  {%- assign week_start = page.date_range | split: ' ~ ' | first -%}
+  {%- assign week_end = page.date_range | split: ' ~ ' | last -%}
+  {%- assign linked_count = 0 -%}
+  {%- for p in site.pages -%}
+    {%- if p.path contains 'daily/' and p.path contains '-analysis' -%}
+      {%- assign p_date = p.path | split: '/' | last | split: '-analysis' | first -%}
+      {%- assign p_md = p_date | slice: 5, 5 -%}
+      {%- if p_md >= week_start and p_md <= week_end -%}
+        {%- assign linked_count = linked_count | plus: 1 -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  <!-- ─── Hero: type-badge + kicker + deck + KPI strip ─── -->
+  <section class="hero-block">
+    <div class="kicker weekly">
+      <span class="type-badge">W</span>
+      <span>每周报告 · {{ week_year }} {{ page.week_id }} · {{ page.date_range }}</span>
+      <span class="kicker-line"></span>
+    </div>
+    {%- if page.subtitle -%}
+    <p class="deck">{{ page.subtitle }}</p>
+    {%- endif -%}
+    <div class="kpi-strip" style="margin: 0;">
+      <div class="item"><span class="k">周次</span><span class="v date">{{ week_year }} {{ page.week_id }}</span></div>
+      <div class="item"><span class="k">时间范围</span><span class="v date">{{ page.date_range }}</span></div>
+      <div class="item"><span class="k">跨度</span><span class="v">7</span><span class="unit">天</span></div>
+      <div class="item"><span class="k accent">关联每日</span><span class="v accent">{{ linked_count }}</span><span class="unit">期</span></div>
+    </div>
+  </section>
+
+  <!-- ─── §关联每日 = archive-list of dailies in this week ─── -->
+  {%- if linked_count > 0 -%}
+  <section id="related" style="margin-top: 3rem;">
+    <div class="sec-h">
+      <h2>§ 关联每日<small>本周 {{ linked_count }} 期</small></h2>
+      <span class="hint">点击进入完整每日分析 →</span>
+    </div>
+    <div class="archive-list">
+      {%- for p in site.pages -%}
+        {%- if p.path contains 'daily/' and p.path contains '-analysis' -%}
+          {%- assign p_md = p.path | split: '/' | last | split: '-analysis' | first | slice: 5, 5 -%}
+          {%- if p_md >= week_start and p_md <= week_end -%}
+            {%- assign p_date = p.path | split: '/' | last | split: '-analysis' | first -%}
+            <a href="{{ p.url | relative_url }}">
+              <time>{{ p_date }}</time>
+              <div>
+                {%- if p.title -%}
+                  <strong>{{ p.title | replace: 'GitHub Trending 深度分析 — ', '' }}</strong>
+                {%- else -%}
+                  <strong>{{ p_date }} 深度分析</strong>
+                {%- endif -%}
+                {%- if p.subtitle -%}<span class="summary">{{ p.subtitle }}</span>{%- endif -%}
+              </div>
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  <!-- ─── §本周分析 = full markdown body verbatim, 1180 wide ─── -->
+  <section id="analysis" style="margin-top: 3rem;">
+    <div class="sec-h">
+      <h2>§ 本周分析<small>趋势纵览 · 分类分析 · 项目聚焦</small></h2>
+    </div>
+    <div style="max-width: var(--max-w); margin: 0 auto;">
+      <article class="content-body" style="max-width: none">
+        {{ content }}
+      </article>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-mono">GitHub Trending Digest</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-dim">每日开源情报 · Amber Terminal · 四源 grounding</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+      var next = cur === 'light' ? 'dark' : 'light';
+      if (next === 'light') {
+        document.documentElement.dataset.theme = 'light';
+      } else {
+        delete document.documentElement.dataset.theme;
+      }
+      localStorage.setItem('gtd-theme', next);
+    }
+  </script>
+
+</body>
+</html>

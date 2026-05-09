@@ -1,67 +1,19 @@
 ---
-layout: default
+layout: home
 title: GitHub Trending Digest
 ---
-
-# GitHub Trending Digest
-
-每日追踪 GitHub Trending，不只搬运榜单——对每个首次上榜项目做 **社区 Grounding**（GitHub Issues + HN + X/Twitter + Reddit 四源交叉验证），标注风险信号，提取真实使用场景。
-
----
-
-## Daily Analysis
-
-- [2026-05-09](daily/2026-05-09-analysis) — AI Coding Agent Skills 生态周末成形（Anthropic + AWS + Flutter + Vercel 四象限齐备）；金融 AI 板块 stars 与质量背离扩大（HKUDS/AI-Trader 14.7K★ 实证为回测玩具，未来信息泄露+无止损未回应）；高 stars 社区空心化连续 3 天爆发
-- [2026-05-08](daily/2026-05-08-analysis) — 推理 RAG 与浏览器视频编辑崛起（PageIndex 29K stars + HN 192 分登顶 / OpenReel 13 万行代码挑战 CapCut）；4 个 NEW 项目社区验证分化（PageIndex 强/9Router 中/DFlash 中/OpenReel 弱）
-- [2026-05-07](daily/2026-05-07-analysis) — 金融 AI 行业整合周（SAP 收购 PriorLabs + Anthropic 5/5 纽约发布会 Claude Opus 4.7/Moody's/M365 GA/FIS 反洗钱）领涨；半数 NEW 项目暴露"X 推广 + 社区空心化"虚高信号（DeepSeek-TUI/ruflo/vscode-dark-islands/addyosmani-skills）
-- [2026-05-01](daily/2026-05-01-analysis) — 五一劳动节：Warp 开源热度持续（+8,399），TradingAgents 回榜验证"AI 金融"叙事韧性；OSINT/终端/教育类长期项目稳定占据趋势池
-- [2026-04-30](daily/2026-04-30-analysis) — Warp 开源（+12,822 单日 stars / AGPL-3.0 / 仅客户端）以 OpenAI 做 founding sponsor 投下重磅炸弹；OSINT 类目两极分化（maigret 活跃维护 vs GhostTrack 停更脚本号转发）；中文金融 AI fork:star ≈ 0.99 vanity 异常
-- [2026-04-28](daily/2026-04-28-analysis) — Figma 信任危机外溢把 11 年老仓 penpot 拽回榜，DeepSeek V4 发布让静默 8 个月的 V3 二次曝光，53K⭐ TradingAgents 被自家 issue 集体揭穿是"自动亏钱论文 demo"
-- [2026-04-27](daily/2026-04-27-analysis) — Coding Agent 底座之战（Beads 任务图 + cua 沙箱）+ openclaw 异常进榜（364K stars / 1,805 真实订阅，比 202:1 + Anthropic 商标维权 + CVE）+ curl/home-assistant 老牌基础设施罕见同日冒头
-- [2026-04-26](daily/2026-04-26-analysis) — Roo-Code 宣布关停回归 Cline + Skills 工具栈四箭齐发（mattpocock/davila7/Composio + PowerShell RE），Google/Shopify UCP 协议进入 Trending 与 OpenAI ACP 正面对垒
-- [2026-04-25](daily/2026-04-25-analysis) — 老牌项目回流日：4 个企业级长青项目（PostHog/vaultwarden/typescript-go/osv-scanner）+ DeepEP 同日登榜；build-your-own-x +991 疑似 HN "fake stars" 帖反向引流；free-claude-code 质量缺陷无效继续登顶
-- [2026-04-24](daily/2026-04-24-analysis) — Claude Code 生态工具扎堆爆发，多个 NEW 项目同时暴露"商业漏斗 + SEO 堆砌 + 质量虚标"三类红旗
-- [2026-04-23](daily/2026-04-23-analysis) — 企业级基础设施与成熟老项目主导榜单：langfuse 被 ClickHouse 收购、hackingtool v2 重写、Vercel skills 与 Anthropic Skills 生态正面竞合
-- [2026-04-22](daily/2026-04-22-analysis) — Agent 课程/技能列表/舆情监控三件套空降，Zilliz claude-context 撞上 Anthropic 官方 Tool Search
-- [2026-04-21](daily/2026-04-21-analysis) — FinceptTerminal 增量暴涨 +3,109 蝉联榜首，WorldMonitor 全球态势感知登场，Pi-hole 和 Xray-core 经典回归
-- [2026-04-20](daily/2026-04-20-analysis) — FinceptTerminal 空降榜首，T3 Code 给 Codex/Claude 统一 GUI，WiFi 隔墙感知 RuView 硬核登场
-- [2026-04-19](daily/2026-04-19-analysis) — 榜单大换血 9/10 新面孔：Thunderbird AI 客户端、OpenAI Agents SDK、Evolver 指控 Hermes 抄袭、Claude Code 两个 skill
-- [2026-04-16](daily/2026-04-16-analysis) — Karpathy Skills 连续第 7 天蝉联榜首且仍在加速，6 个新面孔含自主进化 Agent 和 42 万星僵尸传奇 public-apis
-- [2026-04-15](daily/2026-04-15-analysis) — Karpathy Skills 蝉联榜首 +9,263 创新高，Pascal 3D 建筑编辑器空降，Apollo 11 源码回归
-- [2026-04-14](daily/2026-04-14-analysis) — Claude Code 生态全面霸榜，GSD 携代币上榜，Voicebox 挑战 ElevenLabs
-- [2026-04-13](daily/2026-04-13-analysis) — Hermes Agent 连续称霸，MarkItDown 回归，multica 挑战 Managed Agents
-- [2026-04-10](daily/2026-04-10-analysis)
-- [2026-04-09](daily/2026-04-09-analysis)
-- [2026-04-08](daily/2026-04-08-analysis)
-- [2026-04-07](daily/2026-04-07-analysis)
-- [2026-04-06](daily/2026-04-06-analysis)
-- [2026-04-05](daily/2026-04-05-analysis)
-- [2026-04-04](daily/2026-04-04-analysis)
-- [2026-04-03](daily/2026-04-03-analysis)
-- [2026-04-02](daily/2026-04-02-analysis)
-- [2026-04-01](daily/2026-04-01-analysis)
-- [2026-03-31](daily/2026-03-31-analysis)
-- [2026-03-30](daily/2026-03-30-analysis)
-
-## Weekly Reports
-
-- [2026-W17](weekly/2026-W17) — W17 (04-20 ~ 04-26) Claude Code 平台化裂变、Roo-Code 关停 + IDEs aren't the future、free-claude-code 单周 +8,607 质量信号失效、UCP vs ACP 协议开战
-- [2026-W17（旧版）](weekly/2026-W17-old-04-14-to-04-19) — W17 旧版 (04-14 ~ 04-19，非 ISO 标准范围) Karpathy 7 连冠后消失、Agent 混战、Thunderbird 跨界 AI
-- [2026-W16](weekly/2026-W16) — W16 (04-07 ~ 04-13)
-- [2026-W15](weekly/2026-W15) — W15 (03-31 ~ 04-06)
-- [2026-W14](weekly/2026-W14) — W14 (03-24 ~ 03-30)
-
-## Methodology
 
 每个首次上榜项目必须经过四源验证：
 
 1. **GitHub API** — stars/watchers 比、open issues、贡献者集中度
 2. **Hacker News** — 技术社区深度评价
 3. **X/Twitter** — 传播路径、KOL 背书、作者推广
-4. **Reddit** — 垂直社区真实反馈（r/programming, r/LocalLLaMA 等）
+4. **Reddit** — 垂直社区真实反馈（r/programming、r/LocalLLaMA 等）
 
-信源强度标注：**强**（2+ 外部信源交叉）/ **中**（单一外部信源）/ **弱**（仅 README）
+信源强度：**强**（2+ 外部信源交叉）/ **中**（单一外部信源）/ **弱**（仅 README）
+
+风险标签闭集（7 类）：`vanity` / `compliance` / `cost` / `dependency` / `privacy` / `stability` / `bus_factor`，闭集之外允许自由 tag 归到"其他"。
 
 ---
 
-[Analysis Rules](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) | [GitHub Repo](https://github.com/maxzyma/github-trending-digest)
+[Analysis Rules](https://github.com/maxzyma/github-trending-digest/blob/main/README.md) · [GitHub Repo](https://github.com/maxzyma/github-trending-digest)

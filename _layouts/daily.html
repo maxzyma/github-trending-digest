@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.subtitle | default: page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400;1,8..60,500&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    (function() {
+      var t = localStorage.getItem('gtd-theme');
+      if (t === 'light') document.documentElement.dataset.theme = 'light';
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="bg-atmosphere" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-brand">
+        <span class="brand-pulse"></span>
+        <span class="brand-text">GitHub Trending Digest</span>
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <a href="#today">今日榜单</a>
+        <a href="#analysis">逐项分析</a>
+        <a href="https://github.com/maxzyma/github-trending-digest" target="_blank" rel="noopener">源码仓库</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">◐ 深 / 浅</button>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding: 0 1.5rem 6rem;">
+
+  {%- comment -%}
+    Daily layout — single-issue dashboard.
+    KPI + table = derived from frontmatter (no duplication of markdown title/subtitle/meta-line).
+    §逐项分析 = {{ content }} renders the full markdown body verbatim — markdown is source of truth.
+  {%- endcomment -%}
+
+  {%- assign date_str = page.date | default: page.path | split: '/' | last | split: '-analysis' | first -%}
+
+  <!-- ─── Hero: type-badge + kicker + deck + KPI strip ─── -->
+  <section class="hero-block">
+    <div class="kicker daily">
+      <span class="type-badge">D</span>
+      <span>每日深度分析 · {{ date_str }}</span>
+      <span class="kicker-line"></span>
+    </div>
+    {%- if page.subtitle -%}
+    <p class="deck">{{ page.subtitle }}</p>
+    {%- endif -%}
+    {%- if page.total or page.new_count or page.updated_count -%}
+    <div class="kpi-strip" style="margin: 0;">
+      <div class="item"><span class="k">日期</span><span class="v date">{{ date_str }}</span></div>
+      <div class="item"><span class="k">总数</span><span class="v">{{ page.total }}</span><span class="unit">个仓库</span></div>
+      <div class="item"><span class="k accent">NEW</span><span class="v accent">{{ page.new_count }}</span><span class="unit">首次上榜</span></div>
+      <div class="item"><span class="k">UPD/RE</span><span class="v">{{ page.updated_count }}</span><span class="unit">已更新</span></div>
+    </div>
+    {%- endif -%}
+  </section>
+
+  <!-- ─── §今日榜单 ─── -->
+  {%- if page.new_repos and page.new_repos.size > 0 -%}
+  <section id="today">
+    <div class="sec-h">
+      <h2>§ 今日榜单<small>{{ page.total }} 个仓库 · 信源 / 语言 / Δ⭐ 一览</small></h2>
+      <span class="hint">完整社区分析见下方 §逐项分析</span>
+    </div>
+
+    <div class="body-grid">
+      <div class="repo-list">
+        {%- for r in page.new_repos -%}
+          {%- assign parts = r.repo | split: '/' -%}
+          <div class="repo-row{% if r.source_strength == '弱' %} muted{% endif %}">
+            <div class="r-num">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</div>
+            <div><span class="r-tag tag-new">NEW</span></div>
+            <div class="r-name">
+              <div class="nm"><span class="org">{{ parts[0] }} /</span> {{ parts[1] }}</div>
+              <div class="meta-line">
+                <span class="lang">{{ r.lang }}</span>
+                <span class="sep">·</span>
+                {%- if r.source_strength == '强' -%}<span class="src-strong">SIGNAL · STRONG</span>
+                {%- elsif r.source_strength == '中' -%}<span class="src-medium">SIGNAL · MEDIUM</span>
+                {%- else -%}<span class="src-weak">SIGNAL · WEAK</span>{%- endif -%}
+                {%- for tag in r.risk_tags -%}<span class="sep">·</span><span class="flag-vanity">{{ tag }}</span>{%- endfor -%}
+              </div>
+            </div>
+            <div class="r-spark">
+              {%- if r.source_strength == '强' -%}<svg width="100" height="22" viewBox="0 0 100 22"><line x1="2" y1="20" x2="98" y2="3" stroke="var(--accent-primary)" stroke-width="1.5"/><circle cx="98" cy="3" r="3" fill="var(--accent-primary)"/></svg>
+              {%- elsif r.source_strength == '中' -%}<svg width="100" height="22" viewBox="0 0 100 22"><line x1="2" y1="20" x2="98" y2="9" stroke="var(--signal-warning)" stroke-width="1.5"/><circle cx="98" cy="9" r="2.5" fill="var(--signal-warning)"/></svg>
+              {%- else -%}<svg width="100" height="22" viewBox="0 0 100 22"><line x1="2" y1="20" x2="98" y2="2" stroke="var(--signal-danger)" stroke-width="1.5" stroke-dasharray="3,2"/><circle cx="98" cy="2" r="3" fill="var(--signal-danger)"/></svg>{%- endif -%}
+            </div>
+            <div class="r-stars">
+              <span class="star-icon"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>{{ r.stars }}</span>
+              <span class="delta">+{{ r.star_delta }}</span>
+            </div>
+            <div class="r-actions"></div>
+          </div>
+        {%- endfor -%}
+
+        {%- for r in page.updated_repos -%}
+          {%- assign parts = r.repo | split: '/' -%}
+          <div class="repo-row muted">
+            <div class="r-num">{{ forloop.index | plus: page.new_count | prepend: '00' | slice: -2, 2 }}</div>
+            <div>{%- if r.change == 'RE' -%}<span class="r-tag tag-re">RE</span>{%- else -%}<span class="r-tag tag-up">UPD</span>{%- endif -%}</div>
+            <div class="r-name">
+              <div class="nm"><span class="org">{{ parts[0] }} /</span> {{ parts[1] }}</div>
+              <div class="meta-line">
+                {%- if r.change == 'RE' -%}<span style="color:var(--accent-info)">回归</span>
+                {%- else -%}<span style="color:var(--fg-muted)">{{ r.change }}{% if r.days_listed %} · 第 {{ r.days_listed }} 天{% endif %}</span>{%- endif -%}
+              </div>
+            </div>
+            <div class="r-spark"></div>
+            <div class="r-stars"><span style="font-size:0.7rem;color:var(--fg-subtle)">已上榜</span></div>
+            <div class="r-actions"></div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+      <aside class="side">
+        {%- assign s_strong = 0 -%}{%- assign s_medium = 0 -%}{%- assign s_weak = 0 -%}
+        {%- for r in page.new_repos -%}
+          {%- if r.source_strength == '强' -%}{%- assign s_strong = s_strong | plus: 1 -%}
+          {%- elsif r.source_strength == '中' -%}{%- assign s_medium = s_medium | plus: 1 -%}
+          {%- elsif r.source_strength == '弱' -%}{%- assign s_weak = s_weak | plus: 1 -%}{%- endif -%}
+        {%- endfor -%}
+        <div class="panel">
+          <h3>信源强度 <small>当期 NEW · {{ page.new_count }} 个</small></h3>
+          <div class="risk-list">
+            <div class="risk-row green"><span class="label">SIGNAL · 强</span><span class="count">×{{ s_strong }}</span><span class="who">2+ 外部信源交叉验证</span></div>
+            <div class="risk-row yellow"><span class="label">SIGNAL · 中</span><span class="count">×{{ s_medium }}</span><span class="who">单一外部信源</span></div>
+            <div class="risk-row red"><span class="label">SIGNAL · 弱</span><span class="count">×{{ s_weak }}</span><span class="who">仅 README，需观察</span></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>语言分布 <small>当期 NEW</small></h3>
+          {%- assign lang_list = '' -%}
+          {%- for r in page.new_repos -%}{%- assign lang_list = lang_list | append: r.lang | append: '|' -%}{%- endfor -%}
+          {%- assign uniq = lang_list | split: '|' | uniq -%}
+          <div class="lang-list">
+            {%- for lang in uniq -%}
+              {%- if lang != '' -%}
+                {%- assign count = 0 -%}
+                {%- for r in page.new_repos -%}{%- if r.lang == lang -%}{%- assign count = count | plus: 1 -%}{%- endif -%}{%- endfor -%}
+                <div class="lr"><span class="sw" style="background:#888"></span><b>{{ lang }}</b><span class="pct">{{ count }}</span></div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  {%- endif -%}
+
+  <!-- ─── §逐项分析 = full markdown body verbatim ─── -->
+  <section id="analysis" style="margin-top: 3rem;">
+    <div class="sec-h">
+      <h2>§ 逐项分析<small>四源 grounding · 完整内容</small></h2>
+    </div>
+    <div style="max-width: var(--max-w); margin: 0 auto;">
+      <article class="content-body" style="max-width: none">
+        {{ content }}
+      </article>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-mono">GitHub Trending Digest</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-dim">每日开源情报 · Amber Terminal · 四源 grounding</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+      var next = cur === 'light' ? 'dark' : 'light';
+      if (next === 'light') {
+        document.documentElement.dataset.theme = 'light';
+      } else {
+        delete document.documentElement.dataset.theme;
+      }
+      localStorage.setItem('gtd-theme', next);
+    }
+  </script>
+
+</body>
+</html>

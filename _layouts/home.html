@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400;1,8..60,500&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    (function() {
+      var t = localStorage.getItem('gtd-theme');
+      if (t === 'light') document.documentElement.dataset.theme = 'light';
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="bg-atmosphere" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-brand">
+        <span class="brand-pulse"></span>
+        <span class="brand-text">GitHub Trending Digest</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#latest">最新</a>
+        <a href="#archive">每日</a>
+        <a href="#weekly">每周</a>
+        <a href="#methodology">方法论</a>
+        <a href="https://github.com/maxzyma/github-trending-digest" target="_blank" rel="noopener">源码仓库</a>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">◐ 深 / 浅</button>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding: 0 1.5rem 6rem;">
+
+  {%- comment -%}
+    Home — site-level entry point.
+    KPIs use only real, computable metrics from site.pages.
+    No fabricated aggregates (e.g., cumulative NEW count requires every daily to have frontmatter applied — not the case yet).
+  {%- endcomment -%}
+
+  {%- assign dailies = site.pages | where_exp: "p", "p.path contains 'daily/' and p.path contains '-analysis'" | sort: 'path' | reverse -%}
+  {%- assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/' and p.path contains '.md'" | sort: 'path' | reverse -%}
+  {%- assign latest = dailies | first -%}
+  {%- assign earliest = dailies | last -%}
+  {%- assign latest_date = latest.path | split: '/' | last | split: '-analysis' | first -%}
+  {%- assign earliest_date = earliest.path | split: '/' | last | split: '-analysis' | first -%}
+
+  <!-- ─── Hero (site-level, not single-issue) ─── -->
+  <section class="hero">
+    <div>
+      <div class="label">每日开源情报 · 自 {{ earliest_date }} 起</div>
+      <h1>追踪 GitHub Trending<br>不只搬运<em>榜单</em></h1>
+      <p class="lede">每日深度分析，对每个首次上榜项目做四源交叉验证（GitHub Issues · HN · X · Reddit），标注风险信号，提取真实使用场景。{{ dailies.size }} 期累计。</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="k">每日分析</div><div class="v">{{ dailies.size }}<sub>期</sub></div></div>
+      <div class="kpi"><div class="k">每周报告</div><div class="v">{{ weeklies.size }}<sub>期</sub></div></div>
+      <div class="kpi"><div class="k">最新一期</div><div class="v" style="font-size: 1.4rem;">{{ latest_date }}</div></div>
+      <div class="kpi"><div class="k">交叉验证</div><div class="v">4<sub>HN · X · Reddit · Issues</sub></div></div>
+    </div>
+  </section>
+
+  <!-- ─── Latest issue pull-quote ─── -->
+  {%- if latest -%}
+  <section id="latest" style="max-width: var(--max-w); margin: 0 auto;">
+    <div class="sec-h">
+      <h2>§ 最新一期<small>{{ latest_date }}</small></h2>
+      <a href="{{ latest.url | relative_url }}" class="hint" style="color:var(--accent-primary); text-decoration:none">阅读完整 →</a>
+    </div>
+    <a href="{{ latest.url | relative_url }}" style="display:block; padding: 1.5rem 0 2rem; text-decoration:none; color:inherit; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+      {%- if latest.title -%}
+        <h3 style="font-family: var(--font-serif); font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; color: var(--fg-emphasis); margin-bottom: 0.75rem; padding: 0; background: none; border: 0;">
+          {{ latest.title | replace: 'GitHub Trending 深度分析 — ', '' }}
+        </h3>
+      {%- endif -%}
+      {%- if latest.subtitle -%}
+        <p style="font-family: var(--font-serif); font-style: italic; font-size: 1.1rem; color: var(--fg-default); line-height: 1.55; margin-bottom: 1rem;">{{ latest.subtitle }}</p>
+      {%- endif -%}
+      {%- if latest.total -%}
+        <div style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--fg-muted); letter-spacing: 0.04em;">
+          {{ latest.total }} 个仓库 · {{ latest.new_count }} 首次上榜 · {{ latest.updated_count }} 已上榜更新
+        </div>
+      {%- endif -%}
+    </a>
+  </section>
+  {%- endif -%}
+
+  <!-- ─── Archive ─── -->
+  <section id="archive">
+    <div class="sec-h">
+      <h2>§ 历史归档<small>每日 {{ dailies.size }} 期 · 每周 {{ weeklies.size }} 期</small></h2>
+      <span class="hint">点击进入 →</span>
+    </div>
+    <div class="archive-list">
+      {%- for p in dailies -%}
+        {%- assign p_date = p.path | split: '/' | last | split: '-analysis' | first -%}
+        <a href="{{ p.url | relative_url }}">
+          <time>{{ p_date }}</time>
+          <div>
+            {%- if p.title -%}
+              <strong>{{ p.title | replace: 'GitHub Trending 深度分析 — ', '' }}</strong>
+            {%- else -%}
+              <strong>{{ p_date }} 深度分析</strong>
+            {%- endif -%}
+            {%- if p.subtitle -%}<span class="summary">{{ p.subtitle }}</span>{%- endif -%}
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </section>
+
+  {%- if weeklies.size > 0 -%}
+  <section id="weekly" style="margin-top: 2rem;">
+    <div class="sec-h">
+      <h2>§ 每周报告<small>{{ weeklies.size }} 期</small></h2>
+    </div>
+    <div class="archive-list">
+      {%- for p in weeklies -%}
+        {%- assign w_str = p.path | split: '/' | last | replace: '.md', '' -%}
+        <a href="{{ p.url | relative_url }}">
+          <time>{{ w_str }}</time>
+          <div>
+            {%- if p.title -%}<strong>{{ p.title }}</strong>{%- else -%}<strong>{{ w_str }}</strong>{%- endif -%}
+            {%- if p.subtitle -%}<span class="summary">{{ p.subtitle }}</span>{%- endif -%}
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  <!-- ─── Methodology = {{ content }} from index.md ─── -->
+  <section id="methodology" style="margin-top: 3rem;">
+    <div class="sec-h">
+      <h2>§ 方法论<small>四源交叉验证 · 风险闭集</small></h2>
+    </div>
+    <div style="max-width: var(--max-w); margin: 0 auto;">
+      <article class="content-body" style="max-width: none">
+        {{ content }}
+      </article>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-mono">GitHub Trending Digest</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-dim">每日开源情报 · Amber Terminal · 四源 grounding</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+      var next = cur === 'light' ? 'dark' : 'light';
+      if (next === 'light') {
+        document.documentElement.dataset.theme = 'light';
+      } else {
+        delete document.documentElement.dataset.theme;
+      }
+      localStorage.setItem('gtd-theme', next);
+    }
+  </script>
+
+</body>
+</html>
