@@ -38,4 +38,4 @@ giscus:
   category_id: "DIC_kwDOSCBYJM4C8qQz"
 
 goatcounter:
-  site: ""              # e.g. "gtd-digest" → counts to gtd-digest.goatcounter.com
+  site: "gtd-digest"    # → https://gtd-digest.goatcounter.com
