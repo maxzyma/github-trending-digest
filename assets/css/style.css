@@ -122,10 +122,13 @@ body {
   backdrop-filter: blur(16px) saturate(1.4);
   -webkit-backdrop-filter: blur(16px) saturate(1.4);
   border-bottom: 1px solid var(--border);
+  /* horizontal padding on outer container — matches main's padding pattern,
+     so header brand and main hero share the same left edge */
+  padding: 0 1.5rem;
 }
 
 .header-inner {
-  max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem;
+  max-width: var(--max-w); margin: 0 auto;
   height: 100%;
   display: flex; align-items: center; justify-content: space-between;
 }
