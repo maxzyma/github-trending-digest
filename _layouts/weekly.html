@@ -79,6 +79,9 @@
       <div class="item"><span class="k">时间范围</span><span class="v date">{{ page.date_range }}</span></div>
       <div class="item"><span class="k">跨度</span><span class="v">7</span><span class="unit">天</span></div>
       <div class="item"><span class="k accent">关联每日</span><span class="v accent">{{ linked_count }}</span><span class="unit">期</span></div>
+      {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
+      <div class="item" data-views-item style="display:none"><span class="k">阅读</span><span class="v" data-views>—</span><span class="unit">独立访客</span></div>
+      {%- endif -%}
     </div>
   </section>
 
@@ -172,6 +175,25 @@
       }
       localStorage.setItem('gtd-theme', next);
     }
+
+    /* GoatCounter view count fetch */
+    {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
+    (function() {
+      if (!window.fetch) return;
+      var url = 'https://{{ site.goatcounter.site }}.goatcounter.com/counter' + window.location.pathname + '.json';
+      fetch(url).then(function(r) {
+        return r.ok ? r.json() : null;
+      }).then(function(data) {
+        if (!data || !data.count_unique) return;
+        document.querySelectorAll('[data-views]').forEach(function(el) {
+          el.textContent = data.count_unique;
+        });
+        document.querySelectorAll('[data-views-item]').forEach(function(el) {
+          el.style.display = '';
+        });
+      }).catch(function() { /* silent */ });
+    })();
+    {%- endif -%}
   </script>
 
 </body>
