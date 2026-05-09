@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Daily on Open Source — May 8, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f3;
+    --paper: #fffdf6;
+    --fg: #1a1a1a;
+    --soft: #2e2c28;
+    --dim: #6a6760;
+    --muted: #a09c92;
+    --line: #d8d2c2;
+    --line-soft: #ebe5d3;
+    --accent: #b13a2a;
+    --accent-soft: #efe1dc;
+    --serif: "Source Serif 4", "Iowan Old Style", "Apple Garamond", Georgia, "Songti SC", serif;
+    --sans: "Inter", -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
+  }
+  [data-theme="dark"] {
+    --bg: #14110d;
+    --paper: #1a1612;
+    --fg: #ece5d3;
+    --soft: #d8d1bf;
+    --dim: #968f80;
+    --muted: #5d5749;
+    --line: #2c2720;
+    --line-soft: #211d18;
+    --accent: #e87a68;
+    --accent-soft: #2e1f1c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 17px; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--serif);
+    line-height: 1.65;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  /* ─── Masthead ─── */
+  .masthead {
+    border-bottom: 1px solid var(--line);
+    padding: 1rem 0;
+    background: var(--bg);
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(8px);
+  }
+  .masthead-inner {
+    max-width: 920px; margin: 0 auto; padding: 0 1.5rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  }
+  .nameplate {
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .nameplate small { font-family: var(--sans); font-weight: 500; color: var(--dim); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 0.5rem; padding-left: 0.5rem; border-left: 1px solid var(--line); }
+  .nav-right { display: flex; align-items: center; gap: 1rem; font-family: var(--sans); }
+  .nav-right a { color: var(--dim); text-decoration: none; font-size: 0.78rem; font-weight: 500; }
+  .nav-right a:hover { color: var(--accent); }
+  .toggle {
+    background: transparent; border: 1px solid var(--line); color: var(--fg);
+    font-family: var(--sans); font-size: 0.7rem; padding: 0.35rem 0.85rem;
+    border-radius: 999px; cursor: pointer; letter-spacing: 0.04em;
+  }
+  .toggle:hover { border-color: var(--fg); }
+
+  /* ─── Article ─── */
+  article { max-width: 680px; margin: 0 auto; padding: 4.5rem 1.5rem 5rem; }
+
+  .kicker {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    display: flex; align-items: center; gap: 0.7rem;
+  }
+  .kicker::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+
+  h1.title {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 5vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.08;
+    margin-bottom: 1.25rem;
+    color: var(--fg);
+  }
+  .deck {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--soft);
+    line-height: 1.45;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  .byline {
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    color: var(--dim);
+    padding: 0.875rem 0;
+    border-top: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    display: flex; gap: 1.25rem; align-items: center;
+    margin-bottom: 3rem;
+  }
+  .byline b { color: var(--fg); font-weight: 600; }
+  .byline span { display: inline-block; }
+
+  /* Drop cap on first paragraph */
+  article > p:first-of-type::first-letter {
+    font-family: var(--serif);
+    font-size: 4.25rem;
+    line-height: 0.9;
+    font-weight: 700;
+    float: left;
+    padding: 0.45rem 0.55rem 0 0;
+    color: var(--accent);
+  }
+
+  article p {
+    font-size: 1.125rem;
+    line-height: 1.72;
+    margin-bottom: 1.35rem;
+    color: var(--fg);
+  }
+  article p strong { font-weight: 700; }
+  article p em { font-style: italic; color: var(--soft); }
+  article a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); }
+  article a:hover { text-decoration-color: var(--accent); }
+
+  /* Section divider — three asterisks */
+  .glyph {
+    text-align: center;
+    margin: 3rem 0 2.5rem;
+    color: var(--muted);
+    font-family: var(--serif);
+    letter-spacing: 1.5em;
+    padding-left: 1.5em;
+    font-size: 1rem;
+  }
+
+  h2.section {
+    font-family: var(--serif);
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: -0.018em;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+    color: var(--fg);
+  }
+  h2.section .seq {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+  .section-meta {
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    color: var(--dim);
+    margin-bottom: 1.75rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex; gap: 1.25rem; flex-wrap: wrap;
+  }
+  .section-meta span b { color: var(--fg); font-weight: 600; }
+
+  blockquote.pull {
+    margin: 2rem -2rem;
+    padding: 0.5rem 2rem;
+    border-left: 3px solid var(--accent);
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-style: italic;
+    color: var(--soft);
+  }
+  @media (max-width: 720px) { blockquote.pull { margin: 2rem 0; } }
+
+  .badge-line {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    color: var(--dim);
+    letter-spacing: 0.06em;
+    margin-bottom: 0.5rem;
+  }
+  .badge-line .new { color: var(--accent); font-weight: 700; }
+  .badge-line .stars { color: var(--fg); font-weight: 600; }
+
+  /* Reading list at end */
+  .read-more {
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .read-more h3 {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--dim);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+  }
+  .read-more a {
+    display: block;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--line-soft);
+    text-decoration: none;
+    color: var(--fg);
+  }
+  .read-more a:hover .rm-title { color: var(--accent); }
+  .read-more a:last-child { border-bottom: none; }
+  .rm-date {
+    font-family: var(--sans); font-size: 0.7rem; color: var(--dim);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+  .rm-title {
+    font-family: var(--serif);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.25rem;
+    transition: color 0.15s;
+  }
+  .rm-summary {
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    color: var(--dim);
+    line-height: 1.5;
+  }
+
+  footer.colophon {
+    border-top: 1px solid var(--line);
+    margin-top: 0;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    color: var(--dim);
+    line-height: 1.6;
+  }
+  footer.colophon a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--line); }
+  footer.colophon a:hover { border-color: var(--accent); color: var(--accent); }
+</style>
+</head>
+<body data-theme="light">
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="nameplate" href="#">The Daily on Open Source<small>github trending digest</small></a>
+    <div class="nav-right">
+      <a href="../previews/index.html">← Previews</a>
+      <a href="#">Archive</a>
+      <a href="#">Methodology</a>
+      <button class="toggle" onclick="toggleTheme()">Light · Dark</button>
+    </div>
+  </div>
+</header>
+
+<article>
+  <div class="kicker">No. 0508 · Friday, May 8 2026</div>
+
+  <h1 class="title">推理 RAG 抬头：<br>当向量切片不再是<br>最后一个共识</h1>
+
+  <p class="deck">
+    PageIndex 以 29K stars + Hacker News 192 分登顶今日榜单。它代表的不是又一个 RAG 工具，而是一种范式转变的信号——长文档检索可能正从"向量+切片"的工业流水线，回到"LLM 在结构上推理"的手工艺。
+  </p>
+
+  <div class="byline">
+    <span><b>13</b> repositories</span>
+    <span><b>4</b> first-listed</span>
+    <span><b>9</b> updated</span>
+    <span style="margin-left:auto"><b>5 min</b> read</span>
+  </div>
+
+  <p>过去一年的 RAG 范式有一个隐含共识：把文档切成段、丢进向量库、按相似度召回。这个共识有效，但它在专业长文档上一直暴露同一个问题——<strong>向量相似度并不等于相关性</strong>。财务报告里"净利润"和"纯利润"的向量很近，但语义不同；跨段落推理（"为什么 Q1 收入增长但利润率反而下降"）则根本不在向量检索的能力范围之内。</p>
+
+  <p>今日榜单上 PageIndex 以 +943 stars 登顶（累计 29,606），同时在 Hacker News 收下了 192 分和 128 条评论——是今日所有 13 个项目里 HN 热度最高的。它给出的答案很简单：<em>不切片，不向量化，把文档转成层级树（类似目录），让 LLM 像专家那样在树上"浏览"找到答案</em>。</p>
+
+  <blockquote class="pull">
+    "我们用 PageIndex 做财务文档分析，相比向量 RAG，检索准确度有显著提升。" —— Hacker News 真实用户反馈
+  </blockquote>
+
+  <p>这种思路并非全新——本质上是用 LLM 的推理能力替换向量数据库的索引能力。但 PageIndex 把它工程化得足够顺手：现成 Colab、MCP 集成、文档站、Discord 社区一应俱全。fork:star ≈ 8.4%，在 2.4 万星量级是个非常健康的数字。</p>
+
+  <p>当然，HN 评论里也有冷静的质疑——"这本质上还是检索，只是把向量换成了 LLM 路由"——以及现实的成本担忧：每次查询需要多次 LLM 调用，可能比向量检索贵 10 到 100 倍；树搜索是串行的，延迟也更高。但 PageIndex 的胜负手不在便宜，<strong>而在能不能让向量 RAG 解决不了的那一类长文档问答真正可用。</strong></p>
+
+  <div class="glyph">⁂ ⁂ ⁂</div>
+
+  <h2 class="section"><span class="seq">Section ii · Same day, opposite signals</span>OpenReel 的虚高与 9Router 的真痛点</h2>
+  <div class="section-meta">
+    <span>NEW · <b>3 项目</b></span>
+    <span>Grounding · <b>Issues + HN + X + Reddit</b></span>
+    <span>Risk flags · <b>2 high · 1 medium</b></span>
+  </div>
+
+  <p>除了 PageIndex，今日还有三个 NEW 项目登场，每一个都呈现出截然不同的社区信号——这是为什么 grounding 工作不能省的最直接证据。</p>
+
+  <p class="badge-line"><span class="new">NEW</span> · <span class="stars">12,308</span> stars · TypeScript · 信源 弱</p>
+  <p><strong>openreel/openreel</strong> 是一个浏览器原生的视频编辑器，野心是挑战 CapCut 的云端垄断。仓库代码量惊人——13 万行——一夜上榜 +8,144 stars 也很惊人。但 HN/Reddit/X 全部 0 声量，subscribers 只有 47。<em>这是典型的"机器人或运营投放"模式</em>。一个真有用户基础的工具不会这样安静：要么有 Show HN，要么有 Reddit 评论，要么有 X 上某位 KOL 的转发。一个都没有，说明这是 stars 单方面的虚高。需要至少 2-3 周观察，才能判断社区是否能形成真实的使用反馈。</p>
+
+  <p class="badge-line"><span class="new">NEW</span> · <span class="stars">6,810</span> stars · Go · 信源 中</p>
+  <p><strong>9router/9router</strong> 切的则是 LLM 时代企业最大的痛点之一：<em>多模型多 provider 时代的 token 成本失控</em>。它做的事情很简单——按请求路由到最便宜的 provider。HN 有讨论，但讨论深度有限，没有形成深度评测。最大的隐藏风险在合规：数据要经过路由器，对金融/医疗等强合规行业基本不可接受。开源版本和商业版本的边界还没明确划开，让企业采购犹豫。</p>
+
+  <p class="badge-line"><span class="new">NEW</span> · <span class="stars">3,521</span> stars · Python · 信源 中</p>
+  <p><strong>z-lab/dflash</strong> 是块扩散推测解码——给大模型推理做加速，号称 Gemma 4 上能跑 6×。技术方向硬核，基本面健康（Stars/Watchers = 1:1，4 个月 3.5K stars 增速合理），<em>但社区声量异常低</em>：HN 三次提交都只有个位数点赞、0 评论，这在推测解码这个热门领域不正常。主要传播渠道是作者自己的 X 账号，缺乏第三方 KOL 背书。每个目标模型还需要单独训练 draft 模型，README 里大量"Coming soon"——基础设施味道很重，离普通开发者直接用还有距离。</p>
+
+  <div class="glyph">⁂ ⁂ ⁂</div>
+
+  <h2 class="section"><span class="seq">Section iii · Pattern of the week</span>Stars 多不等于真实使用</h2>
+  <div class="section-meta">
+    <span>Updated · <b>9 项目</b></span>
+    <span>Vanity flags · <b>4 spotted</b></span>
+  </div>
+
+  <p>今日榜单的另外 9 个 updated 项目里，有 4 个继续在重复本周的另一个主题：<strong>高 stars + 社区空心化</strong>。<em>Hmbown/DeepSeek-TUI</em>（14K stars / HN 0 / 63 subscribers）、<em>ruvnet/ruflo</em>（45K stars / Issue #640 实证 89% agent 失败率）、<em>bwya77/vscode-dark-islands</em>（8K stars / 16 subscribers / 安装脚本破坏过用户的 shell）、<em>addyosmani/agent-skills</em>（30K stars / HN 374 分集中在作者自己的博客域名）——这四个项目共享同一个反模式：stars 数字漂亮，但缺少独立第三方信源。</p>
+
+  <p>本周已经反复出现这个信号，把它和今日 PageIndex 的结构性高质量信号放在一起对照，结论很清楚——<strong>不做四源 grounding 的话，stars 这个单一指标已经被运营手段污染到不可信</strong>。</p>
+
+  <p>这也是这份榜单存在的意义。</p>
+
+  <div class="read-more">
+    <h3>· Recent Issues</h3>
+    <a href="#"><div class="rm-date">May 7 · No. 0507</div><div class="rm-title">金融 AI 行业整合周</div><div class="rm-summary">SAP 收购 PriorLabs 引爆 +218 stars 链式反应；Anthropic 5/5 纽约发布会同步释放 Claude Opus 4.7、Moody's 原生应用、M365 GA、FIS 反洗钱合作。</div></a>
+    <a href="#"><div class="rm-date">May 1 · No. 0501</div><div class="rm-title">五一劳动节</div><div class="rm-summary">Warp 开源热度持续 +8,399；TradingAgents 回榜验证"AI 金融"叙事韧性。</div></a>
+    <a href="#"><div class="rm-date">Apr 30 · No. 0430</div><div class="rm-title">Warp 开源重磅炸弹</div><div class="rm-summary">+12,822 单日 stars / AGPL-3.0 / 仅客户端 / OpenAI founding sponsor。</div></a>
+    <a href="#"><div class="rm-date">Apr 28 · No. 0428</div><div class="rm-title">Figma 信任危机外溢</div><div class="rm-summary">11 年老仓 penpot 被拽回榜单；TradingAgents 53K stars 被自家 issue 揭穿是"自动亏钱论文 demo"。</div></a>
+  </div>
+</article>
+
+<footer class="colophon">
+  Each issue cross-validates first-listed projects against<br>
+  GitHub Issues · Hacker News · X / Twitter · Reddit.<br><br>
+  <a href="https://github.com/maxzyma/github-trending-digest" target="_blank">Source on GitHub</a> · <a href="../previews/index.html">Back to previews</a>
+</footer>
+
+<script>
+  const KEY = 'gtd-preview-theme';
+  const saved = localStorage.getItem(KEY);
+  if (saved) document.body.dataset.theme = saved;
+  function toggleTheme() {
+    const next = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.body.dataset.theme = next;
+    localStorage.setItem(KEY, next);
+  }
+</script>
+</body>
+</html>
