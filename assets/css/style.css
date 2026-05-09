@@ -666,16 +666,25 @@ body {
 .kpi-strip .v.accent { color: var(--accent-primary); }
 .kpi-strip .v.date { font-size: 0.95rem; }
 .kpi-strip .unit { font-size: 0.7rem; color: var(--fg-muted); margin-left: 0.15rem; }
-/* meta item — pushed right, visually distinct from data KPIs */
+/* meta item — pushed right, distinct from data KPIs but still legible */
 .kpi-strip .item-meta {
   margin-left: auto;
-  display: flex; gap: 0.4rem; align-items: center;
-  font-family: var(--font-mono); font-size: 0.7rem;
+  display: flex; gap: 0.45rem; align-items: baseline;
+  font-family: var(--font-mono);
+  color: var(--fg-muted);
+}
+.kpi-strip .item-meta .k {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--fg-subtle);
 }
-.kpi-strip .item-meta svg {
-  width: 12px; height: 12px; fill: currentColor;
-  opacity: 0.7;
+.kpi-strip .item-meta .v {
+  font-size: 0.85rem;
+  font-weight: 500;          /* not 700 like data KPIs — visual distinction */
+  color: var(--fg-muted);    /* not fg-emphasis — secondary */
+  line-height: 1;
 }
 
 @media (max-width: 640px) {
