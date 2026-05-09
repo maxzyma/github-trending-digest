@@ -15,6 +15,11 @@
       if (t === 'dark') document.documentElement.dataset.theme = 'dark';
     })();
   </script>
+
+  {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
+  <script data-goatcounter="https://{{ site.goatcounter.site }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif -%}
 </head>
 <body>
 

@@ -20,3 +20,22 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# ─── 3rd-party widgets — placeholders, fill after external setup ───
+# Setup:
+#   1. https://giscus.app — pick repo, mapping=pathname, category=Comments
+#      → copy data-repo-id and data-category-id into the values below
+#      → install https://github.com/apps/giscus on the repo
+#   2. https://www.goatcounter.com/signup — create site (e.g. "gtd-digest")
+#      → put the chosen subdomain into goatcounter.site below
+#
+# Empty strings disable the widget — site renders fine without them.
+
+giscus:
+  repo: "maxzyma/github-trending-digest"
+  repo_id: ""           # data-repo-id from giscus.app
+  category: "Comments"  # category name (create it as Discussion type)
+  category_id: ""       # data-category-id from giscus.app
+
+goatcounter:
+  site: ""              # e.g. "gtd-digest" → counts to gtd-digest.goatcounter.com
