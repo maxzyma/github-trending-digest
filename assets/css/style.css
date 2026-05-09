@@ -666,9 +666,11 @@ body {
 .kpi-strip .v.accent { color: var(--accent-primary); }
 .kpi-strip .v.date { font-size: 0.95rem; }
 .kpi-strip .unit { font-size: 0.7rem; color: var(--fg-muted); margin-left: 0.15rem; }
-/* meta item — pushed right, distinct from data KPIs but still legible */
+/* meta item — pushed right, separated from data KPIs by vertical divider */
 .kpi-strip .item-meta {
   margin-left: auto;
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--border-mid);
   display: flex; gap: 0.45rem; align-items: baseline;
   font-family: var(--font-mono);
   color: var(--fg-muted);
@@ -689,7 +691,14 @@ body {
 
 @media (max-width: 640px) {
   .kpi-strip { gap: 1.25rem; }
-  .kpi-strip .item-meta { margin-left: 0; }
+  .kpi-strip .item-meta {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid var(--border-mid);
+    padding-top: 0.5rem;
+    width: 100%;
+  }
 }
 
 /* section header */
