@@ -45,8 +45,8 @@
     No fabricated aggregates (e.g., cumulative NEW count requires every daily to have frontmatter applied — not the case yet).
   {%- endcomment -%}
 
-  {%- assign dailies = site.pages | where_exp: "p", "p.path contains 'daily/' and p.path contains '-analysis'" | sort: 'path' | reverse -%}
-  {%- assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/' and p.path contains '.md'" | sort: 'path' | reverse -%}
+  {%- assign dailies = site.pages | where_exp: "p", "p.path contains 'daily/'" | where_exp: "p", "p.path contains '-analysis'" | sort: 'path' | reverse -%}
+  {%- assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/'" | where_exp: "p", "p.path contains '.md'" | sort: 'path' | reverse -%}
   {%- assign latest = dailies | first -%}
   {%- assign earliest = dailies | last -%}
   {%- assign latest_date = latest.path | split: '/' | last | split: '-analysis' | first -%}

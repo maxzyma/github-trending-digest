@@ -205,7 +205,9 @@ def _quote(s: str) -> str:
         s == ''
         or s.strip() != s
         or s in ('null', 'true', 'false', '~', 'yes', 'no', 'on', 'off')
-        or s[0] in '!&*[]{}|>%@`#,'
+        # YAML reserved single-char tags / indicators that confuse parsers
+        or s in ('=', '?', '*', '&', '|', '>', '!', '%', '@', '`')
+        or s[0] in '!&*[]{}|>%@`#,?='
         or ': ' in s
         or s.endswith(':')
     )
@@ -225,9 +227,22 @@ def _scalar(v) -> str:
 
 
 def _list_inline(v: list) -> str:
+    """Inline flow list. String items are always single-quoted to avoid
+    YAML mis-parsing on '#' (comment), ',' (separator), '"', etc."""
     if not v:
         return '[]'
-    return '[' + ', '.join(_scalar(x) for x in v) + ']'
+    parts = []
+    for x in v:
+        if x is None:
+            parts.append('null')
+        elif isinstance(x, bool):
+            parts.append('true' if x else 'false')
+        elif isinstance(x, (int, float)):
+            parts.append(str(x))
+        else:
+            s = str(x)
+            parts.append("'" + s.replace("'", "''") + "'")
+    return '[' + ', '.join(parts) + ']'
 
 
 def emit_yaml(data: dict, indent: int = 0) -> str:
@@ -292,6 +307,8 @@ def main(argv: Optional[list[str]] = None) -> int:
     )
     ap.add_argument('files', nargs='+', help='daily/YYYY-MM-DD-analysis.md')
     ap.add_argument('--apply', action='store_true', help='Overwrite files in place')
+    ap.add_argument('--force', action='store_true',
+                    help='Force re-apply even if frontmatter already exists (strips old, generates new)')
     ap.add_argument('--frontmatter-only', action='store_true',
                     help='Print only the YAML frontmatter')
     args = ap.parse_args(argv)
@@ -305,8 +322,15 @@ def main(argv: Optional[list[str]] = None) -> int:
             continue
         text = path.read_text(encoding='utf-8')
         if text.startswith('---\n'):
-            print(f'! already has frontmatter, skipped: {path}', file=sys.stderr)
-            continue
+            if not args.force:
+                print(f'! already has frontmatter, skipped: {path}', file=sys.stderr)
+                continue
+            # strip existing frontmatter
+            end = text.find('\n---\n', 4)
+            if end > 0:
+                text = text[end + 5:]
+                if text.startswith('\n'):
+                    text = text[1:]
 
         fm = build_frontmatter(text, path)
         yaml_block = emit_yaml(fm)
