@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-05-08 — GitHub Trending Digest · Swiss</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f7f4;
+    --paper: #ffffff;
+    --fg: #0a0a0a;
+    --dim: #5a5a5a;
+    --muted: #8a8a8a;
+    --line: #d8d6cf;
+    --line-soft: #e8e6df;
+    --accent: #c43a2b;
+    --hl: #f5d568;
+  }
+  [data-theme="dark"] {
+    --bg: #0c0c0d;
+    --paper: #131316;
+    --fg: #f1f1ee;
+    --dim: #b2b2af;
+    --muted: #6e6e6c;
+    --line: #2a2a2e;
+    --line-soft: #1c1c20;
+    --accent: #ff6b58;
+    --hl: #fbd460;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Inter", -apple-system, "PingFang SC", sans-serif;
+    font-feature-settings: "ss01", "cv11";
+    line-height: 1.55;
+    transition: background 0.2s, color 0.2s;
+  }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+
+  /* ─── Header ─── */
+  header.top {
+    border-bottom: 1px solid var(--line);
+    padding: 1.25rem 0;
+    position: sticky; top: 0;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 50;
+  }
+  .top-inner { max-width: 1080px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: baseline; gap: 0.625rem; }
+  .brand .dot { width: 8px; height: 8px; background: var(--accent); display: inline-block; border-radius: 0; }
+  .brand b { font-weight: 700; font-size: 0.95rem; letter-spacing: -0.01em; }
+  .brand span { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em; }
+  nav.top-nav { display: flex; gap: 1.5rem; align-items: center; }
+  nav.top-nav a { color: var(--dim); text-decoration: none; font-size: 0.8rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; }
+  nav.top-nav a:hover { color: var(--fg); }
+  .toggle { background: transparent; border: 1px solid var(--line); color: var(--fg); font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; padding: 0.35rem 0.8rem; cursor: pointer; letter-spacing: 0.06em; }
+  .toggle:hover { border-color: var(--fg); }
+
+  main { max-width: 1080px; margin: 0 auto; padding: 0 2rem; }
+
+  /* ─── Hero ─── */
+  .hero { padding: 4.5rem 0 3rem; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; border-bottom: 1px solid var(--line); }
+  .hero .label { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; margin-bottom: 1.25rem; }
+  .hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 700; line-height: 1.05; letter-spacing: -0.025em; margin-bottom: 1.5rem; }
+  .hero h1 em { font-style: normal; background: var(--hl); padding: 0 0.15em; color: var(--fg); }
+  .hero .lede { font-size: 1.125rem; line-height: 1.55; color: var(--dim); }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; align-content: end; }
+  .stat { border-top: 1px solid var(--line); padding-top: 0.75rem; }
+  .stat .k { font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
+  .stat .v { font-size: 1.875rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+  .stat .v sub { font-size: 0.75rem; color: var(--dim); font-weight: 500; margin-left: 0.35rem; vertical-align: baseline; }
+  @media (max-width: 720px) {
+    .hero { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 0 2rem; }
+    .stats { grid-template-columns: 1fr 1fr 1fr 1fr; gap: 1rem; }
+  }
+
+  /* ─── Section header ─── */
+  .sec-h { display: grid; grid-template-columns: 1fr 3fr; gap: 3rem; padding: 3.5rem 0 1.5rem; align-items: baseline; }
+  .sec-h .num { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--muted); letter-spacing: 0.12em; }
+  .sec-h h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.015em; }
+  .sec-h h2 small { color: var(--dim); font-weight: 400; font-size: 0.95rem; margin-left: 0.75rem; letter-spacing: 0; }
+
+  /* ─── Repo list (Today) ─── */
+  .repo-table { border-top: 2px solid var(--fg); }
+  .repo-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr 5rem 5.5rem 4rem 5rem;
+    gap: 1.25rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--line-soft);
+    align-items: baseline;
+  }
+  .repo-row:hover { background: color-mix(in srgb, var(--paper) 50%, transparent); }
+  .r-num { font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; color: var(--muted); font-weight: 500; }
+  .r-name { font-weight: 600; font-size: 1rem; letter-spacing: -0.005em; }
+  .r-name .org { color: var(--dim); font-weight: 400; }
+  .r-name .desc { display: block; font-weight: 400; font-size: 0.825rem; color: var(--dim); margin-top: 0.2rem; line-height: 1.4; }
+  .r-tag { font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; padding: 0.15rem 0.5rem; border: 1px solid var(--line); color: var(--dim); letter-spacing: 0.08em; text-align: center; align-self: center; }
+  .r-tag.new { border-color: var(--accent); color: var(--accent); }
+  .r-tag.re { border-color: var(--fg); color: var(--fg); }
+  .r-stars { font-family: "IBM Plex Mono", monospace; font-size: 0.875rem; font-weight: 600; text-align: right; }
+  .r-stars small { display: block; font-size: 0.7rem; color: var(--accent); font-weight: 500; margin-top: 0.15rem; }
+  .r-lang { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--muted); }
+  .r-src { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; text-align: right; }
+  .r-src.s { color: var(--accent); }
+  .r-src.m { color: var(--dim); }
+  .r-src.w { color: var(--muted); }
+  @media (max-width: 720px) {
+    .repo-row { grid-template-columns: 2rem 1fr 4rem; gap: 0.75rem; }
+    .r-stars, .r-lang, .r-src { display: none; }
+  }
+
+  /* ─── Article (deep dive) ─── */
+  .article { border-top: 2px solid var(--fg); padding-top: 2rem; }
+  .item {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 2.5rem;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .item:last-child { border-bottom: none; }
+  .item-meta .order { font-family: "IBM Plex Mono", monospace; font-size: 2.5rem; font-weight: 700; color: var(--fg); line-height: 1; letter-spacing: -0.03em; }
+  .item-meta .badge { font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--accent); letter-spacing: 0.12em; margin-top: 0.5rem; font-weight: 600; }
+  .item-meta .stars { font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; color: var(--dim); margin-top: 1rem; line-height: 1.5; }
+  .item-meta .stars b { color: var(--fg); display: block; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.15rem; }
+  .item-body h3 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.015em; margin-bottom: 0.4rem; }
+  .item-body h3 a { color: var(--fg); text-decoration: none; border-bottom: 2px solid var(--accent); }
+  .item-body h3 a:hover { color: var(--accent); }
+  .item-body .tagline { font-size: 1rem; color: var(--dim); margin-bottom: 1.25rem; line-height: 1.5; }
+  .item-body p { font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.875rem; color: var(--fg); }
+  .item-body p strong { font-weight: 600; }
+  .signals { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line-soft); }
+  .signals h4 { font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; font-weight: 600; }
+  .signals h4.pos { color: #2d8a4e; } [data-theme="dark"] .signals h4.pos { color: #6fcf90; }
+  .signals h4.neg { color: var(--accent); }
+  .signals ul { list-style: none; padding: 0; }
+  .signals li { font-size: 0.825rem; line-height: 1.5; color: var(--dim); padding-left: 0.875rem; position: relative; margin-bottom: 0.35rem; }
+  .signals li::before { content: ''; position: absolute; left: 0; top: 0.6rem; width: 4px; height: 1px; background: var(--muted); }
+  @media (max-width: 720px) {
+    .item { grid-template-columns: 1fr; gap: 1rem; }
+    .item-meta { display: flex; align-items: baseline; gap: 1rem; }
+    .item-meta .stars { margin-top: 0; }
+    .signals { grid-template-columns: 1fr; }
+  }
+
+  /* ─── Archive ─── */
+  .archive-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--line-soft); }
+  .archive-list a {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--line-soft);
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    align-items: baseline;
+  }
+  .archive-list a:nth-child(odd) { padding-right: 1.5rem; }
+  .archive-list a:nth-child(even) { padding-left: 1.5rem; border-left: 1px solid var(--line-soft); }
+  .archive-list a:hover { color: var(--accent); }
+  .archive-list time { font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; color: var(--muted); }
+  .archive-list .summary { color: var(--dim); }
+  @media (max-width: 720px) { .archive-list { grid-template-columns: 1fr; } .archive-list a:nth-child(even) { padding-left: 0; border-left: none; } }
+
+  /* ─── Footer ─── */
+  footer.bottom {
+    border-top: 1px solid var(--line);
+    margin-top: 4rem;
+    padding: 2.5rem 0;
+  }
+  .bottom-inner {
+    max-width: 1080px; margin: 0 auto; padding: 0 2rem;
+    display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem;
+    font-size: 0.825rem;
+  }
+  .bottom-inner b { font-weight: 700; display: block; margin-bottom: 0.5rem; font-size: 0.7rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .bottom-inner a { color: var(--fg); text-decoration: none; display: block; padding: 0.15rem 0; }
+  .bottom-inner a:hover { color: var(--accent); }
+  .bottom-inner .col p { color: var(--dim); }
+  @media (max-width: 720px) { .bottom-inner { grid-template-columns: 1fr; } }
+
+  .back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--dim); text-decoration: none; font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; }
+  .back:hover { color: var(--fg); }
+</style>
+</head>
+<body data-theme="light">
+
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="#" style="text-decoration:none;color:inherit">
+      <span class="dot"></span>
+      <b>GitHub Trending Digest</b>
+      <span>/ Daily OSS Intelligence</span>
+    </a>
+    <nav class="top-nav">
+      <a href="../previews/index.html" class="back">← Previews</a>
+      <a href="#today">Today</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#archive">Archive</a>
+      <button class="toggle" onclick="toggleTheme()">Light / Dark</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <div class="label">Daily · 2026-05-08 · Friday</div>
+      <h1>推理 RAG 与<br>浏览器视频编辑<em>同日崛起</em></h1>
+      <p class="lede">PageIndex 以 29K stars + HN 192 分登顶，挑战向量 RAG 范式。OpenReel 以 13 万行代码进入云端视频编辑赛道。4 个 NEW 项目社区验证分化——PageIndex 强 / 9Router 中 / DFlash 中 / OpenReel 弱。</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="k">Total</div><div class="v">13<sub>repos</sub></div></div>
+      <div class="stat"><div class="k">New</div><div class="v">4<sub>first-listed</sub></div></div>
+      <div class="stat"><div class="k">Updated</div><div class="v">9<sub>repeating</sub></div></div>
+      <div class="stat"><div class="k">Top Stars</div><div class="v">+14.2K<sub>@PageIndex</sub></div></div>
+    </div>
+  </section>
+
+  <section id="today">
+    <div class="sec-h">
+      <div class="num">§ 01</div>
+      <h2>Today's Trending<small>13 repositories · sorted by daily star delta</small></h2>
+    </div>
+
+    <div class="repo-table">
+      <div class="repo-row">
+        <div class="r-num">01</div>
+        <div class="r-name"><span class="org">VectifyAI /</span> PageIndex<span class="desc">Reasoning-based RAG, no vectors. LLM walks document tree like a table-of-contents.</span></div>
+        <div class="r-tag new">NEW</div>
+        <div class="r-stars">29,606<small>+943</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src s">信源 强</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">02</div>
+        <div class="r-name"><span class="org">openreel /</span> openreel<span class="desc">Browser-native video editor challenging CapCut. 130K LoC monolith.</span></div>
+        <div class="r-tag new">NEW</div>
+        <div class="r-stars">12,308<small>+8,144</small></div>
+        <div class="r-lang">TypeScript</div>
+        <div class="r-src w">信源 弱</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">03</div>
+        <div class="r-name"><span class="org">9router /</span> 9router<span class="desc">AI inference cost optimizer. Routes to cheapest provider per request.</span></div>
+        <div class="r-tag new">NEW</div>
+        <div class="r-stars">6,810<small>+5,201</small></div>
+        <div class="r-lang">Go</div>
+        <div class="r-src m">信源 中</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">04</div>
+        <div class="r-name"><span class="org">z-lab /</span> dflash<span class="desc">Block-diffusion speculative decoding. Up to 6× speedup on Gemma 4.</span></div>
+        <div class="r-tag new">NEW</div>
+        <div class="r-stars">3,521<small>+671</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src m">信源 中</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">05</div>
+        <div class="r-name"><span class="org">anthropics /</span> financial-services<span class="desc">Claude for Financial Services — reference architectures and skills.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">5,847<small>+641</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">06</div>
+        <div class="r-name"><span class="org">shiyu-coder /</span> Kronos<span class="desc">Time-series forecasting with TabPFN. Returned to trending after SAP-PriorLabs deal.</span></div>
+        <div class="r-tag re">RE</div>
+        <div class="r-stars">8,219<small>+218</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">07</div>
+        <div class="r-name"><span class="org">virattt /</span> dexter<span class="desc">AI hedge-fund agents. Riding the financial-AI wave this week.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">11,442<small>+412</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">08</div>
+        <div class="r-name"><span class="org">cheahjs /</span> free-llm-api-resources<span class="desc">Curated list of free LLM API tiers. Updated daily.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">4,318<small>+387</small></div>
+        <div class="r-lang">Markdown</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">09</div>
+        <div class="r-name"><span class="org">Hmbown /</span> DeepSeek-TUI<span class="desc">Terminal UI for DeepSeek. 14K stars / 0 HN / 63 subscribers — possible vanity.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">14,021<small>+312</small></div>
+        <div class="r-lang">Python</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">10</div>
+        <div class="r-name"><span class="org">ruvnet /</span> ruflo<span class="desc">Agent framework. 45K stars but Issue #640 reports 89% agent failure rate.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">45,118<small>+289</small></div>
+        <div class="r-lang">TypeScript</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">11</div>
+        <div class="r-name"><span class="org">addyosmani /</span> agent-skills<span class="desc">Curated agent skills list. 30K stars, HN concentrated on author's blog.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">30,450<small>+254</small></div>
+        <div class="r-lang">Markdown</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">12</div>
+        <div class="r-name"><span class="org">bwya77 /</span> vscode-dark-islands<span class="desc">VSCode theme. 8K stars / 16 subscribers, install script broke shells.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">8,114<small>+187</small></div>
+        <div class="r-lang">JSON</div>
+        <div class="r-src">—</div>
+      </div>
+      <div class="repo-row">
+        <div class="r-num">13</div>
+        <div class="r-name"><span class="org">InsForge /</span> insforge<span class="desc">Backend-as-a-service. 8 Show HN posts, none broke through.</span></div>
+        <div class="r-tag"></div>
+        <div class="r-stars">3,204<small>+143</small></div>
+        <div class="r-lang">TypeScript</div>
+        <div class="r-src">—</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="analysis">
+    <div class="sec-h">
+      <div class="num">§ 02</div>
+      <h2>Deep Dives<small>4 first-listed projects · grounding via Issues + HN + X + Reddit</small></h2>
+    </div>
+
+    <div class="article">
+      <div class="item">
+        <div class="item-meta">
+          <div class="order">01</div>
+          <div class="badge">NEW · 信源 强</div>
+          <div class="stars"><b>29,606</b>+943 stars · Python · MIT</div>
+        </div>
+        <div class="item-body">
+          <h3><a href="https://github.com/VectifyAI/PageIndex" target="_blank" rel="noopener">VectifyAI / PageIndex</a></h3>
+          <p class="tagline">无向量、基于推理的 RAG 系统。把文档转成层级树，让 LLM 在树上做推理搜索。</p>
+          <p><strong>解决什么问题。</strong>传统向量 RAG 在专业长文档上表现不佳——向量相似度≠相关性。比如财务报告中"净利润"和"纯利润"向量很近但语义不同；跨段落推理（"Q1 收入增长但利润率下降的原因"）向量检索无法处理。PageIndex 用树结构 + 推理来解决。</p>
+          <p><strong>谁在用。</strong>金融文档分析（HN 真实用户反馈"significant improvements in retrieval accuracy"）；长文档问答（财报、监管文件、教科书 Colab 演示）；MCP 集成（独立的 pageindex-mcp 仓库）。</p>
+          <div class="signals">
+            <div>
+              <h4 class="pos">+ 正面信号</h4>
+              <ul>
+                <li>HN Show HN 192 分 / 128 评论，今日榜单 HN 热度最高</li>
+                <li>真实用户反馈 retrieval accuracy 改善</li>
+                <li>fork:star 8.4%，健康度极高</li>
+                <li>有 Discord、文档站、在线 Chat，生态完整</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="neg">− 风险信号</h4>
+              <ul>
+                <li>推理式检索成本可能比向量检索贵 10–100×</li>
+                <li>树搜索串行，无法并行，延迟更高</li>
+                <li>HN 评论质疑"本质还是检索，只是 LLM 路由"</li>
+                <li>面对 Pinecone/Weaviate 等成熟厂商需要证明优势</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-meta">
+          <div class="order">02</div>
+          <div class="badge">NEW · 信源 弱</div>
+          <div class="stars"><b>12,308</b>+8,144 stars · TypeScript</div>
+        </div>
+        <div class="item-body">
+          <h3><a href="https://github.com/openreel/openreel" target="_blank" rel="noopener">openreel / openreel</a></h3>
+          <p class="tagline">浏览器原生视频编辑器，挑战 CapCut 云端垄断。</p>
+          <p><strong>异常信号。</strong>13 万行代码巨石仓库一夜上榜 +8,144 stars，但 HN/Reddit/X 全无声量，subscribers 仅 47——典型的"机器人或运营投放"模式。需要至少 2-3 周观察社区是否能形成真实使用反馈。</p>
+          <div class="signals">
+            <div>
+              <h4 class="pos">+ 正面信号</h4>
+              <ul>
+                <li>代码量大，有真实工程投入</li>
+                <li>Web 视频编辑赛道有 CapCut 教训背书</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="neg">− 风险信号</h4>
+              <ul>
+                <li>HN/Reddit/X 全 0 声量，仅 47 subscribers</li>
+                <li>stars 增速与社区参与度严重失衡</li>
+                <li>无第三方 KOL 背书</li>
+                <li>巨石仓库不利二次开发和审计</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-meta">
+          <div class="order">03</div>
+          <div class="badge">NEW · 信源 中</div>
+          <div class="stars"><b>6,810</b>+5,201 stars · Go</div>
+        </div>
+        <div class="item-body">
+          <h3><a href="https://github.com/9router/9router" target="_blank" rel="noopener">9router / 9router</a></h3>
+          <p class="tagline">AI 推理成本路由器，按请求转发到最便宜的 provider。</p>
+          <p><strong>痛点真实。</strong>多模型时代企业最大的痛点之一是 token 成本失控。9Router 切的是这个真痛点，HN 有讨论但深度有限。<strong>合规风险</strong>是数据要经过路由器，跨 provider 的请求路径对金融/医疗等强合规行业不可接受。</p>
+          <div class="signals">
+            <div>
+              <h4 class="pos">+ 正面信号</h4>
+              <ul>
+                <li>切中真实痛点（推理成本控制）</li>
+                <li>Go 实现，生产部署友好</li>
+                <li>HN 有讨论参与</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="neg">− 风险信号</h4>
+              <ul>
+                <li>合规风险（数据路由路径不透明）</li>
+                <li>provider 锁定是反向卖点</li>
+                <li>商业模式与开源版本边界不清晰</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-meta">
+          <div class="order">04</div>
+          <div class="badge">NEW · 信源 中</div>
+          <div class="stars"><b>3,521</b>+671 stars · Python · MIT</div>
+        </div>
+        <div class="item-body">
+          <h3><a href="https://github.com/z-lab/dflash" target="_blank" rel="noopener">z-lab / dflash</a></h3>
+          <p class="tagline">块扩散推测解码，Gemma 4 上最高 6× 加速。</p>
+          <p><strong>技术声量低。</strong>HN 三次提交都只有个位数点赞，0 评论——这在推测解码这个热门领域不常见。主要传播渠道是作者自己的 X 账号，缺乏第三方 KOL 背书。Stars/Watchers = 1:1 / fork:star ≈ 8.4%，基本面健康。</p>
+          <div class="signals">
+            <div>
+              <h4 class="pos">+ 正面信号</h4>
+              <ul>
+                <li>多后端集成（Transformers/SGLang/vLLM/MLX）</li>
+                <li>X 上有用户测试反馈"6× faster"</li>
+                <li>4 个月 3.5K stars 增速健康</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="neg">− 风险信号</h4>
+              <ul>
+                <li>HN 三次提交均无讨论</li>
+                <li>X 单一传播渠道</li>
+                <li>每个目标模型需单独训练 draft 模型</li>
+                <li>部分目标模型仍 "Coming soon"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="archive">
+    <div class="sec-h">
+      <div class="num">§ 03</div>
+      <h2>Recent Archives<small>last 7 daily issues</small></h2>
+    </div>
+    <div class="archive-list">
+      <a href="#"><time>05-07</time><div><strong>金融 AI 行业整合周</strong><div class="summary">SAP 收购 PriorLabs / Anthropic 5/5 纽约发布会 / DeepSeek-TUI 等 4 项目暴露空心化虚高</div></div></a>
+      <a href="#"><time>05-01</time><div><strong>五一劳动节</strong><div class="summary">Warp 开源热度持续 +8,399 / TradingAgents 回榜验证 AI 金融叙事韧性</div></div></a>
+      <a href="#"><time>04-30</time><div><strong>Warp 开源重磅炸弹</strong><div class="summary">+12,822 单日 stars / OpenAI founding sponsor / OSINT 类目两极分化</div></div></a>
+      <a href="#"><time>04-28</time><div><strong>Figma 信任危机外溢</strong><div class="summary">11 年老仓 penpot 拽回榜 / DeepSeek V4 让静默 V3 二次曝光 / TradingAgents 揭穿</div></div></a>
+      <a href="#"><time>04-27</time><div><strong>Coding Agent 底座之战</strong><div class="summary">Beads 任务图 + cua 沙箱 / openclaw 异常进榜 364K stars / 比 202:1 + 商标维权</div></div></a>
+      <a href="#"><time>04-26</time><div><strong>Roo-Code 关停回归 Cline</strong><div class="summary">Skills 工具栈四箭齐发 / Google/Shopify UCP 协议 vs OpenAI ACP</div></div></a>
+    </div>
+  </section>
+</main>
+
+<footer class="bottom">
+  <div class="bottom-inner">
+    <div class="col">
+      <b>About</b>
+      <p>每日追踪 GitHub Trending，对每个首次上榜项目做社区 Grounding（Issues + HN + X + Reddit 四源交叉验证），标注风险信号，提取真实使用场景。</p>
+    </div>
+    <div class="col">
+      <b>Browse</b>
+      <a href="#">Daily</a>
+      <a href="#">Weekly</a>
+      <a href="#">Methodology</a>
+    </div>
+    <div class="col">
+      <b>Source</b>
+      <a href="https://github.com/maxzyma/github-trending-digest" target="_blank">github.com/maxzyma</a>
+      <a href="../previews/index.html">← Back to previews</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const KEY = 'gtd-preview-theme';
+  const saved = localStorage.getItem(KEY);
+  if (saved) document.body.dataset.theme = saved;
+  function toggleTheme() {
+    const next = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.body.dataset.theme = next;
+    localStorage.setItem(KEY, next);
+  }
+</script>
+</body>
+</html>

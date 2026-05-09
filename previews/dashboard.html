@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-05-08 · Trending Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #f6f7f9;
+    --panel:     #ffffff;
+    --panel-2:   #fafbfc;
+    --fg:        #0a0e1a;
+    --soft:      #2c3242;
+    --dim:       #5b6478;
+    --muted:     #8b94a8;
+    --line:      #e1e4eb;
+    --line-soft: #eef0f4;
+
+    --green:  #16a34a;
+    --green-bg:  #dcfce7;
+    --red:    #dc2626;
+    --red-bg: #fee2e2;
+    --amber:  #d97706;
+    --amber-bg:  #fef3c7;
+    --blue:   #2563eb;
+    --blue-bg: #dbeafe;
+    --purple: #7c3aed;
+    --purple-bg: #ede9fe;
+    --cyan:   #0891b2;
+    --cyan-bg: #cffafe;
+
+    --mono: "JetBrains Mono", ui-monospace, monospace;
+    --sans: "Inter", -apple-system, "PingFang SC", sans-serif;
+  }
+  [data-theme="dark"] {
+    --bg:        #0a0d14;
+    --panel:     #11151f;
+    --panel-2:   #0d1119;
+    --fg:        #e6e8ee;
+    --soft:      #c5c9d4;
+    --dim:       #8b94a8;
+    --muted:     #5b6478;
+    --line:      #1e232f;
+    --line-soft: #161a24;
+
+    --green:  #4ade80;  --green-bg:  #052e16;
+    --red:    #f87171;  --red-bg:    #2a0d0d;
+    --amber:  #fbbf24;  --amber-bg:  #2a1c05;
+    --blue:   #60a5fa;  --blue-bg:   #0c1d3d;
+    --purple: #a78bfa;  --purple-bg: #1d143a;
+    --cyan:   #22d3ee;  --cyan-bg:   #062a32;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 14px; -webkit-font-smoothing: antialiased; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--sans);
+    line-height: 1.5;
+    transition: background 0.2s, color 0.2s;
+  }
+  .mono { font-family: var(--mono); }
+
+  /* ─── App shell ─── */
+  .app { display: grid; grid-template-rows: auto 1fr; min-height: 100vh; }
+
+  /* ─── Top bar ─── */
+  .topbar {
+    display: flex; align-items: center; gap: 1rem;
+    padding: 0.65rem 1.25rem;
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+  }
+  .logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 0.875rem; }
+  .logo .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 18%, transparent); }
+  .logo small { color: var(--dim); font-weight: 500; font-family: var(--mono); font-size: 0.7rem; margin-left: 0.5rem; padding-left: 0.6rem; border-left: 1px solid var(--line); }
+  .topbar-spacer { flex: 1; }
+  .top-tabs { display: flex; gap: 0.25rem; }
+  .top-tabs a { padding: 0.35rem 0.75rem; font-size: 0.78rem; font-weight: 500; color: var(--dim); border-radius: 5px; text-decoration: none; }
+  .top-tabs a.active { background: var(--bg); color: var(--fg); }
+  .top-tabs a:hover { color: var(--fg); }
+  .toggle { background: transparent; border: 1px solid var(--line); color: var(--fg); font-family: var(--mono); font-size: 0.7rem; padding: 0.35rem 0.7rem; border-radius: 5px; cursor: pointer; letter-spacing: 0.04em; }
+  .toggle:hover { border-color: var(--fg); }
+  .ext { font-size: 0.78rem; color: var(--dim); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 5px; }
+  .ext:hover { background: var(--bg); color: var(--fg); }
+
+  /* ─── Body grid ─── */
+  .body-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1rem; padding: 1rem; max-width: 1480px; margin: 0 auto; width: 100%; }
+  @media (max-width: 980px) { .body-grid { grid-template-columns: 1fr; } }
+
+  /* ─── KPI row ─── */
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-bottom: 1rem; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.875rem 1rem; }
+  .kpi .label { font-size: 0.68rem; color: var(--dim); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 0.4rem; font-family: var(--mono); }
+  .kpi .val { font-family: var(--mono); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1; }
+  .kpi .sub { font-size: 0.7rem; color: var(--dim); margin-top: 0.35rem; font-family: var(--mono); }
+  .kpi .sub b { font-weight: 600; }
+  .kpi .sub .up { color: var(--green); }
+  .kpi .sub .down { color: var(--red); }
+
+  /* ─── Filter bar ─── */
+  .filter-bar { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 0.65rem 0.875rem; margin-bottom: 1rem; display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center; }
+  .filter-bar label { font-size: 0.7rem; color: var(--dim); font-family: var(--mono); margin-right: 0.5rem; }
+  .chip {
+    background: transparent; border: 1px solid var(--line); color: var(--dim);
+    padding: 0.28rem 0.65rem; border-radius: 999px;
+    font-family: var(--mono); font-size: 0.7rem; cursor: pointer; transition: all 0.15s;
+  }
+  .chip:hover { border-color: var(--fg); color: var(--fg); }
+  .chip.active { background: var(--fg); border-color: var(--fg); color: var(--panel); }
+  .filter-bar .right { margin-left: auto; display: flex; gap: 0.5rem; align-items: center; }
+  .search-box { background: var(--bg); border: 1px solid var(--line); border-radius: 5px; padding: 0.3rem 0.65rem; font-family: var(--mono); font-size: 0.72rem; color: var(--fg); width: 200px; }
+  .search-box::placeholder { color: var(--muted); }
+
+  /* ─── Table ─── */
+  .table-card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .table-head {
+    display: grid;
+    grid-template-columns: 36px 60px 80px 1fr 92px 92px 70px 70px 70px;
+    gap: 0.625rem;
+    padding: 0.625rem 1rem;
+    background: var(--panel-2);
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 36px 60px 80px 1fr 92px 92px 70px 70px 70px;
+    gap: 0.625rem;
+    padding: 0.7rem 1rem;
+    align-items: center;
+    border-bottom: 1px solid var(--line-soft);
+    transition: background 0.1s;
+  }
+  .row:hover { background: var(--panel-2); }
+  .row.expanded { background: var(--panel-2); }
+  .row:last-child { border-bottom: none; }
+  .c-rank { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); text-align: center; font-weight: 500; }
+  .c-tag {
+    font-family: var(--mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em;
+    padding: 0.15rem 0.4rem; border-radius: 3px; text-align: center; display: inline-block;
+  }
+  .tag-new { color: var(--red); background: var(--red-bg); }
+  .tag-re { color: var(--blue); background: var(--blue-bg); }
+  .tag-up { color: var(--dim); background: var(--line-soft); }
+
+  .c-spark svg { display: block; }
+  .c-name { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+  .c-name .nm { font-weight: 600; font-size: 0.85rem; letter-spacing: -0.005em; }
+  .c-name .nm a { color: var(--fg); text-decoration: none; }
+  .c-name .nm a:hover { color: var(--blue); }
+  .c-name .nm .org { color: var(--muted); font-weight: 400; }
+  .c-name .ds { font-size: 0.72rem; color: var(--dim); line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .c-stars { font-family: var(--mono); font-weight: 600; text-align: right; font-size: 0.78rem; }
+  .c-delta { font-family: var(--mono); text-align: right; font-size: 0.78rem; font-weight: 600; }
+  .c-delta.up { color: var(--green); }
+  .c-delta.flat { color: var(--dim); }
+  .c-lang { font-family: var(--mono); font-size: 0.68rem; color: var(--dim); display: flex; align-items: center; gap: 0.35rem; }
+  .c-lang .swatch { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .c-src { font-family: var(--mono); font-size: 0.62rem; padding: 0.15rem 0.4rem; border-radius: 3px; font-weight: 600; text-align: center; }
+  .src-s { color: var(--green); background: var(--green-bg); }
+  .src-m { color: var(--amber); background: var(--amber-bg); }
+  .src-w { color: var(--red); background: var(--red-bg); }
+  .src-na { color: var(--muted); background: var(--line-soft); }
+  .c-flags { display: flex; gap: 0.25rem; justify-content: flex-end; }
+  .flag { width: 18px; height: 18px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 700; cursor: help; }
+  .flag.warn { background: var(--amber-bg); color: var(--amber); }
+  .flag.risk { background: var(--red-bg); color: var(--red); }
+  .flag.ok { background: var(--green-bg); color: var(--green); }
+
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .row { background: var(--panel-2); }
+  .expand {
+    padding: 0.875rem 1.25rem 1.125rem 4.5rem;
+    border-bottom: 1px solid var(--line-soft);
+    background: var(--panel-2);
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.25rem;
+    font-size: 0.78rem;
+  }
+  .expand h4 { font-family: var(--mono); font-size: 0.62rem; color: var(--dim); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; font-weight: 600; }
+  .expand h4.pos { color: var(--green); }
+  .expand h4.neg { color: var(--red); }
+  .expand h4.tech { color: var(--purple); }
+  .expand ul { list-style: none; }
+  .expand li { color: var(--soft); margin-bottom: 0.25rem; padding-left: 0.875rem; position: relative; line-height: 1.5; font-size: 0.75rem; }
+  .expand li::before { content: '·'; position: absolute; left: 0.25rem; color: var(--muted); }
+  .expand .tech-line { color: var(--soft); font-family: var(--mono); font-size: 0.7rem; line-height: 1.6; }
+  .expand .tech-line b { color: var(--fg); display: inline-block; width: 5rem; color: var(--dim); }
+
+  /* ─── Sidebar ─── */
+  .side { display: flex; flex-direction: column; gap: 1rem; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 1rem; }
+  .panel h3 { font-family: var(--mono); font-size: 0.65rem; color: var(--dim); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; margin-bottom: 0.875rem; display: flex; justify-content: space-between; }
+  .panel h3 small { font-weight: 400; color: var(--muted); letter-spacing: 0.04em; }
+  .lang-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-bottom: 0.875rem; }
+  .lang-bar span { height: 100%; }
+  .lang-list { font-family: var(--mono); font-size: 0.72rem; }
+  .lang-list .lr { display: flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0; }
+  .lang-list .lr .sw { width: 8px; height: 8px; border-radius: 50%; }
+  .lang-list .lr b { font-weight: 600; }
+  .lang-list .lr .pct { margin-left: auto; color: var(--dim); }
+
+  .signal-list { font-size: 0.78rem; }
+  .signal-list .sl { padding: 0.55rem 0; border-bottom: 1px solid var(--line-soft); display: grid; grid-template-columns: 24px 1fr; gap: 0.55rem; line-height: 1.45; }
+  .signal-list .sl:last-child { border-bottom: none; }
+  .signal-list .sl .ico { width: 22px; height: 22px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; }
+  .signal-list .sl .body b { font-weight: 600; display: block; font-size: 0.78rem; }
+  .signal-list .sl .body span { color: var(--dim); font-size: 0.7rem; font-family: var(--mono); }
+
+  .archive-mini a { display: flex; gap: 0.5rem; padding: 0.45rem 0; border-bottom: 1px solid var(--line-soft); text-decoration: none; color: var(--fg); font-size: 0.78rem; line-height: 1.4; }
+  .archive-mini a:hover { color: var(--blue); }
+  .archive-mini a:last-child { border-bottom: none; }
+  .archive-mini time { font-family: var(--mono); color: var(--dim); font-size: 0.7rem; min-width: 3.5rem; }
+
+  /* status bar */
+  .statusbar {
+    border-top: 1px solid var(--line);
+    background: var(--panel);
+    padding: 0.4rem 1rem;
+    font-family: var(--mono); font-size: 0.68rem; color: var(--dim);
+    display: flex; gap: 1.5rem; justify-content: space-between;
+  }
+  .statusbar .group { display: flex; gap: 1.25rem; }
+  .statusbar b { color: var(--fg); font-weight: 600; }
+
+  /* utilities */
+  .fade-in { animation: fade 0.2s; }
+  @keyframes fade { from { opacity: 0; transform: translateY(-2px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body data-theme="light">
+<div class="app">
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="logo">
+      <span class="dot"></span>
+      <span>trending.digest</span>
+      <small>v1.0 · 2026-05-08</small>
+    </div>
+    <div class="topbar-spacer"></div>
+    <nav class="top-tabs">
+      <a href="#" class="active">Daily</a>
+      <a href="#">Weekly</a>
+      <a href="#">Monthly</a>
+      <a href="#">Methodology</a>
+    </nav>
+    <a class="ext" href="../previews/index.html">← Previews</a>
+    <a class="ext" href="https://github.com/maxzyma/github-trending-digest" target="_blank">GitHub ↗</a>
+    <button class="toggle" onclick="toggleTheme()">◐ Theme</button>
+  </header>
+
+  <!-- Main area -->
+  <main>
+    <div class="body-grid">
+      <div>
+        <!-- KPIs -->
+        <div class="kpi-row">
+          <div class="kpi">
+            <div class="label">Total · Today</div>
+            <div class="val">13</div>
+            <div class="sub">all repos · <span class="up">+0</span> vs avg</div>
+          </div>
+          <div class="kpi">
+            <div class="label">First-listed</div>
+            <div class="val">4</div>
+            <div class="sub"><b class="up">↑ 33%</b> · weekly avg 3.0</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Aggregate Δ⭐</div>
+            <div class="val">17,508</div>
+            <div class="sub">today · <span class="up">+8.4K</span> vs yesterday</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Risk flags raised</div>
+            <div class="val">5</div>
+            <div class="sub">vanity:4 · cost:1 · compliance:1</div>
+          </div>
+        </div>
+
+        <!-- Filter bar -->
+        <div class="filter-bar">
+          <label>filter:</label>
+          <button class="chip active">All <span style="opacity:.6">13</span></button>
+          <button class="chip">NEW <span style="opacity:.6">4</span></button>
+          <button class="chip">RE <span style="opacity:.6">1</span></button>
+          <button class="chip">Updated <span style="opacity:.6">8</span></button>
+          <button class="chip">High risk <span style="opacity:.6">5</span></button>
+          <div class="right">
+            <input class="search-box" placeholder="🔍 search repo, lang, tag…" />
+            <button class="chip">Sort: Δ⭐ ▼</button>
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-card">
+          <div class="table-head">
+            <span>#</span>
+            <span>Tag</span>
+            <span>Trend (7d)</span>
+            <span>Repository</span>
+            <span style="text-align:right">Stars</span>
+            <span style="text-align:right">Δ Today</span>
+            <span>Lang</span>
+            <span style="text-align:center">信源</span>
+            <span style="text-align:right">Flags</span>
+          </div>
+
+          <details open>
+            <summary>
+              <div class="row">
+                <div class="c-rank">01</div>
+                <div><span class="c-tag tag-new">NEW</span></div>
+                <div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,18 12,17 24,15 36,12 48,9 60,5 72,2" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--green)"/><circle cx="72" cy="2" r="2" fill="var(--green)"/></svg></div>
+                <div class="c-name">
+                  <span class="nm"><span class="org">VectifyAI /</span> <a href="https://github.com/VectifyAI/PageIndex" target="_blank">PageIndex</a></span>
+                  <span class="ds">Reasoning-based RAG, no vectors. LLM walks document tree.</span>
+                </div>
+                <div class="c-stars">29,606</div>
+                <div class="c-delta up">+943</div>
+                <div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div>
+                <div class="c-src src-s">强</div>
+                <div class="c-flags">
+                  <span class="flag ok" title="社区健康">✓</span>
+                  <span class="flag warn" title="成本/延迟担忧">$</span>
+                </div>
+              </div>
+            </summary>
+            <div class="expand">
+              <div>
+                <h4 class="pos">+ 正面信号</h4>
+                <ul>
+                  <li>HN 192 分 / 128 评论，今日 HN 热度最高</li>
+                  <li>真实用户反馈 retrieval accuracy 改善（金融文档）</li>
+                  <li>fork:star 8.4%，2.4 万星量级健康度极高</li>
+                  <li>Discord + 文档站 + 在线 Chat，生态完整</li>
+                  <li>独立 pageindex-mcp 仓库，已接入 MCP 生态</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="neg">− 风险 / 争议</h4>
+                <ul>
+                  <li>推理式检索成本可能比向量检索贵 10–100×</li>
+                  <li>树搜索串行，延迟高于向量并行检索</li>
+                  <li>HN 评论质疑"本质还是检索，只是 LLM 路由"</li>
+                  <li>面对 Pinecone / Weaviate 等成熟厂商需要证明优势</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="tech">⚙ 技术备注</h4>
+                <div class="tech-line">
+                  <div><b>License</b> MIT</div>
+                  <div><b>Created</b> 2025-04-01</div>
+                  <div><b>Updated</b> 2026-05-07 (T-1)</div>
+                  <div><b>Stars/W</b> 1.0 (健康)</div>
+                  <div><b>Issues</b> 142 open</div>
+                  <div><b>Topics</b> agentic-ai · rag · reasoning</div>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              <div class="row">
+                <div class="c-rank">02</div>
+                <div><span class="c-tag tag-new">NEW</span></div>
+                <div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,19 12,19 24,19 36,18 48,16 60,8 72,1" fill="none" stroke="var(--red)" stroke-width="1.5"/><circle cx="72" cy="1" r="2" fill="var(--red)"/></svg></div>
+                <div class="c-name">
+                  <span class="nm"><span class="org">openreel /</span> <a href="#">openreel</a></span>
+                  <span class="ds">Browser-native video editor challenging CapCut. 130K LoC.</span>
+                </div>
+                <div class="c-stars">12,308</div>
+                <div class="c-delta up">+8,144</div>
+                <div class="c-lang"><span class="swatch" style="background:#3178c6"></span>TypeScript</div>
+                <div class="c-src src-w">弱</div>
+                <div class="c-flags">
+                  <span class="flag risk" title="社区空心化 vanity 信号">!</span>
+                  <span class="flag risk" title="HN/Reddit/X 全 0 声量">⚠</span>
+                </div>
+              </div>
+            </summary>
+            <div class="expand">
+              <div>
+                <h4 class="pos">+ 正面信号</h4>
+                <ul>
+                  <li>13 万行代码，有真实工程投入</li>
+                  <li>Web 视频编辑赛道有 CapCut 教训背书</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="neg">− 风险 / 争议</h4>
+                <ul>
+                  <li><b>HN/Reddit/X 全 0 声量，仅 47 subscribers</b></li>
+                  <li>+8,144 stars/day 与社区参与度严重失衡</li>
+                  <li>无第三方 KOL 背书，无 Show HN</li>
+                  <li>巨石仓库不利二次开发和审计</li>
+                  <li>可能是机器人或运营投放</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="tech">⚙ 技术备注</h4>
+                <div class="tech-line">
+                  <div><b>Subs</b> 47 (异常低)</div>
+                  <div><b>LoC</b> ~130K</div>
+                  <div><b>Created</b> 2025-11 (新仓)</div>
+                  <div><b>需观察</b> 2-3 周</div>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              <div class="row">
+                <div class="c-rank">03</div>
+                <div><span class="c-tag tag-new">NEW</span></div>
+                <div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,18 12,17 24,15 36,13 48,11 60,7 72,3" fill="none" stroke="var(--amber)" stroke-width="1.5"/><circle cx="72" cy="3" r="2" fill="var(--amber)"/></svg></div>
+                <div class="c-name">
+                  <span class="nm"><span class="org">9router /</span> <a href="#">9router</a></span>
+                  <span class="ds">AI inference cost optimizer. Routes to cheapest provider.</span>
+                </div>
+                <div class="c-stars">6,810</div>
+                <div class="c-delta up">+5,201</div>
+                <div class="c-lang"><span class="swatch" style="background:#00add8"></span>Go</div>
+                <div class="c-src src-m">中</div>
+                <div class="c-flags">
+                  <span class="flag warn" title="合规风险">⚖</span>
+                </div>
+              </div>
+            </summary>
+            <div class="expand">
+              <div>
+                <h4 class="pos">+ 正面信号</h4>
+                <ul>
+                  <li>切中真实痛点（推理成本控制）</li>
+                  <li>Go 实现，生产部署友好</li>
+                  <li>HN 有讨论参与</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="neg">− 风险 / 争议</h4>
+                <ul>
+                  <li>合规风险：数据路由路径不透明</li>
+                  <li>金融 / 医疗等强合规行业基本不可接受</li>
+                  <li>provider 锁定是反向卖点</li>
+                  <li>商业版本与开源边界不清晰</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="tech">⚙ 技术备注</h4>
+                <div class="tech-line">
+                  <div><b>Discussion</b> HN 有讨论，深度有限</div>
+                  <div><b>License</b> Apache-2.0</div>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              <div class="row">
+                <div class="c-rank">04</div>
+                <div><span class="c-tag tag-new">NEW</span></div>
+                <div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,17 12,16 24,15 36,14 48,12 60,11 72,8" fill="none" stroke="var(--blue)" stroke-width="1.5"/><circle cx="72" cy="8" r="2" fill="var(--blue)"/></svg></div>
+                <div class="c-name">
+                  <span class="nm"><span class="org">z-lab /</span> <a href="https://github.com/z-lab/dflash" target="_blank">dflash</a></span>
+                  <span class="ds">Block-diffusion speculative decoding. 6× speedup on Gemma 4.</span>
+                </div>
+                <div class="c-stars">3,521</div>
+                <div class="c-delta up">+671</div>
+                <div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div>
+                <div class="c-src src-m">中</div>
+                <div class="c-flags">
+                  <span class="flag warn" title="社区声量异常低">📉</span>
+                </div>
+              </div>
+            </summary>
+            <div class="expand">
+              <div>
+                <h4 class="pos">+ 正面信号</h4>
+                <ul>
+                  <li>多后端集成（Transformers / SGLang / vLLM / MLX）</li>
+                  <li>X 用户测试反馈 "6× faster"</li>
+                  <li>4 个月 3.5K stars 增速健康</li>
+                  <li>Stars/Watchers = 1:1，基本面正常</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="neg">− 风险 / 争议</h4>
+                <ul>
+                  <li>HN 三次提交均无评论（推测解码热门领域不正常）</li>
+                  <li>主要传播渠道是作者 X 账号，缺乏 KOL 背书</li>
+                  <li>每个目标模型需单独训练 draft 模型</li>
+                  <li>部分模型仍 "Coming soon"（DeepSeek-V4 / GLM-5.1）</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="tech">⚙ 技术备注</h4>
+                <div class="tech-line">
+                  <div><b>License</b> MIT</div>
+                  <div><b>Models</b> ~15（Gemma 4 / Qwen3.5+ / Llama-3.1）</div>
+                  <div><b>Paper</b> arxiv.org/abs/2602.06036</div>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <div class="row"><div class="c-rank">05</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,12 12,11 24,11 36,10 48,9 60,8 72,7" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">anthropics /</span> <a href="#">financial-services</a></span><span class="ds">Claude for Financial Services — reference architectures.</span></div><div class="c-stars">5,847</div><div class="c-delta up">+641</div><div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag ok">✓</span></div></div>
+
+          <div class="row"><div class="c-rank">06</div><div><span class="c-tag tag-re">RE</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,4 12,8 24,15 36,17 48,16 60,12 72,9" fill="none" stroke="var(--blue)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">shiyu-coder /</span> <a href="#">Kronos</a></span><span class="ds">Time-series forecasting w/ TabPFN. SAP-PriorLabs revival.</span></div><div class="c-stars">8,219</div><div class="c-delta up">+218</div><div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div><div class="c-src src-na">—</div><div class="c-flags"></div></div>
+
+          <div class="row"><div class="c-rank">07</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,15 12,14 24,12 36,11 48,9 60,8 72,7" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">virattt /</span> <a href="#">dexter</a></span><span class="ds">AI hedge-fund agents. Riding financial-AI wave this week.</span></div><div class="c-stars">11,442</div><div class="c-delta up">+412</div><div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div><div class="c-src src-na">—</div><div class="c-flags"></div></div>
+
+          <div class="row"><div class="c-rank">08</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,14 12,13 24,13 36,12 48,11 60,10 72,9" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">cheahjs /</span> <a href="#">free-llm-api-resources</a></span><span class="ds">Curated list of free LLM API tiers. Updated daily.</span></div><div class="c-stars">4,318</div><div class="c-delta up">+387</div><div class="c-lang"><span class="swatch" style="background:#888"></span>Markdown</div><div class="c-src src-na">—</div><div class="c-flags"></div></div>
+
+          <div class="row"><div class="c-rank">09</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,12 12,12 24,11 36,11 48,10 60,10 72,10" fill="none" stroke="var(--red)" stroke-width="1.5" stroke-dasharray="2,2"/></svg></div><div class="c-name"><span class="nm"><span class="org">Hmbown /</span> <a href="#">DeepSeek-TUI</a></span><span class="ds">Terminal UI for DeepSeek. <b style="color:var(--red)">Vanity flag</b>: 14K stars / 0 HN / 63 subs.</span></div><div class="c-stars">14,021</div><div class="c-delta up">+312</div><div class="c-lang"><span class="swatch" style="background:#3776ab"></span>Python</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag risk">!</span></div></div>
+
+          <div class="row"><div class="c-rank">10</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,11 12,11 24,10 36,11 48,11 60,10 72,11" fill="none" stroke="var(--red)" stroke-width="1.5" stroke-dasharray="2,2"/></svg></div><div class="c-name"><span class="nm"><span class="org">ruvnet /</span> <a href="#">ruflo</a></span><span class="ds">Agent framework. <b style="color:var(--red)">Issue #640: 89% agent failure rate.</b></span></div><div class="c-stars">45,118</div><div class="c-delta up">+289</div><div class="c-lang"><span class="swatch" style="background:#3178c6"></span>TypeScript</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag risk">!</span></div></div>
+
+          <div class="row"><div class="c-rank">11</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,11 12,11 24,11 36,11 48,11 60,11 72,11" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">addyosmani /</span> <a href="#">agent-skills</a></span><span class="ds">Curated agent skills. 30K stars, HN concentrated on author's blog.</span></div><div class="c-stars">30,450</div><div class="c-delta up">+254</div><div class="c-lang"><span class="swatch" style="background:#888"></span>Markdown</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag warn">?</span></div></div>
+
+          <div class="row"><div class="c-rank">12</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,10 12,11 24,11 36,12 48,12 60,12 72,12" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">bwya77 /</span> <a href="#">vscode-dark-islands</a></span><span class="ds">VSCode theme. <b style="color:var(--red)">Install script broke users' shells.</b></span></div><div class="c-stars">8,114</div><div class="c-delta up">+187</div><div class="c-lang"><span class="swatch" style="background:#cbcb41"></span>JSON</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag risk">!</span></div></div>
+
+          <div class="row"><div class="c-rank">13</div><div><span class="c-tag tag-up">UPD</span></div><div class="c-spark"><svg width="80" height="20" viewBox="0 0 80 20"><polyline points="0,15 12,14 24,15 36,14 48,14 60,13 72,13" fill="none" stroke="var(--dim)" stroke-width="1.5"/></svg></div><div class="c-name"><span class="nm"><span class="org">InsForge /</span> <a href="#">insforge</a></span><span class="ds">Backend-as-a-service. 8 Show HN posts, none broke through.</span></div><div class="c-stars">3,204</div><div class="c-delta up">+143</div><div class="c-lang"><span class="swatch" style="background:#3178c6"></span>TypeScript</div><div class="c-src src-na">—</div><div class="c-flags"><span class="flag warn">?</span></div></div>
+
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="side">
+        <div class="panel">
+          <h3>Languages <small>13 repos</small></h3>
+          <div class="lang-bar">
+            <span style="width:46%;background:#3776ab"></span>
+            <span style="width:23%;background:#3178c6"></span>
+            <span style="width:15%;background:#888"></span>
+            <span style="width:8%;background:#00add8"></span>
+            <span style="width:8%;background:#cbcb41"></span>
+          </div>
+          <div class="lang-list">
+            <div class="lr"><span class="sw" style="background:#3776ab"></span><b>Python</b><span class="pct">6 · 46%</span></div>
+            <div class="lr"><span class="sw" style="background:#3178c6"></span><b>TypeScript</b><span class="pct">3 · 23%</span></div>
+            <div class="lr"><span class="sw" style="background:#888"></span><b>Markdown</b><span class="pct">2 · 15%</span></div>
+            <div class="lr"><span class="sw" style="background:#00add8"></span><b>Go</b><span class="pct">1 · 8%</span></div>
+            <div class="lr"><span class="sw" style="background:#cbcb41"></span><b>JSON</b><span class="pct">1 · 8%</span></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Risk Signals · Today</h3>
+          <div class="signal-list">
+            <div class="sl">
+              <div class="ico" style="background:var(--red-bg);color:var(--red)">!</div>
+              <div class="body"><b>Vanity stars (4)</b><span>OpenReel · DeepSeek-TUI · ruflo · vscode-dark-islands</span></div>
+            </div>
+            <div class="sl">
+              <div class="ico" style="background:var(--amber-bg);color:var(--amber)">⚖</div>
+              <div class="body"><b>Compliance risk (1)</b><span>9router · 数据路由路径不透明</span></div>
+            </div>
+            <div class="sl">
+              <div class="ico" style="background:var(--amber-bg);color:var(--amber)">$</div>
+              <div class="body"><b>Cost concern (1)</b><span>PageIndex · 推理 RAG 比向量贵 10-100×</span></div>
+            </div>
+            <div class="sl">
+              <div class="ico" style="background:var(--green-bg);color:var(--green)">✓</div>
+              <div class="body"><b>Healthy basis (1)</b><span>PageIndex · fork:star 8.4% / Discord+docs+chat</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Recent Issues <small>archive</small></h3>
+          <div class="archive-mini">
+            <a href="#"><time>05-07</time><div>金融 AI 行业整合周（SAP+Anthropic+FIS）</div></a>
+            <a href="#"><time>05-01</time><div>五一劳动节，Warp 开源持续 +8.4K</div></a>
+            <a href="#"><time>04-30</time><div>Warp 开源重磅炸弹 +12.8K stars</div></a>
+            <a href="#"><time>04-28</time><div>Figma 危机外溢 / penpot 重返榜单</div></a>
+            <a href="#"><time>04-27</time><div>Coding Agent 底座之战 / Beads + cua</div></a>
+            <a href="#"><time>04-26</time><div>Roo-Code 关停回归 Cline</div></a>
+          </div>
+        </div>
+
+        <div class="panel" style="background:var(--bg)">
+          <h3>Methodology · 4-source grounding</h3>
+          <div style="font-size:0.75rem;color:var(--dim);line-height:1.5">
+            每个首次上榜项目交叉验证：<br>
+            <span style="color:var(--fg);font-family:var(--mono);font-size:0.7rem;">
+              · GitHub Issues · Hacker News<br>
+              · X / Twitter · Reddit
+            </span><br><br>
+            信源强度：<br>
+            <span class="c-src src-s">强</span> 2+ 外部信源
+            <span class="c-src src-m" style="margin-left:4px">中</span> 单一外部信源
+            <span class="c-src src-w" style="margin-left:4px">弱</span> 仅 README
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Status bar -->
+  <footer class="statusbar">
+    <div class="group">
+      <span><b>13</b> rows</span>
+      <span><b>4</b> NEW · <b>1</b> RE · <b>8</b> updated</span>
+      <span>5 risk flags</span>
+    </div>
+    <div class="group">
+      <span>last fetch: <b>09:28 UTC+8</b></span>
+      <span>render: <b>0.4s</b></span>
+      <span>build: 65affdc</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+  const KEY = 'gtd-preview-theme';
+  const saved = localStorage.getItem(KEY);
+  if (saved) document.body.dataset.theme = saved;
+  function toggleTheme() {
+    const next = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.body.dataset.theme = next;
+    localStorage.setItem(KEY, next);
+  }
+  // chip filter visual toggle
+  document.querySelectorAll('.filter-bar .chip').forEach(c => c.addEventListener('click', () => {
+    const isLeft = c.parentElement.querySelector(':scope > .chip:nth-child(-n+5)');
+    document.querySelectorAll('.filter-bar > .chip:nth-child(-n+5)').forEach(x => x.classList.remove('active'));
+    if (Array.from(document.querySelectorAll('.filter-bar > .chip:nth-child(-n+5)')).includes(c)) c.classList.add('active');
+  }));
+</script>
+</body>
+</html>

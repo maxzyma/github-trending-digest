@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design Previews — GitHub Trending Digest</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --fg: #0a0a0a;
+    --dim: #6b6b6b;
+    --line: #e5e5e0;
+    --card: #ffffff;
+    --accent: #c9302c;
+  }
+  [data-theme="dark"] {
+    --bg: #0a0a0a;
+    --fg: #f0f0ed;
+    --dim: #888;
+    --line: #1f1f1f;
+    --card: #131313;
+    --accent: #ff6b5b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "PingFang SC", sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: background 0.2s, color 0.2s;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  header { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 2rem; border-bottom: 1px solid var(--line); margin-bottom: 3rem; }
+  h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; }
+  .sub { color: var(--dim); font-size: 0.875rem; margin-top: 0.5rem; }
+  .toggle {
+    background: transparent; border: 1px solid var(--line); color: var(--fg);
+    font-family: inherit; font-size: 0.75rem; padding: 0.4rem 0.9rem; border-radius: 999px;
+    cursor: pointer; letter-spacing: 0.04em;
+  }
+  .toggle:hover { border-color: var(--fg); }
+  .intro { font-size: 1rem; color: var(--dim); margin-bottom: 3rem; max-width: 64ch; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } }
+  .card {
+    position: relative;
+    display: block; padding: 1.75rem 1.5rem; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--card); text-decoration: none; color: inherit;
+    transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+  }
+  .card.featured { border-color: var(--accent); border-width: 1.5px; }
+  .card.featured::after {
+    content: 'NEW';
+    position: absolute;
+    top: 1rem; right: 1rem;
+    font-family: ui-monospace, monospace;
+    font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.15rem 0.4rem;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
+  .num { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.1em; font-weight: 600; }
+  .card h2 { font-size: 1.125rem; font-weight: 600; margin: 0.5rem 0 0.75rem; letter-spacing: -0.005em; }
+  .card p { font-size: 0.875rem; color: var(--dim); line-height: 1.55; }
+  .meta { display: flex; gap: 0.75rem; margin-top: 1rem; font-family: ui-monospace, monospace; font-size: 0.7rem; color: var(--dim); flex-wrap: wrap; }
+  .meta span { padding: 0.15rem 0.5rem; border: 1px solid var(--line); border-radius: 3px; }
+  footer { margin-top: 4rem; color: var(--dim); font-size: 0.8125rem; }
+  footer a { color: var(--fg); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+</style>
+</head>
+<body data-theme="light">
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Design Previews</h1>
+        <div class="sub">3 个候选风格 · 同一份 2026-05-08 真实数据</div>
+      </div>
+      <button class="toggle" onclick="toggleTheme()">明 / 暗</button>
+    </header>
+
+    <p class="intro">
+      当前线上 UI 是 Amber Terminal 深色风。下面 5 个候选都用同一篇 5/8 daily 真实数据渲染。<strong>v2 (Hybrid v2) 是按 Claude Design 方法论 + 业界一手 design system（Bloomberg / FT / Primer）做的 system-aligned 版本</strong>，inherit 现有 style.css 的 amber-on-black tokens，是当前推荐方向。每个预览页内部都有"明 / 暗"切换。
+    </p>
+
+    <div class="grid">
+      <a class="card featured" href="hybrid-v2.html">
+        <div class="num">05 · HYBRID v2</div>
+        <h2>System-aligned</h2>
+        <p>Inherit 现有 Amber Terminal style.css + 应用 FT Visual Vocabulary（Ranking/Change-over-Time/Part-to-Whole/Deviation）+ Burn-Murdoch 哲学（muted 次信号 / striking 主信号 / inline annotations）+ Primer Octicons。深色 default。</p>
+        <div class="meta"><span>JetBrains Mono + Source Serif</span><span>Bloomberg × FT × Primer</span><span>Brand-match: pass</span></div>
+      </a>
+
+      <a class="card" href="hybrid.html">
+        <div class="num">04 · HYBRID v1</div>
+        <h2>Swiss × Dashboard</h2>
+        <p>Swiss 骨架（克制留白、§ 章节序号、单点强调红）+ Dashboard 密度元素。<strong>注：v1 没有 inherit 现有 design system，按 Claude Design 标准是 brand-match fail</strong>，留作对照。</p>
+        <div class="meta"><span>Inter + Plex Mono</span><span>Editorial × Data</span><span>Brand-match: fail</span></div>
+      </a>
+
+      <a class="card" href="swiss.html">
+        <div class="num">01 · SWISS</div>
+        <h2>Swiss Editorial</h2>
+        <p>极简、网格、大量留白。无衬线 + 单点强调色。像高端杂志或 Stripe / Vercel 文档。专业克制，信息层级清晰。</p>
+        <div class="meta"><span>Inter</span><span>Grid</span><span>Whitespace</span></div>
+      </a>
+
+      <a class="card" href="longform.html">
+        <div class="num">02 · LONGFORM</div>
+        <h2>Stratechery 长文</h2>
+        <p>暖白底 + 衬线大字号正文。重排版舒适度。适合每日深度分析这类长文阅读，有"专栏"质感。</p>
+        <div class="meta"><span>Source Serif</span><span>Reading</span><span>Editorial</span></div>
+      </a>
+
+      <a class="card" href="dashboard.html">
+        <div class="num">03 · DASHBOARD</div>
+        <h2>数据看板</h2>
+        <p>表格 + 迷你图 + 标签 + 过滤器。信息密度最高，工程师/分析师友好。每日榜单作为可扫描的数据面板。</p>
+        <div class="meta"><span>JetBrains Mono</span><span>Dense</span><span>Filters</span></div>
+      </a>
+    </div>
+
+    <footer>
+      所有预览均为静态 HTML，独立可访问，不依赖 Jekyll 构建。<br>
+      选定方向后再迁移到 <code>_layouts/default.html</code> + <code>assets/css/style.css</code>。
+    </footer>
+  </div>
+
+<script>
+  const KEY = 'gtd-preview-theme';
+  const saved = localStorage.getItem(KEY);
+  if (saved) document.body.dataset.theme = saved;
+  function toggleTheme() {
+    const next = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.body.dataset.theme = next;
+    localStorage.setItem(KEY, next);
+  }
+</script>
+</body>
+</html>
