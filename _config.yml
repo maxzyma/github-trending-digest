@@ -33,9 +33,9 @@ defaults:
 
 giscus:
   repo: "maxzyma/github-trending-digest"
-  repo_id: ""           # data-repo-id from giscus.app
-  category: "Comments"  # category name (create it as Discussion type)
-  category_id: ""       # data-category-id from giscus.app
+  repo_id: "R_kgDOSCBYJA"
+  category: "Announcements"  # Announcement type — only maintainer creates threads, cleanest for blog comments
+  category_id: "DIC_kwDOSCBYJM4C8qQz"
 
 goatcounter:
   site: ""              # e.g. "gtd-digest" → counts to gtd-digest.goatcounter.com
