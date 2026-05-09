@@ -12,7 +12,7 @@
   <script>
     (function() {
       var t = localStorage.getItem('gtd-theme');
-      if (t === 'light') document.documentElement.dataset.theme = 'light';
+      if (t === 'dark') document.documentElement.dataset.theme = 'dark';
     })();
   </script>
 </head>
@@ -24,13 +24,15 @@
     <div class="header-inner">
       <a href="{{ '/' | relative_url }}" class="site-brand">
         <span class="brand-pulse"></span>
-        <span class="brand-text">GitHub Trending Digest</span>
+        <span class="brand-text">GitHub Trending Digest <span class="brand-tag">/ weekly</span></span>
       </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">首页</a>
+        <a href="#related">关联每日</a>
         <a href="#analysis">本周分析</a>
+        <span class="nav-divider"></span>
         <a href="https://github.com/maxzyma/github-trending-digest" target="_blank" rel="noopener">源码仓库</a>
-        <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">◐ 深 / 浅</button>
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换深 / 浅模式" title="切换深 / 浅模式">◐</button>
       </nav>
     </div>
   </header>
@@ -130,10 +132,10 @@
 
   <script>
     function toggleTheme() {
-      var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
-      var next = cur === 'light' ? 'dark' : 'light';
-      if (next === 'light') {
-        document.documentElement.dataset.theme = 'light';
+      var cur = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+      var next = cur === 'dark' ? 'light' : 'dark';
+      if (next === 'dark') {
+        document.documentElement.dataset.theme = 'dark';
       } else {
         delete document.documentElement.dataset.theme;
       }

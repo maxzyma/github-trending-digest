@@ -13,36 +13,37 @@
      · W3C clreq + Unicode TR59 (text-autospace / text-spacing-trim)
    ============================================================ */
 
-/* ─── Token system: purpose-based, dual-mode ─────────────────── */
+/* ─── Token system: purpose-based, dual-mode (light default) ──── */
+/* Light is default — matches sister publication theuntold (long-form CJK reading first).
+   Dark mode opt-in via [data-theme="dark"]. */
 :root {
-  /* surfaces */
-  --bg-default:    #0b0c0f;
-  --bg-surface:    #111318;
-  --bg-elevated:   #181922;
-  --bg-hover:      #1e202b;
+  /* surfaces (light default) */
+  --bg-default:    #faf8f3;
+  --bg-surface:    #f3efe2;
+  --bg-elevated:   #ebe5d3;
+  --bg-hover:      #e3dcc6;
 
-  /* borders */
-  --border:        #222430;
-  --border-mid:    #2c2e3e;
-  --border-bright: #3a3d52;
+  --border:        #d8d2c2;
+  --border-mid:    #c5bea8;
+  --border-bright: #8a8472;
 
-  /* text (purpose) — WCAG checked vs --bg-default */
-  --fg-emphasis:    #dde0f0;  /* 14.4:1 — AAA */
-  --fg-default:     #b8bace;  /*  8.6:1 — AAA */
-  --fg-muted:       #8a8da6;  /*  5.6:1 — AA  */
-  --fg-subtle:      #65687f;  /*  3.5:1 — large text only */
-  --fg-on-emphasis: #f0f2ff;
+  /* text — WCAG checked vs --bg-default */
+  --fg-emphasis:    #1a1a1a;  /* 16.0:1 — AAA */
+  --fg-default:     #363737;  /*  9.5:1 — AAA · matches theuntold body */
+  --fg-muted:       #5b5852;  /*  6.7:1 — AAA */
+  --fg-subtle:      #7d7972;  /*  4.5:1 — AA  */
+  --fg-on-emphasis: #ffffff;
 
-  /* semantic accents — desaturated for dark (Material tonal 200-50) */
-  --accent-primary:  #e8a820;  /* brand amber */
-  --accent-dim:      #a97318;
-  --accent-glow:     rgba(232, 168, 32, 0.10);
-  --accent-line:     rgba(232, 168, 32, 0.20);
+  /* semantic accents — saturated/darker for light bg (Material tonal 500-700) */
+  --accent-primary:  #8b5e0c;  /* dark amber — readable on cream */
+  --accent-dim:      #6b4709;
+  --accent-glow:     rgba(139, 94, 12, 0.08);
+  --accent-line:     rgba(139, 94, 12, 0.30);
 
-  --accent-info:     #45c4d8;  /* cyan — RE / info */
-  --signal-success:  #52d08a;
-  --signal-danger:   #e86060;
-  --signal-warning:  #f0c040;
+  --accent-info:     #1e7a8a;
+  --signal-success:  #2d7a47;
+  --signal-danger:   #b8362a;
+  --signal-warning:  #8a6810;
 
   /* font stacks: Latin first, CJK fallback (Snook.ca / Google Fonts CJK) */
   --font-mono:  'JetBrains Mono', 'Fira Code', 'Sarasa Mono SC', 'PingFang SC', monospace;
@@ -54,32 +55,32 @@
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* light mode — independently mapped (Material tonal 500-700, ~20pt sat differential) */
-[data-theme="light"] {
-  --bg-default:    #faf8f3;
-  --bg-surface:    #f3efe2;
-  --bg-elevated:   #ebe5d3;
-  --bg-hover:      #e3dcc6;
+/* dark mode — Bloomberg amber-on-black (opt-in) */
+[data-theme="dark"] {
+  --bg-default:    #0b0c0f;
+  --bg-surface:    #111318;
+  --bg-elevated:   #181922;
+  --bg-hover:      #1e202b;
 
-  --border:        #d8d2c2;
-  --border-mid:    #c5bea8;
-  --border-bright: #8a8472;
+  --border:        #222430;
+  --border-mid:    #2c2e3e;
+  --border-bright: #3a3d52;
 
-  --fg-emphasis:    #1a1a1a;  /* 16.0:1 — AAA */
-  --fg-default:     #3a3a3a;  /*  9.8:1 — AAA */
-  --fg-muted:       #5b5852;  /*  6.7:1 — AAA */
-  --fg-subtle:      #7d7972;  /*  4.5:1 — AA  */
-  --fg-on-emphasis: #ffffff;
+  --fg-emphasis:    #dde0f0;  /* 14.4:1 — AAA */
+  --fg-default:     #b8bace;  /*  8.6:1 — AAA */
+  --fg-muted:       #8a8da6;  /*  5.6:1 — AA  */
+  --fg-subtle:      #65687f;  /*  3.5:1 — large text only */
+  --fg-on-emphasis: #f0f2ff;
 
-  --accent-primary:  #8b5e0c;
-  --accent-dim:      #6b4709;
-  --accent-glow:     rgba(139, 94, 12, 0.08);
-  --accent-line:     rgba(139, 94, 12, 0.30);
+  --accent-primary:  #e8a820;  /* signature amber */
+  --accent-dim:      #a97318;
+  --accent-glow:     rgba(232, 168, 32, 0.10);
+  --accent-line:     rgba(232, 168, 32, 0.20);
 
-  --accent-info:     #1e7a8a;
-  --signal-success:  #2d7a47;
-  --signal-danger:   #b8362a;
-  --signal-warning:  #8a6810;
+  --accent-info:     #45c4d8;
+  --signal-success:  #52d08a;
+  --signal-danger:   #e86060;
+  --signal-warning:  #f0c040;
 }
 
 /* ─── Reset ─── */
@@ -99,13 +100,18 @@ body {
   text-spacing-trim: trim-start;
 }
 
-/* ─── Atmosphere ─── */
+/* ─── Atmosphere ─── light default (subtle dark amber on paper), dark mode brighter */
 .bg-atmosphere {
   position: fixed; inset: 0;
   pointer-events: none; z-index: 0;
   background:
-    radial-gradient(ellipse 60% 40% at 15% 0%, rgba(232,168,32,0.05) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 60% at 85% 100%, rgba(69,196,216,0.03) 0%, transparent 60%);
+    radial-gradient(ellipse 60% 40% at 15% 0%, rgba(139, 94, 12, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 85% 100%, rgba(30, 122, 138, 0.025) 0%, transparent 60%);
+}
+[data-theme="dark"] .bg-atmosphere {
+  background:
+    radial-gradient(ellipse 60% 40% at 15% 0%, rgba(232, 168, 32, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 85% 100%, rgba(69, 196, 216, 0.03) 0%, transparent 60%);
 }
 
 /* ─── Header ─── */
@@ -155,7 +161,24 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* secondary brand tag — pattern from theuntold "/ critique" */
+.brand-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  letter-spacing: 0.06em;
+  margin-left: 0.4rem;
+}
+
 .site-nav { display: flex; gap: 1.25rem; align-items: center; }
+
+.nav-divider {
+  width: 1px; height: 1rem;
+  background: var(--border);
+  display: inline-block;
+  align-self: center;
+}
 
 .site-nav a {
   font-family: var(--font-mono);
@@ -174,10 +197,10 @@ body {
   border: 1px solid var(--border);
   color: var(--fg-muted);
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.3rem 0.5rem;
   cursor: pointer;
-  letter-spacing: 0.08em;
 }
 .theme-toggle:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
 
