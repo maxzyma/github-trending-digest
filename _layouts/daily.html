@@ -69,9 +69,15 @@
       <div class="item"><span class="k accent">NEW</span><span class="v accent">{{ page.new_count }}</span><span class="unit">首次上榜</span></div>
       <div class="item"><span class="k">UPD/RE</span><span class="v">{{ page.updated_count }}</span><span class="unit">已更新</span></div>
       {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
-      <div class="item-meta" data-views-item style="display:none">
-        <span class="k">阅读</span>
-        <span class="v" data-views>—</span>
+      <div class="meta-group">
+        <div class="item-meta" data-views-item style="display:none">
+          <span class="k">阅读</span>
+          <span class="v" data-views>—</span>
+        </div>
+        <button class="like-btn" data-like-btn type="button" aria-label="点赞">
+          <span class="icon">♥</span>
+          <span class="v" data-likes>—</span>
+        </button>
       </div>
       {%- endif -%}
     </div>
@@ -184,33 +190,6 @@
     </div>
   </section>
 
-  {%- if site.giscus.repo_id and site.giscus.repo_id != '' -%}
-  <!-- ─── §讨论 = Giscus (GitHub Discussions, comments + reactions) ─── -->
-  <section id="comments" style="margin-top: 3rem;">
-    <div class="sec-h">
-      <h2>§ 讨论<small>登录 GitHub 评论 · 👍 / ❤️ / 🚀 表态</small></h2>
-    </div>
-    <div style="max-width: var(--max-w); margin: 0 auto;">
-      <script src="https://giscus.app/client.js"
-              data-repo="{{ site.giscus.repo }}"
-              data-repo-id="{{ site.giscus.repo_id }}"
-              data-category="{{ site.giscus.category }}"
-              data-category-id="{{ site.giscus.category_id }}"
-              data-mapping="pathname"
-              data-strict="0"
-              data-reactions-enabled="1"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="preferred_color_scheme"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-      </script>
-    </div>
-  </section>
-  {%- endif -%}
-
   </main>
 
   <footer class="site-footer">
@@ -233,22 +212,62 @@
       localStorage.setItem('gtd-theme', next);
     }
 
-    /* GoatCounter view count fetch (only renders if endpoint is public) */
+    /* GoatCounter — view count fetch + like button (event-based) */
     {%- if site.goatcounter.site and site.goatcounter.site != '' -%}
     (function() {
       if (!window.fetch) return;
-      var url = 'https://{{ site.goatcounter.site }}.goatcounter.com/counter' + window.location.pathname + '.json';
-      fetch(url).then(function(r) {
-        return r.ok ? r.json() : null;
-      }).then(function(data) {
-        if (!data || !data.count_unique) return;
+      var GC_HOST = 'https://{{ site.goatcounter.site }}.goatcounter.com';
+      var path = window.location.pathname;
+      var likePath = '/like' + path;
+      var likedKey = 'gtd-liked:' + path;
+
+      function fetchCount(p, cb) {
+        fetch(GC_HOST + '/counter' + p + '.json')
+          .then(function(r) { return r.ok ? r.json() : null; })
+          .then(function(d) { if (d && d.count) cb(d); })
+          .catch(function() {});
+      }
+
+      // 1. View count (count_unique)
+      fetchCount(path, function(d) {
         document.querySelectorAll('[data-views]').forEach(function(el) {
-          el.textContent = data.count_unique;
+          el.textContent = d.count_unique || d.count;
         });
         document.querySelectorAll('[data-views-item]').forEach(function(el) {
           el.style.display = '';
         });
-      }).catch(function() { /* silent */ });
+      });
+
+      // 2. Like count + interactive button
+      var likeBtn = document.querySelector('[data-like-btn]');
+      if (!likeBtn) return;
+      var likeValEl = likeBtn.querySelector('[data-likes]');
+      var liked = false;
+      try { liked = !!localStorage.getItem(likedKey); } catch (e) {}
+
+      // initial count fetch (uses count, not count_unique — every like is a hit we want to show)
+      var currentCount = 0;
+      fetchCount(likePath, function(d) {
+        currentCount = parseInt(d.count, 10) || 0;
+        likeValEl.textContent = currentCount;
+      });
+      likeValEl.textContent = '0';   // optimistic init while fetching
+      if (liked) likeBtn.classList.add('is-liked');
+
+      likeBtn.addEventListener('click', function() {
+        if (liked) return;
+        liked = true;
+        try { localStorage.setItem(likedKey, '1'); } catch (e) {}
+        likeBtn.classList.add('is-liked', 'is-pulse');
+        currentCount += 1;
+        likeValEl.textContent = currentCount;
+        // fire event to GoatCounter (image beacon, no CORS issues)
+        var img = new Image();
+        img.src = GC_HOST + '/count?p=' + encodeURIComponent(likePath) +
+                  '&t=' + encodeURIComponent('Like ' + path) +
+                  '&e=true&rnd=' + Math.random();
+        setTimeout(function() { likeBtn.classList.remove('is-pulse'); }, 500);
+      });
     })();
     {%- endif -%}
   </script>

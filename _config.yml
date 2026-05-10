@@ -21,21 +21,9 @@ defaults:
     values:
       layout: "default"
 
-# ─── 3rd-party widgets — placeholders, fill after external setup ───
-# Setup:
-#   1. https://giscus.app — pick repo, mapping=pathname, category=Comments
-#      → copy data-repo-id and data-category-id into the values below
-#      → install https://github.com/apps/giscus on the repo
-#   2. https://www.goatcounter.com/signup — create site (e.g. "gtd-digest")
-#      → put the chosen subdomain into goatcounter.site below
-#
-# Empty strings disable the widget — site renders fine without them.
-
-giscus:
-  repo: "maxzyma/github-trending-digest"
-  repo_id: "R_kgDOSCBYJA"
-  category: "Announcements"  # Announcement type — only maintainer creates threads, cleanest for blog comments
-  category_id: "DIC_kwDOSCBYJM4C8qQz"
+# ─── GoatCounter analytics + GoatCounter-event-based likes ───
+# Setup: signed up at https://www.goatcounter.com — put subdomain below.
+# Empty string disables widgets; page still renders fine.
 
 goatcounter:
   site: "gtd-digest"    # → https://gtd-digest.goatcounter.com
