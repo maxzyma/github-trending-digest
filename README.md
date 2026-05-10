@@ -1,13 +1,20 @@
-# GitHub Trends 跟踪规则
+# GitHub Trending Digest
 
-_最后更新: 2026-03-31_
+_发布站点: <https://trending.theuntold.ai/>_
+_最后更新: 2026-05-11_
 
 ## 目录结构
 
 ```
-github-trends/
+github-trending-digest/
 ├── README.md          # 本文件（规则定义）
-├── repos/             # 子模块（trending 项目源码）
+├── _config.yml        # Jekyll site config (custom domain: trending.theuntold.ai)
+├── _layouts/          # default / home / daily / weekly 布局
+├── assets/            # css / fonts / brand layer (shared with theuntold.ai)
+├── CNAME              # custom domain → trending.theuntold.ai
+├── favicon.svg        # amber-pulse SVG, shared with theuntold.ai
+├── index.md           # site home page
+├── repos/             # 子模块（trending 项目源码，gitignored from Jekyll）
 ├── daily/             # 每日文件
 │   ├── YYYY-MM-DD.md          # 原始榜单（项目名 + Stars + 排名变化）
 │   └── YYYY-MM-DD-analysis.md # 逐项分析（去重，已上榜项目只做增量更新）
@@ -16,6 +23,8 @@ github-trends/
 └── monthly/           # 每月文件（月初生成，覆盖上一月）
     └── YYYY-MM.md             # 月趋势总结
 ```
+
+> Sister site: <https://theuntold.ai/> — AI 时代批判性媒体监督（共享 brand DNA：amber-pulse、JetBrains Mono、Source Serif 4、双模式主题切换）。
 
 ## 每日原始榜单 — `daily/YYYY-MM-DD.md`
 
