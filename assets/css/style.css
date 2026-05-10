@@ -529,6 +529,25 @@ body {
   letter-spacing: 0.04em;
 }
 
+.footer-sister {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.6875rem;
+}
+
+.footer-link {
+  font-family: var(--font-mono);
+  color: var(--accent-primary);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-primary) 35%, transparent);
+  transition: color 0.15s, border-color 0.15s;
+}
+.footer-link:hover {
+  color: var(--accent-dim);
+  border-bottom-color: var(--accent-primary);
+}
+
 /* ─── Scrollbar ─── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-default); }
