@@ -385,3 +385,18 @@
 [submodule "repos/flutter-skills"]
 	path = repos/flutter-skills
 	url = https://github.com/flutter/skills.git
+[submodule "repos/UI-TARS-desktop"]
+	path = repos/UI-TARS-desktop
+	url = https://github.com/bytedance/UI-TARS-desktop.git
+[submodule "repos/omlx"]
+	path = repos/omlx
+	url = https://github.com/jundot/omlx.git
+[submodule "repos/easy-vibe"]
+	path = repos/easy-vibe
+	url = https://github.com/datawhalechina/easy-vibe.git
+[submodule "repos/supersplat"]
+	path = repos/supersplat
+	url = https://github.com/playcanvas/supersplat.git
+[submodule "repos/everything-claude-code"]
+	path = repos/everything-claude-code
+	url = https://github.com/affaan-m/everything-claude-code.git
