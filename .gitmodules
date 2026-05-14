@@ -412,3 +412,30 @@
 [submodule "repos/AiToEarn"]
 	path = repos/AiToEarn
 	url = https://github.com/yikart/AiToEarn.git
+[submodule "repos/hysteria"]
+	path = repos/hysteria
+	url = https://github.com/apernet/hysteria.git
+[submodule "repos/FadCam"]
+	path = repos/FadCam
+	url = https://github.com/anonfaded/FadCam.git
+[submodule "repos/supertonic"]
+	path = repos/supertonic
+	url = https://github.com/supertone-inc/supertonic.git
+[submodule "repos/scientific-agent-skills"]
+	path = repos/scientific-agent-skills
+	url = https://github.com/K-Dense-AI/scientific-agent-skills.git
+[submodule "repos/gstack"]
+	path = repos/gstack
+	url = https://github.com/garrytan/gstack.git
+[submodule "repos/spec-kit"]
+	path = repos/spec-kit
+	url = https://github.com/github/spec-kit.git
+[submodule "repos/video-search-and-summarization"]
+	path = repos/video-search-and-summarization
+	url = https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization.git
+[submodule "repos/supervision"]
+	path = repos/supervision
+	url = https://github.com/roboflow/supervision.git
+[submodule "repos/telegraf"]
+	path = repos/telegraf
+	url = https://github.com/influxdata/telegraf.git
