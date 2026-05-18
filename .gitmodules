@@ -439,3 +439,42 @@
 [submodule "repos/telegraf"]
 	path = repos/telegraf
 	url = https://github.com/influxdata/telegraf.git
+[submodule "repos/codegraph"]
+	path = repos/codegraph
+	url = https://github.com/colbymchenry/codegraph.git
+[submodule "repos/bun"]
+	path = repos/bun
+	url = https://github.com/oven-sh/bun.git
+[submodule "repos/CLI-Anything"]
+	path = repos/CLI-Anything
+	url = https://github.com/HKUDS/CLI-Anything.git
+[submodule "repos/cal.diy"]
+	path = repos/cal.diy
+	url = https://github.com/calcom/cal.diy.git
+[submodule "repos/Shadowbroker"]
+	path = repos/Shadowbroker
+	url = https://github.com/BigBodyCobain/Shadowbroker.git
+[submodule "repos/agent-skills-tlc"]
+	path = repos/agent-skills-tlc
+	url = https://github.com/tech-leads-club/agent-skills.git
+[submodule "repos/agents-towards-production"]
+	path = repos/agents-towards-production
+	url = https://github.com/NirDiamant/agents-towards-production.git
+[submodule "repos/dograh"]
+	path = repos/dograh
+	url = https://github.com/dograh-hq/dograh.git
+[submodule "repos/DreamServer"]
+	path = repos/DreamServer
+	url = https://github.com/Light-Heart-Labs/DreamServer.git
+[submodule "repos/Ghost"]
+	path = repos/Ghost
+	url = https://github.com/TryGhost/Ghost.git
+[submodule "repos/medusa"]
+	path = repos/medusa
+	url = https://github.com/medusajs/medusa.git
+[submodule "repos/listmonk"]
+	path = repos/listmonk
+	url = https://github.com/knadh/listmonk.git
+[submodule "repos/analytics-plausible"]
+	path = repos/analytics-plausible
+	url = https://github.com/plausible/analytics.git
