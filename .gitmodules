@@ -478,3 +478,12 @@
 [submodule "repos/analytics-plausible"]
 	path = repos/analytics-plausible
 	url = https://github.com/plausible/analytics.git
+[submodule "repos/academic-research-skills"]
+	path = repos/academic-research-skills
+	url = https://github.com/Imbad0202/academic-research-skills.git
+[submodule "repos/12-factor-agents"]
+	path = repos/12-factor-agents
+	url = https://github.com/humanlayer/12-factor-agents.git
+[submodule "repos/Sana"]
+	path = repos/Sana
+	url = https://github.com/NVlabs/Sana.git
