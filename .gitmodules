@@ -487,3 +487,24 @@
 [submodule "repos/Sana"]
 	path = repos/Sana
 	url = https://github.com/NVlabs/Sana.git
+[submodule "repos/claude-plugins-official"]
+	path = repos/claude-plugins-official
+	url = https://github.com/anthropics/claude-plugins-official.git
+[submodule "repos/rtk"]
+	path = repos/rtk
+	url = https://github.com/rtk-ai/rtk.git
+[submodule "repos/agency-agents"]
+	path = repos/agency-agents
+	url = https://github.com/msitarzewski/agency-agents.git
+[submodule "repos/andrej-karpathy-skills-multica"]
+	path = repos/andrej-karpathy-skills-multica
+	url = https://github.com/multica-ai/andrej-karpathy-skills.git
+[submodule "repos/PhotoGIMP"]
+	path = repos/PhotoGIMP
+	url = https://github.com/Diolinux/PhotoGIMP.git
+[submodule "repos/erpnext"]
+	path = repos/erpnext
+	url = https://github.com/frappe/erpnext.git
+[submodule "repos/ViMax"]
+	path = repos/ViMax
+	url = https://github.com/HKUDS/ViMax.git
