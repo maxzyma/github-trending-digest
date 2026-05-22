@@ -22,6 +22,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-05-22](daily/2026-05-22-analysis) — 榜单罕见零 NEW 项目全延续；codegraph 单日 +4,294⭐ 引爆代码知识图谱赛道
 - [2026-05-21](daily/2026-05-21-analysis) — 官方技能包矩阵再扩张；WhatsApp 自托管 API 回潮；12 NEW 占 63%
 - [2026-05-20](daily/2026-05-20-analysis) — 反 Adobe + 反 SaaS + 反订阅三浪同框；phantomstars 议题首次浮现
 - [2026-05-19](daily/2026-05-19-analysis) — agent-skills 漏斗矩阵扩展
