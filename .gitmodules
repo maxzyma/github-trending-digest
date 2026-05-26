@@ -508,3 +508,30 @@
 [submodule "repos/ViMax"]
 	path = repos/ViMax
 	url = https://github.com/HKUDS/ViMax.git
+[submodule "repos/knowledge-work-plugins"]
+	path = repos/knowledge-work-plugins
+	url = https://github.com/anthropics/knowledge-work-plugins.git
+[submodule "repos/earendil-pi"]
+	path = repos/earendil-pi
+	url = https://github.com/earendil-works/pi.git
+[submodule "repos/cmux"]
+	path = repos/cmux
+	url = https://github.com/manaflow-ai/cmux.git
+[submodule "repos/MiroFish"]
+	path = repos/MiroFish
+	url = https://github.com/666ghj/MiroFish.git
+[submodule "repos/frigate"]
+	path = repos/frigate
+	url = https://github.com/blakeblackshear/frigate.git
+[submodule "repos/Anthropic-Cybersecurity-Skills"]
+	path = repos/Anthropic-Cybersecurity-Skills
+	url = https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git
+[submodule "repos/ECC"]
+	path = repos/ECC
+	url = https://github.com/affaan-m/ECC.git
+[submodule "repos/taste-skill"]
+	path = repos/taste-skill
+	url = https://github.com/Leonxlnx/taste-skill.git
+[submodule "repos/stop-slop"]
+	path = repos/stop-slop
+	url = https://github.com/hardikpandya/stop-slop.git
