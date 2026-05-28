@@ -535,3 +535,27 @@
 [submodule "repos/stop-slop"]
 	path = repos/stop-slop
 	url = https://github.com/hardikpandya/stop-slop.git
+[submodule "repos/FreeDomain"]
+	path = repos/FreeDomain
+	url = https://github.com/DigitalPlatDev/FreeDomain.git
+[submodule "repos/OpenStock"]
+	path = repos/OpenStock
+	url = https://github.com/Open-Dev-Society/OpenStock.git
+[submodule "repos/ppf-contact-solver"]
+	path = repos/ppf-contact-solver
+	url = https://github.com/st-tech/ppf-contact-solver.git
+[submodule "repos/MoneyPrinterTurbo"]
+	path = repos/MoneyPrinterTurbo
+	url = https://github.com/harry0703/MoneyPrinterTurbo.git
+[submodule "repos/heretic"]
+	path = repos/heretic
+	url = https://github.com/p-e-w/heretic.git
+[submodule "repos/claude-code-harness"]
+	path = repos/claude-code-harness
+	url = https://github.com/Chachamaru127/claude-code-harness.git
+[submodule "repos/English-level-up-tips"]
+	path = repos/English-level-up-tips
+	url = https://github.com/byoungd/English-level-up-tips.git
+[submodule "repos/iii"]
+	path = repos/iii
+	url = https://github.com/iii-hq/iii.git
