@@ -22,6 +22,8 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-03](daily/2026-06-03-analysis) — vanity 密度创高（11 选 5）；flowsint critical RCE + license 口径矛盾；headroom 以「Netflix 省 90% token」登顶却社区零讨论，agent harness 省 token 赛道头部化但口碑断层
+- [2026-06-02](daily/2026-06-02-analysis) — AI coding agent / harness 生态密集占榜（8/17），5 个实质 NEW 全部「名人 / 媒体 / KOL 投放」驱动——vanity 已从「空壳刷星」演化为「真实产品 + 放大器」
 - [2026-05-28](daily/2026-05-28-analysis) — harness 子赛道双极端样本同框（superpowers RE vs claude-code-harness NEW）；heretic 让 LLM 去审查/abliteration 以 HN 745 分登榜；iii=Motia 改名 closed-core 收割
 - [2026-05-27](daily/2026-05-27-analysis) — Plex 涨价点燃 jellyfin 迁移 + 5 个免费替代付费服务同框；ppf-contact-solver 真实科研产出登榜成反例标尺；FreeDomain 786:1 vanity 绝对新高
 - [2026-05-26](daily/2026-05-26-analysis) — 「反 AI slop」双胞胎同框；Anthropic 官方两连；ECC 4 个月 19 万 stars + HN/Reddit 双零；gstack 100K 里程碑兑现
