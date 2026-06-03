@@ -559,3 +559,33 @@
 [submodule "repos/iii"]
 	path = repos/iii
 	url = https://github.com/iii-hq/iii.git
+[submodule "repos/hermes-webui"]
+	path = repos/hermes-webui
+	url = https://github.com/nesquena/hermes-webui.git
+[submodule "repos/supermemory"]
+	path = repos/supermemory
+	url = https://github.com/supermemoryai/supermemory.git
+[submodule "repos/impeccable"]
+	path = repos/impeccable
+	url = https://github.com/pbakaus/impeccable.git
+[submodule "repos/compound-engineering-plugin"]
+	path = repos/compound-engineering-plugin
+	url = https://github.com/EveryInc/compound-engineering-plugin.git
+[submodule "repos/revfactory-harness"]
+	path = repos/revfactory-harness
+	url = https://github.com/revfactory/harness.git
+[submodule "repos/train-llm-from-scratch"]
+	path = repos/train-llm-from-scratch
+	url = https://github.com/FareedKhan-dev/train-llm-from-scratch.git
+[submodule "repos/headroom"]
+	path = repos/headroom
+	url = https://github.com/chopratejas/headroom.git
+[submodule "repos/flowsint"]
+	path = repos/flowsint
+	url = https://github.com/reconurge/flowsint.git
+[submodule "repos/production-agentic-rag-course"]
+	path = repos/production-agentic-rag-course
+	url = https://github.com/jamwithai/production-agentic-rag-course.git
+[submodule "repos/Open-LLM-VTuber"]
+	path = repos/Open-LLM-VTuber
+	url = https://github.com/Open-LLM-VTuber/Open-LLM-VTuber.git
