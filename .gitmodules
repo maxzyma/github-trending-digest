@@ -589,3 +589,18 @@
 [submodule "repos/Open-LLM-VTuber"]
 	path = repos/Open-LLM-VTuber
 	url = https://github.com/Open-LLM-VTuber/Open-LLM-VTuber.git
+[submodule "repos/Vibe-Trading"]
+	path = repos/Vibe-Trading
+	url = https://github.com/HKUDS/Vibe-Trading.git
+[submodule "repos/open-notebook"]
+	path = repos/open-notebook
+	url = https://github.com/lfnovo/open-notebook.git
+[submodule "repos/copilot-sdk"]
+	path = repos/copilot-sdk
+	url = https://github.com/github/copilot-sdk.git
+[submodule "repos/openclaw-windows-node"]
+	path = repos/openclaw-windows-node
+	url = https://github.com/openclaw/openclaw-windows-node.git
+[submodule "repos/cosmos"]
+	path = repos/cosmos
+	url = https://github.com/NVIDIA/cosmos.git

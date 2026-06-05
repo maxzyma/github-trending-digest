@@ -22,6 +22,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-05](daily/2026-06-05-analysis) — vanity 密度创纪录（14 选 13 个 >100:1，唯一 organic 是 9 岁的 coding-interview-university 41:1）；agent 基础设施赛道扎堆（6 项）；微软/GitHub 官方借 Build 2026 集中投放（copilot-sdk GA + openclaw-windows-node + spec-kit）
 - [2026-06-03](daily/2026-06-03-analysis) — vanity 密度创高（11 选 5）；flowsint critical RCE + license 口径矛盾；headroom 以「Netflix 省 90% token」登顶却社区零讨论，agent harness 省 token 赛道头部化但口碑断层
 - [2026-06-02](daily/2026-06-02-analysis) — AI coding agent / harness 生态密集占榜（8/17），5 个实质 NEW 全部「名人 / 媒体 / KOL 投放」驱动——vanity 已从「空壳刷星」演化为「真实产品 + 放大器」
 - [2026-05-28](daily/2026-05-28-analysis) — harness 子赛道双极端样本同框（superpowers RE vs claude-code-harness NEW）；heretic 让 LLM 去审查/abliteration 以 HN 745 分登榜；iii=Motia 改名 closed-core 收割
