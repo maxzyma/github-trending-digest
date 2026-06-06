@@ -22,6 +22,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-06](daily/2026-06-06-analysis) — vanity 密度再创纪录（16/17 > 100:1，94%）；MemPalace 把刷星做成闭环（名人+加密币+benchmark 造假被证伪+pump-and-dump），与 ECC（纯静默刷）、MiroFish（融资故事）三路径同框；star 两极：KOL 挂招牌（flue 349:1）vs 真实企业采纳（CopilotKit AG-UI + $27M）；agent 基础设施近乎霸榜
 - [2026-06-05](daily/2026-06-05-analysis) — vanity 密度创纪录（14 选 13 个 >100:1，唯一 organic 是 9 岁的 coding-interview-university 41:1）；agent 基础设施赛道扎堆（6 项）；微软/GitHub 官方借 Build 2026 集中投放（copilot-sdk GA + openclaw-windows-node + spec-kit）
 - [2026-06-03](daily/2026-06-03-analysis) — vanity 密度创高（11 选 5）；flowsint critical RCE + license 口径矛盾；headroom 以「Netflix 省 90% token」登顶却社区零讨论，agent harness 省 token 赛道头部化但口碑断层
 - [2026-06-02](daily/2026-06-02-analysis) — AI coding agent / harness 生态密集占榜（8/17），5 个实质 NEW 全部「名人 / 媒体 / KOL 投放」驱动——vanity 已从「空壳刷星」演化为「真实产品 + 放大器」
