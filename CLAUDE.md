@@ -15,7 +15,17 @@ Preserve the core value of the project: community grounding, risk labeling, and 
 
 ## Narrative Order
 
-Daily analysis should first help readers understand "what is on the list today" and then help them interpret signal quality.
+Daily, weekly, and monthly analysis must be written from the reader's perspective. Readers open the digest to understand:
+
+- What happened on GitHub Trending in this time window.
+- Which technical directions are becoming visible.
+- Which projects are worth clicking and why.
+- Which projects need cautious interpretation.
+- What these signals imply for developers, AI builders, and infrastructure watchers.
+
+This is not a "GitHub Trending criticism report". It is a trend digest with signal-quality calibration.
+
+Daily analysis should first help readers understand "what is on the list today" and then help them interpret signal quality. Weekly and monthly reports should first help readers understand "what changed this week/month" and then explain how reliable those signals are.
 
 Critical analysis must stay, but it should not be the only opening frame.
 
@@ -23,8 +33,9 @@ Use this order by default:
 
 1. State the day's visible structure in neutral language: major categories, NEW/RE counts, notable projects, and obvious theme clusters.
 2. Explain the most important trend lines.
-3. Then introduce reliability concerns: high stars/subscribers ratios, thin issues, weak HN/X/Reddit grounding, young repo age, marketing-heavy propagation.
-4. Keep strong negative judgments inside project analysis or a dedicated signal-quality section, not as the only entry point.
+3. Highlight representative projects by reader value: what they do, why they matter, and who should care.
+4. Then introduce reliability concerns: high stars/subscribers ratios, thin issues, weak HN/X/Reddit grounding, young repo age, marketing-heavy propagation.
+5. Keep strong negative judgments inside project analysis, "榜单解读提醒", "如何理解热度信号", or "风险观察" sections, not as the opening frame or the dominant narrative.
 
 For example, prefer:
 
@@ -33,6 +44,8 @@ For example, prefer:
 Avoid opening only with:
 
 > The list is dominated by vanity-inflated projects.
+
+Avoid letting `vanity`, "虚高", "造假", "污染度", or similar audit language become the main subject unless the time window is genuinely about a platform-wide integrity event. Even then, first state the actual trend and projects readers should understand.
 
 ## Daily Raw List: `daily/YYYY-MM-DD.md`
 
@@ -88,6 +101,7 @@ Rules:
 
 - Use 1-N main lines based on the day. Do not force three lines.
 - The first main line should usually be a neutral map of the day's list.
+- The first main line must answer the reader question: "今天 GitHub Trending 上有哪些方向和项目值得看？"
 - Later lines can cover signal quality, vanity, marketing amplification, security risks, or other caveats.
 - Each main line should include concrete data and one clear judgment.
 
@@ -106,6 +120,8 @@ If signal quality is a major issue, use a distinct main line such as:
 ```markdown
 **主线三：榜单解读提醒 — Trending 热度不等于真实采用。** ...
 ```
+
+Do not make a risk sample the first main line when there is a broader technical trend available. Risk samples belong after the trend map unless they are the day's only meaningful story.
 
 ## New Project Template
 
@@ -208,6 +224,12 @@ _一句话概括本周最核心的趋势变化_
 
 ## 本周趋势纵览
 
+## 重点项目导读
+
+## 如何理解热度信号
+
+## 风险观察
+
 ## 分类分析
 
 ## 本周新面孔
@@ -219,6 +241,14 @@ _一句话概括本周最核心的趋势变化_
 
 Keep `## 本周趋势纵览` as the top synthesis heading.
 
+Weekly narrative rules:
+
+- `## 本周趋势纵览` must start from user-facing trends: what became hot, which categories appeared, and what changed from prior weeks. Do not open by proving that the list is polluted.
+- `## 重点项目导读` should explain the projects readers are most likely to click: what they do, why they matter, and what to watch next. Put value before caveat.
+- `## 如何理解热度信号` is the right place for method notes: stars are attention, not adoption; high stars/subscribers ratio is not enough for a vanity judgment; mature large repos can have structurally high ratios.
+- `## 风险观察` is the right place for career-ops/MemPalace/ECC/flowsint-style samples. Use evidence, but keep wording calibrated: prefer "热度与社区足迹不匹配" over "教科书级 vanity" in section titles.
+- Avoid repeating the same vanity argument in every section. Mention the method once, then apply it where needed.
+
 ## Monthly Report: `monthly/YYYY-MM.md`
 
 Generate at the start of a month for the previous natural month.
@@ -229,6 +259,12 @@ Generate at the start of a month for the previous natural month.
 _一句话概括本月最核心的趋势变化_
 
 ## 月度趋势纵览
+
+## 重点项目导读
+
+## 如何理解热度信号
+
+## 风险观察
 
 ## 分类分析
 
@@ -246,6 +282,8 @@ Optional monthly dimensions:
 - Star 增长排行
 - 地域信号
 - 生态关联
+
+Monthly narrative rules are the same as weekly: lead with the reader's understanding of the month, then calibrate signal quality.
 
 ## Frontmatter
 
@@ -292,3 +330,10 @@ Prefer:
 - "Trending 热度不等于真实采用"
 
 Use sharper labels such as `vanity` when the combination of signals supports it: high ratio, weak community footprint, short repo age, thin issues, and marketing-heavy propagation.
+
+For public prose, prefer reader-centered wording in headings and openings:
+
+- Prefer "热度需要谨慎解读" over "虚高".
+- Prefer "社区 grounding 弱" over "零有机讨论" unless the exact absence is the evidence being reported.
+- Prefer "传播路径和技术验证存在落差" over "营销造假集大成".
+- Prefer "风险观察样本" over "教科书级样本".
