@@ -20,6 +20,10 @@ title: GitHub Trending Digest
 
 ---
 
+## Weekly Reports
+
+- [2026-W23](weekly/2026-W23) — Agent 全栈工具化吃满整张榜（harness/记忆/省 token/UI/数据接入/沙箱六层）；Vanity 密度逐日攀升创纪录（6/06 16/17 = 94%），MemPalace 把名人+加密币+benchmark 造假做成刷星闭环；vanity 判据成熟为组合判据 + 6/07「虚高在前真货在后」两极分化（svelte/nginx/go/whisper/vite 首入却沉腰部）；大厂借 Build 2026 集中投放；Agent 安全议题从 flowsint（critical RCE）与 microsoft/mxc（OS 级隔离）两端浮现
+
 ## Daily Analysis
 
 - [2026-06-07](daily/2026-06-07-analysis) — 榜单结构性两极分化：头部 vanity 膨胀的 agent/skill 仓（superpowers 260:1/219K、Agent-Reach 315:1）vs svelte/nginx/go/whisper/vite 五个真有机老项目首入 tracker 却挤在腰部、日增仅 20–30；career-ops 2 个月 49K stars + HN/Reddit/X 三零 = 继 ECC 后又一教科书级 vanity；microsoft/mxc agent OS 级强制隔离登榜（OpenAI/NVIDIA/Copilot CLI 为启动伙伴）
