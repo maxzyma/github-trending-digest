@@ -26,6 +26,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-08](daily/2026-06-08-analysis) — AI agent/skill 工具仍占榜单主体但今日以老项目回流为主（last30days 蝉联 + taste-skill/hermes-agent/goose 回榜，新 skill 面孔暂歇）；知识管理（tolaria 16 天破万星/open-notebook）与底层基础设施（opencv/llama.cpp/pg_durable）两簇同步回流；短龄项目 vanity 密度持续（pg_durable 372:1/tolaria 370:1/taste-skill 308:1），turbovec 核心 TurboQuant 算法被 RaBitQ 作者复现质疑、pg_durable 经 HN 467 分但被指无法单测
 - [2026-06-07](daily/2026-06-07-analysis) — 榜单结构性两极分化：头部 vanity 膨胀的 agent/skill 仓（superpowers 260:1/219K、Agent-Reach 315:1）vs svelte/nginx/go/whisper/vite 五个真有机老项目首入 tracker 却挤在腰部、日增仅 20–30；career-ops 2 个月 49K stars + HN/Reddit/X 三零 = 继 ECC 后又一教科书级 vanity；microsoft/mxc agent OS 级强制隔离登榜（OpenAI/NVIDIA/Copilot CLI 为启动伙伴）
 - [2026-06-06](daily/2026-06-06-analysis) — vanity 密度再创纪录（16/17 > 100:1，94%）；MemPalace 把刷星做成闭环（名人+加密币+benchmark 造假被证伪+pump-and-dump），与 ECC（纯静默刷）、MiroFish（融资故事）三路径同框；star 两极：KOL 挂招牌（flue 349:1）vs 真实企业采纳（CopilotKit AG-UI + $27M）；agent 基础设施近乎霸榜
 - [2026-06-05](daily/2026-06-05-analysis) — vanity 密度创纪录（14 选 13 个 >100:1，唯一 organic 是 9 岁的 coding-interview-university 41:1）；agent 基础设施赛道扎堆（6 项）；微软/GitHub 官方借 Build 2026 集中投放（copilot-sdk GA + openclaw-windows-node + spec-kit）
