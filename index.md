@@ -26,6 +26,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-10](daily/2026-06-10-analysis) — 榜单首次明显"去 agent 化"分流：计算机视觉双仓同框（supervision ↑9 + opencv RE）+ 边缘感知（espectre WiFi CSI 隔空人体检测，HN 215 分/Espressif 背书）+ 医疗 AI（openmed 本地 NER，HF 近 3000 万次下载）三方向同日浮现，3 个真 NEW 全部落在 agent 赛道之外；agent/skill 板块转入回流盘整（addyosmani/AiToEarn 回流，pm-skills/career-ops/openai 排名回落，last30days 仍 +3,191 守榜首）；解读提醒：工具仓/资料仓高 stars/subs 比值要看 GitHub 之外的真实足迹
 - [2026-06-09](daily/2026-06-09-analysis) — 官方厂商 agent skill 仓成新形态：google/skills（Cloud Next 2026 发布）与 openai/plugins 同框，思路一致——"按需取用知识包"对抗 MCP context bloat；昨日掉榜的 agent/skill 项目（Agent-Reach/PAI/career-ops/mempalace/CopilotKit）集体回流，last30days-skill 单日 +3,558 继续霸榜；skill 生态从"个人刷榜"向"官方+垂类(pm-skills)+工具(whichllm)"分层；解读提醒：高 stars/subs 比值需分两类看——whichllm 251:1 但有真实工程足迹 vs career-ops 244:1 三零有机讨论
 - [2026-06-08](daily/2026-06-08-analysis) — AI agent/skill 工具仍占榜单主体但今日以老项目回流为主（last30days 蝉联 + taste-skill/hermes-agent/goose 回榜，新 skill 面孔暂歇）；知识管理（tolaria 16 天破万星/open-notebook）与底层基础设施（opencv/llama.cpp/pg_durable）两簇同步回流；短龄项目 vanity 密度持续（pg_durable 372:1/tolaria 370:1/taste-skill 308:1），turbovec 核心 TurboQuant 算法被 RaBitQ 作者复现质疑、pg_durable 经 HN 467 分但被指无法单测
 - [2026-06-07](daily/2026-06-07-analysis) — 榜单结构性两极分化：头部 vanity 膨胀的 agent/skill 仓（superpowers 260:1/219K、Agent-Reach 315:1）vs svelte/nginx/go/whisper/vite 五个真有机老项目首入 tracker 却挤在腰部、日增仅 20–30；career-ops 2 个月 49K stars + HN/Reddit/X 三零 = 继 ECC 后又一教科书级 vanity；microsoft/mxc agent OS 级强制隔离登榜（OpenAI/NVIDIA/Copilot CLI 为启动伙伴）
