@@ -604,3 +604,9 @@
 [submodule "repos/cosmos"]
 	path = repos/cosmos
 	url = https://github.com/NVIDIA/cosmos.git
+[submodule "repos/MasterDnsVPN"]
+	path = repos/MasterDnsVPN
+	url = https://github.com/masterking32/MasterDnsVPN.git
+[submodule "repos/hivemind"]
+	path = repos/hivemind
+	url = https://github.com/activeloopai/hivemind.git
