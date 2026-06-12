@@ -610,3 +610,15 @@
 [submodule "repos/hivemind"]
 	path = repos/hivemind
 	url = https://github.com/activeloopai/hivemind.git
+[submodule "repos/SkillSpector"]
+	path = repos/SkillSpector
+	url = https://github.com/NVIDIA/SkillSpector.git
+[submodule "repos/agentsview"]
+	path = repos/agentsview
+	url = https://github.com/kenn-io/agentsview.git
+[submodule "repos/zhangxuefeng-skill"]
+	path = repos/zhangxuefeng-skill
+	url = https://github.com/alchaincyf/zhangxuefeng-skill.git
+[submodule "repos/sia"]
+	path = repos/sia
+	url = https://github.com/hexo-ai/sia.git
