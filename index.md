@@ -26,6 +26,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-13](daily/2026-06-13-analysis) — 榜单明显去 agent 化，三个真 NEW 全在 skill 赛道之外（music-assistant 自托管媒体 / iptv-org IPTV / LMCache LLM 推理缓存）；LMCache 被 NVIDIA Dynamo/Red Hat llm-d/字节 AIBrix/vLLM 同时采纳，是靠生产集成而非传播上榜的真采用样本；mattermost ↑15、PowerToys RE、apple/container +3,504 增量第一，成熟基础设施集体回流
 - [2026-06-12](daily/2026-06-12-analysis) — apple/container ↑16 跃居榜首（+2,430），agent 生态长出"安全扫描 + 会话度量"二阶工具层（NVIDIA SkillSpector + Wes McKinney agentsview），4 个真 NEW 之外 restic/chatwoot/mattermost/fanqiang 四个知名老项目借发版集体首入 tracker
 - [2026-06-11](daily/2026-06-11-analysis) — Apple 官方容器工具携 1.0 正式版 + WWDC26 双触发首入榜单（HN 1,197 分头条），agent/skill 板块强势回流，3 个 NEW 横跨系统容器、抗审查网络、agent 共享记忆三个方向
 - [2026-06-10](daily/2026-06-10-analysis) — 榜单首次明显"去 agent 化"分流：计算机视觉双仓同框（supervision ↑9 + opencv RE）+ 边缘感知（espectre WiFi CSI 隔空人体检测，HN 215 分/Espressif 背书）+ 医疗 AI（openmed 本地 NER，HF 近 3000 万次下载）三方向同日浮现，3 个真 NEW 全部落在 agent 赛道之外；agent/skill 板块转入回流盘整（addyosmani/AiToEarn 回流，pm-skills/career-ops/openai 排名回落，last30days 仍 +3,191 守榜首）；解读提醒：工具仓/资料仓高 stars/subs 比值要看 GitHub 之外的真实足迹
