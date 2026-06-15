@@ -22,6 +22,7 @@ title: GitHub Trending Digest
 
 ## Weekly Reports
 
+- [2026-W24](weekly/2026-W24) — 榜单明显「去 agent 化」：新弹药连续转出 agent/skill 赛道（CV/医疗 AI/边缘感知/系统容器/自托管/LLM 推理缓存），6/10·6/13 两天真 NEW 全在 agent 之外；apple/container 借 WWDC26 + 1.0 + HN 1,197 分三连击 ↑16 登顶；agent 安全对偶落地（NVIDIA/SkillSpector skill 安全扫描进 ClawHub 流水线）；vanity 判据收口为「比值是入口信号、结论靠足迹」（LMCache/openmed/espectre 高比值真采用对照 career-ops/zhangxuefeng-skill 传播型热度）；成熟基础设施借发版集体回流（restic/mattermost/chatwoot/fanqiang/PowerToys）
 - [2026-W23](weekly/2026-W23) — Agent 全栈工具化吃满整张榜（harness/记忆/省 token/UI/数据接入/沙箱六层）；Vanity 密度逐日攀升创纪录（6/06 16/17 = 94%），MemPalace 把名人+加密币+benchmark 造假做成刷星闭环；vanity 判据成熟为组合判据 + 6/07「虚高在前真货在后」两极分化（svelte/nginx/go/whisper/vite 首入却沉腰部）；大厂借 Build 2026 集中投放；Agent 安全议题从 flowsint（critical RCE）与 microsoft/mxc（OS 级隔离）两端浮现
 
 ## Daily Analysis
