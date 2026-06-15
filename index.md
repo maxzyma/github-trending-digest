@@ -26,6 +26,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-15](daily/2026-06-15-analysis) — 成熟开发/测试工具集体回流主导榜单（pytest/swc/cypress/puppeteer/meshery/chatwoot/freeCodeCamp 同日同框），去 agent 化延续，真 AI 仅剩 SkillSpector + 定位漂移的 aisuite；IPTV 双仓同框（iptv-org #1 + Free-TV/IPTV）；多数回流项目今日 stars 仅个位/十位数，是 trending 算法波动而非真实增量
 - [2026-06-13](daily/2026-06-13-analysis) — 榜单明显去 agent 化，三个真 NEW 全在 skill 赛道之外（music-assistant 自托管媒体 / iptv-org IPTV / LMCache LLM 推理缓存）；LMCache 被 NVIDIA Dynamo/Red Hat llm-d/字节 AIBrix/vLLM 同时采纳，是靠生产集成而非传播上榜的真采用样本；mattermost ↑15、PowerToys RE、apple/container +3,504 增量第一，成熟基础设施集体回流
 - [2026-06-12](daily/2026-06-12-analysis) — apple/container ↑16 跃居榜首（+2,430），agent 生态长出"安全扫描 + 会话度量"二阶工具层（NVIDIA SkillSpector + Wes McKinney agentsview），4 个真 NEW 之外 restic/chatwoot/mattermost/fanqiang 四个知名老项目借发版集体首入 tracker
 - [2026-06-11](daily/2026-06-11-analysis) — Apple 官方容器工具携 1.0 正式版 + WWDC26 双触发首入榜单（HN 1,197 分头条），agent/skill 板块强势回流，3 个 NEW 横跨系统容器、抗审查网络、agent 共享记忆三个方向
