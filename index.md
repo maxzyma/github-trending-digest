@@ -27,6 +27,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-17](daily/2026-06-17-analysis) — 去 agent 化最彻底一天，agent 本体挂零；开发/测试工具（swc/puppeteer/cypress/meshery）+ 自托管/隐私集群（iptv-org/music-assistant/teslamate/OpenWA/UAD-NG）+ 真发版事件三类瓜分全榜；iroh 1.0 是唯一真实事件驱动（HN 1,351 分 + Holochain/Fedimint 真采用）；alibaba/zvec 嵌入式向量库 NEW；多数老牌工具今日 stars 个位/十位数属算法波动回流
 - [2026-06-16](daily/2026-06-16-analysis) — 自托管 / 教育 / Windows 优化三条非 AI 赛道集体霸榜，去 agent 化延续；5 个真 NEW（teslamate / hello-algo / Win11Debloat / Self-Hosting-Guide / optimizerDuck）无一落在 agent 赛道；IPTV 双仓再次同框（iptv-org 重回 #1 +2,657 + Free-TV/IPTV）；真 AI 仅剩 SkillSpector（+1,079）与 cua 撑场；多数项目今日 stars 个位/十位数属 trending 算法波动回流
 - [2026-06-15](daily/2026-06-15-analysis) — 成熟开发/测试工具集体回流主导榜单（pytest/swc/cypress/puppeteer/meshery/chatwoot/freeCodeCamp 同日同框），去 agent 化延续，真 AI 仅剩 SkillSpector + 定位漂移的 aisuite；IPTV 双仓同框（iptv-org #1 + Free-TV/IPTV）；多数回流项目今日 stars 仅个位/十位数，是 trending 算法波动而非真实增量
 - [2026-06-13](daily/2026-06-13-analysis) — 榜单明显去 agent 化，三个真 NEW 全在 skill 赛道之外（music-assistant 自托管媒体 / iptv-org IPTV / LMCache LLM 推理缓存）；LMCache 被 NVIDIA Dynamo/Red Hat llm-d/字节 AIBrix/vLLM 同时采纳，是靠生产集成而非传播上榜的真采用样本；mattermost ↑15、PowerToys RE、apple/container +3,504 增量第一，成熟基础设施集体回流
