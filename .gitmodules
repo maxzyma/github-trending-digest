@@ -622,3 +622,12 @@
 [submodule "repos/sia"]
 	path = repos/sia
 	url = https://github.com/hexo-ai/sia.git
+[submodule "repos/uad-ng"]
+	path = repos/uad-ng
+	url = https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation.git
+[submodule "repos/zvec"]
+	path = repos/zvec
+	url = https://github.com/alibaba/zvec.git
+[submodule "repos/iroh"]
+	path = repos/iroh
+	url = https://github.com/n0-computer/iroh.git
