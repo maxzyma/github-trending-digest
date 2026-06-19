@@ -27,6 +27,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-19](daily/2026-06-19-analysis) — 开源模型真发版（GLM-5.2 / LTX-2）与 AI 编码 agent 工具同框；GLM-5（HN 多帖高分 + Artificial Analysis 开源权重榜首 + MIT）与 LTX-2（19B 音视频联合生成、单卡可跑、评测 top-3）是今日 grounding 最扎实的真信号；palmier-pro/agent-native/codebase-memory-mcp 等短龄 agent 工具高比值、营销驱动需谨慎解读
 - [2026-06-18](daily/2026-06-18-analysis) — AI agent/skills 框架强势回潮（superpowers +1,129 / mattpocock/skills +1,523 / codebase-memory-mcp NEW #1 同框），与近期"去 agent 化"形成反转；成熟开源 SaaS 替代品集体回流（RocketChat/chatwoot/plane/penpot/continue）；真信号最高的是 rlm（MIT 论文 + HN 多帖 + Prime Intellect 采用）与 iroh（1.0 余热 ↑11 升 #2）；Agent-Reach/OpenMontage/codebase-memory-mcp 三个高 ratio 短龄仓需结合 grounding 谨慎解读
 - [2026-06-17](daily/2026-06-17-analysis) — 去 agent 化最彻底一天，agent 本体挂零；开发/测试工具（swc/puppeteer/cypress/meshery）+ 自托管/隐私集群（iptv-org/music-assistant/teslamate/OpenWA/UAD-NG）+ 真发版事件三类瓜分全榜；iroh 1.0 是唯一真实事件驱动（HN 1,351 分 + Holochain/Fedimint 真采用）；alibaba/zvec 嵌入式向量库 NEW；多数老牌工具今日 stars 个位/十位数属算法波动回流
 - [2026-06-16](daily/2026-06-16-analysis) — 自托管 / 教育 / Windows 优化三条非 AI 赛道集体霸榜，去 agent 化延续；5 个真 NEW（teslamate / hello-algo / Win11Debloat / Self-Hosting-Guide / optimizerDuck）无一落在 agent 赛道；IPTV 双仓再次同框（iptv-org 重回 #1 +2,657 + Free-TV/IPTV）；真 AI 仅剩 SkillSpector（+1,079）与 cua 撑场；多数项目今日 stars 个位/十位数属 trending 算法波动回流
