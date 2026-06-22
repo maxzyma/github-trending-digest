@@ -27,6 +27,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-22](daily/2026-06-22-analysis) — AI 创作/视频与「agent 记忆·上下文·代码智能」基础设施工具占榜单大半（headroom/codebase-memory-mcp/cognee/mattpocock-skills），成熟安全/设计工具集体回流（spiderfoot/penpot/Anthropic-Cybersecurity-Skills）；3 个真 NEW 中 spiderfoot（14 岁老牌 OSINT、商业版被 Intel 471 收购）与 biliTickerBuy（B 站抢票、中文社区扎实）grounding 最强，cognee 热度与社区足迹有落差；榜单 7/16 为 RE 回流，单日高增速需结合社区足迹判断
 - [2026-06-20](daily/2026-06-20-analysis) — 周末榜单由「AI 创作/视频工具」与「成熟开源 SaaS 替代品回流」两条线主导：palmier-pro/OpenMontage/voicebox 撑起创作赛道，penpot/insomnia/twenty 集体回潮；turso、Pake、SmsForwarder 三个工具型项目首入 tracker，grounding 都偏扎实；palmier-pro/OpenMontage/headroom 等短龄高增速 AI 项目需结合社区足迹判断
 - [2026-06-19](daily/2026-06-19-analysis) — 开源模型真发版（GLM-5.2 / LTX-2）与 AI 编码 agent 工具同框；GLM-5（HN 多帖高分 + Artificial Analysis 开源权重榜首 + MIT）与 LTX-2（19B 音视频联合生成、单卡可跑、评测 top-3）是今日 grounding 最扎实的真信号；palmier-pro/agent-native/codebase-memory-mcp 等短龄 agent 工具高比值、营销驱动需谨慎解读
 - [2026-06-18](daily/2026-06-18-analysis) — AI agent/skills 框架强势回潮（superpowers +1,129 / mattpocock/skills +1,523 / codebase-memory-mcp NEW #1 同框），与近期"去 agent 化"形成反转；成熟开源 SaaS 替代品集体回流（RocketChat/chatwoot/plane/penpot/continue）；真信号最高的是 rlm（MIT 论文 + HN 多帖 + Prime Intellect 采用）与 iroh（1.0 余热 ↑11 升 #2）；Agent-Reach/OpenMontage/codebase-memory-mcp 三个高 ratio 短龄仓需结合 grounding 谨慎解读
