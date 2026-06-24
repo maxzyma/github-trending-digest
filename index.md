@@ -28,6 +28,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-06-24](daily/2026-06-24-analysis) — agent skills / harness 生态全面霸榜（9/16），Anthropic 官方 plugins 目录 claude-plugins-official 首次成为权威锚点（平台方对第三方 skills 赛道做官方收口）；今天是存量轮动日，16/16 全为历史已上榜项目、零真新面孔；多个短龄 agent 项目 star/watchers 失衡（ECC 197:1、worldmonitor 162:1、gstack 166:1），daily_stock_analysis fork:star≈0.9:1 template 复制模式需结合社区足迹判断
 - [2026-06-23](daily/2026-06-23-analysis) — AI 视频/创作工具仍占榜首梯队（OpenMontage/palmier-pro 单日增量领跑，新面孔 hyperframes 主打 HTML 渲染视频），但今日最扎实的真信号是成熟开源工具首入 tracker（firecrawl 137K/Stirling-PDF 83K/airllm）+ Claude Code 工具链回潮（gstack/mattpocock-skills/codebase-memory-mcp）；hyperframes(366:1 厂商主导)、ai-website-cloner-template(198:1 template 复制)等短龄高比值仓需区分成因解读
 - [2026-06-22](daily/2026-06-22-analysis) — AI 创作/视频与「agent 记忆·上下文·代码智能」基础设施工具占榜单大半（headroom/codebase-memory-mcp/cognee/mattpocock-skills），成熟安全/设计工具集体回流（spiderfoot/penpot/Anthropic-Cybersecurity-Skills）；3 个真 NEW 中 spiderfoot（14 岁老牌 OSINT、商业版被 Intel 471 收购）与 biliTickerBuy（B 站抢票、中文社区扎实）grounding 最强，cognee 热度与社区足迹有落差；榜单 7/16 为 RE 回流，单日高增速需结合社区足迹判断
 - [2026-06-20](daily/2026-06-20-analysis) — 周末榜单由「AI 创作/视频工具」与「成熟开源 SaaS 替代品回流」两条线主导：palmier-pro/OpenMontage/voicebox 撑起创作赛道，penpot/insomnia/twenty 集体回潮；turso、Pake、SmsForwarder 三个工具型项目首入 tracker，grounding 都偏扎实；palmier-pro/OpenMontage/headroom 等短龄高增速 AI 项目需结合社区足迹判断
