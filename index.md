@@ -20,6 +20,10 @@ title: GitHub Trending Digest
 
 ---
 
+## Monthly Reports
+
+- [2026-06](monthly/2026-06) — agent/skills 生态大厂化（OpenAI/Google/Anthropic/AWS/阿里官方项目同月在榜，月末落地 design.md/claude-plugins-official/page-agent 权威锚点）+ vanity 方法论完成收口（高 ratio 单指标 → 组合判据 → 比值是入口信号结论靠足迹 → 模板复制/厂商主导/真营销驱动三成因）；最扎实真信号是成熟基础设施集中回流（apple/container/firecrawl/MinerU/MediaCrawler/Stirling-PDF）+ 事件驱动双强发版（GLM-5 HN 883 分/iroh HN 1,351 分/LMCache 生产集成）；最需谨慎是短龄高失衡投资·交易·视频仓（ECC 198:1/MemPalace 造假闭环/OpenMontage 五天涨 13K/TREK 481:1/ai-berkshire 397:1）；数据侧持续恶化（全月缺 6 天 + 周末 cron 空档连续三周 + 脚本连续三日误标全 NEW）
+
 ## Weekly Reports
 
 - [2026-W26](weekly/2026-W26) — 头部格局较 W25 更稳：AI 创作/视频守榜首（OpenMontage 连续五天领跑单日增量 +987→+3,434，五天涨 13K stars）；本周最扎实真信号是成熟开源工具几乎天天回流/首入 tracker（spiderfoot/firecrawl/Stirling-PDF/apple-container/MinerU/CasaOS/MediaCrawler），回流主体从 W25 的 SaaS 替代品转向数据/文档/抓取基础设施；agent/skills 稳定占约半数且大厂化（Anthropic 官方 plugins 目录/Google design.md ↑9 至 #1/AWS agent-toolkit/阿里 page-agent HN 147 分）；短龄高比值仓集中涌现（hyperframes 366:1/ai-website-cloner 198:1/TREK 481:1/ai-berkshire 397:1），方法论细化为模板复制/厂商主导/真营销驱动三成因；数据双重恶化：周六+周日双缺漏、脚本连续三日误标全部 NEW（已人工校正）
