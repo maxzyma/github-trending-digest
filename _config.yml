@@ -2,7 +2,9 @@ title: GitHub Trending Digest
 description: >-
   Daily deep analysis of GitHub Trending — not just a list, but community-grounded
   insights with HN/X/Reddit cross-validation, risk signals, and real-world usage from Issues.
-baseurl: ""
+# 挂载到聚合门户 /github-trending/ 前缀下（trending-diggest D-001 / INV-01）。
+# CF Worker 反代公网 /github-trending/* → 本仓 Pages；baseurl 须 = 挂载路径，否则 CSS/内链前缀错位（SC-15）。
+baseurl: "/github-trending"
 url: "https://trending.theuntold.ai"
 
 theme: minima
