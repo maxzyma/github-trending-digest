@@ -1,0 +1,73 @@
+name: capture-trending-daily
+
+# Cloud capture of the irreplaceable GitHub Trending daily snapshot.
+# GitHub does not expose historical trending, so a missed day is a permanent
+# gap. Running this in GitHub Actions removes any dependency on a local
+# machine / VPN being online. It is LLM-free: it only fetches and commits the
+# raw JSON snapshot (data/YYYY-MM-DD.raw.json). Rendering the human-readable
+# markdown and the analysis happen downstream from this snapshot and can be
+# backfilled at any time.
+#
+# Timing: GitHub Trending has no published update time and refreshes on a
+# rolling window through the day, so what matters is a fixed daily capture
+# time for day-over-day comparability. 01:58 UTC == 09:58 Asia/Shanghai
+# (no DST), matching the existing pipeline's snapshot time. GH Actions cron
+# can be delayed several minutes under load; that is fine for a rolling list.
+
+on:
+  schedule:
+    - cron: "58 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: capture-trending
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Capture trending snapshot (idempotent)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          DATE="$(TZ=Asia/Shanghai date +%F)"
+          OUT="daily/${DATE}.raw.json"
+          if [ -f "$OUT" ]; then
+            echo "snapshot already exists: $OUT — skipping"
+            exit 0
+          fi
+          mkdir -p daily
+          python3 .github/scripts/fetch_trending.py --date "$DATE" > "$OUT"
+          # Sanity: must be a JSON object with a non-empty repos array,
+          # otherwise do not commit a broken/empty snapshot.
+          python3 - "$OUT" <<'PY'
+          import json, sys
+          data = json.load(open(sys.argv[1]))
+          repos = data.get("repos") if isinstance(data, dict) else None
+          if not repos:
+              print("capture produced no repos; aborting so the day stays open for retry", file=sys.stderr)
+              sys.exit(1)
+          print(f"captured {len(repos)} repos for {data.get('date')}")
+          PY
+
+      - name: Commit & push snapshot
+        run: |
+          set -euo pipefail
+          DATE="$(TZ=Asia/Shanghai date +%F)"
+          OUT="daily/${DATE}.raw.json"
+          if [ -z "$(git status --porcelain -- "$OUT")" ]; then
+            echo "nothing new to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "capture: github trending raw snapshot ${DATE}"
+          git push
