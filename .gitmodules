@@ -631,3 +631,12 @@
 [submodule "repos/iroh"]
 	path = repos/iroh
 	url = https://github.com/n0-computer/iroh.git
+[submodule "repos/book-to-skill"]
+	path = repos/book-to-skill
+	url = https://github.com/virgiliojr94/book-to-skill.git
+[submodule "repos/GeoLibre"]
+	path = repos/GeoLibre
+	url = https://github.com/opengeos/GeoLibre.git
+[submodule "repos/agent-governance-toolkit"]
+	path = repos/agent-governance-toolkit
+	url = https://github.com/microsoft/agent-governance-toolkit.git
