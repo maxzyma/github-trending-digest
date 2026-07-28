@@ -37,6 +37,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-07-28](daily/2026-07-28-analysis) — 12 项中 5 个 NEW：AI agent 治理与安全首次由微软官方入场（agent-governance-toolkit 提供策略引擎/agent 身份/沙箱/审计并做成 Claude Code hook），语音 agent（huggingface/speech-to-speech）、浏览器端 GIS（opengeos/GeoLibre）、书籍转 skill（book-to-skill）三条新赛道同日登榜，Jenkins/aisuite/superfile 等成熟工具继续回流；agent-governance-toolkit 的 fail-open 策略路径与"覆盖 OWASP Agentic Top 10"宣称存在落差，awesome-systematic-trading 已停更约 18 个月仍在榜，需谨慎解读
 - [2026-07-27](daily/2026-07-27-analysis) — 17 项中 7 个 NEW：抗审查通信首次成为最强主线，印度下架令把 Jack Dorsey 的 bitchat（含 Android 端）推上榜首、Amnezia 发布 AmneziaWG 2.0；AI agent 工具仍占最大项目数但以 t3code、impeccable、claude-cookbooks、aisuite、Instatic 等老面孔回流为主，Node.js、Jenkins、superfile、Chat2DB 等基建项目同日首入 tracker；Chat2DB 的 source-available 许可与"开源"表述落差、Kronos 停更 3 个半月仍持续吸星需谨慎解读
 - [2026-07-24](daily/2026-07-24-analysis) — 15 项中 9 个 NEW：Block（Jack Dorsey）开源"Agent 时代的 Slack+GitHub" buzz 登顶，AI agent 协作/编码工具占最大盘，阿里 open-code-review 与 Automattic harper 等企业级开源件同日在榜，jellyfin、Apollo-11、likec4、Pumpkin 等成熟开发工具集中回流；ego-lite、text-to-cad 等短龄高比值项目需结合社区 grounding 解读
 - [2026-07-20](daily/2026-07-20-analysis) — 19 项中 10 个 NEW：李博杰《深入理解 AI Agent》开源书籍登顶，code-review-graph、ktransformers、wigolo 等 AI 工程基础设施集中首入 tracker，microsoft/terminal、AstrBot、kimi-cli、WrenAI 与 cs-self-learning 作为成熟项目首入；code-review-graph 与 wigolo 的短龄高 stars/subscribers 比值需结合独立社区足迹解读
