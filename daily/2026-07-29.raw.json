@@ -1,0 +1,98 @@
+{
+  "date": "2026-07-29",
+  "weekday": "周三",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "pascalorg/editor",
+      "language": "TypeScript",
+      "stars_today": "341",
+      "description": "Create and share 3D architectural projects."
+    },
+    {
+      "rank": 2,
+      "repo": "jenkinsci/jenkins",
+      "language": "Java",
+      "stars_today": "180",
+      "description": "Jenkins automation server"
+    },
+    {
+      "rank": 3,
+      "repo": "moeru-ai/airi",
+      "language": "TypeScript",
+      "stars_today": "797",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported."
+    },
+    {
+      "rank": 4,
+      "repo": "andrewyng/aisuite",
+      "language": "Python",
+      "stars_today": "62",
+      "description": "Simple, unified interface to multiple Generative AI providers"
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "636",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 6,
+      "repo": "hello245m/free-stockdb",
+      "language": "HTML",
+      "stars_today": "50",
+      "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。"
+    },
+    {
+      "rank": 7,
+      "repo": "huggingface/speech-to-speech",
+      "language": "Python",
+      "stars_today": "227",
+      "description": "Build local voice agents with open-source models"
+    },
+    {
+      "rank": 8,
+      "repo": "virgiliojr94/book-to-skill",
+      "language": "Python",
+      "stars_today": "423",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    },
+    {
+      "rank": 9,
+      "repo": "opengeos/GeoLibre",
+      "language": "TypeScript",
+      "stars_today": "607",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks."
+    },
+    {
+      "rank": 10,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "language": "Python",
+      "stars_today": "309",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading."
+    },
+    {
+      "rank": 11,
+      "repo": "microsoft/agent-governance-toolkit",
+      "language": "Python",
+      "stars_today": "46",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10."
+    },
+    {
+      "rank": 12,
+      "repo": "yorukot/superfile",
+      "language": "Go",
+      "stars_today": "662",
+      "description": "Pretty fancy and modern terminal file manager"
+    },
+    {
+      "rank": 13,
+      "repo": "bradautomates/claude-video",
+      "language": "Python",
+      "stars_today": "988",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
+    }
+  ]
+}
