@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-30",
+  "weekday": "周四",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "opengeos/GeoLibre",
+      "language": "TypeScript",
+      "stars_today": "671",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks."
+    },
+    {
+      "rank": 2,
+      "repo": "moeru-ai/airi",
+      "language": "TypeScript",
+      "stars_today": "682",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported."
+    },
+    {
+      "rank": 3,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "857",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 4,
+      "repo": "huggingface/speech-to-speech",
+      "language": "Python",
+      "stars_today": "827",
+      "description": "Build local voice agents with open-source models"
+    },
+    {
+      "rank": 5,
+      "repo": "1jehuang/jcode",
+      "language": "Rust",
+      "stars_today": "640",
+      "description": "The most RAM efficient harness"
+    },
+    {
+      "rank": 6,
+      "repo": "grokability/snipe-it",
+      "language": "PHP",
+      "stars_today": "164",
+      "description": "A free open source IT asset/license management system"
+    },
+    {
+      "rank": 7,
+      "repo": "deepfakes/faceswap",
+      "language": "Python",
+      "stars_today": "166",
+      "description": "Deepfakes Software For All"
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/VibeVoice",
+      "language": "Python",
+      "stars_today": "336",
+      "description": "Open-Source Frontier Voice AI"
+    },
+    {
+      "rank": 9,
+      "repo": "different-ai/openwork",
+      "language": "TypeScript",
+      "stars_today": "97",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)"
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "616",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 11,
+      "repo": "MoonshotAI/FlashKDA",
+      "language": "Cuda",
+      "stars_today": "91",
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels"
+    },
+    {
+      "rank": 12,
+      "repo": "NanmiCoder/MediaCrawler",
+      "language": "Python",
+      "stars_today": "154",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫"
+    },
+    {
+      "rank": 13,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "359",
+      "description": "Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 14,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "language": "Python",
+      "stars_today": "945",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading."
+    },
+    {
+      "rank": 15,
+      "repo": "maderix/ANE",
+      "language": "Objective-C",
+      "stars_today": "22",
+      "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs"
+    },
+    {
+      "rank": 16,
+      "repo": "pascalorg/editor",
+      "language": "TypeScript",
+      "stars_today": "1,022",
+      "description": "Create and share 3D architectural projects."
+    },
+    {
+      "rank": 17,
+      "repo": "virgiliojr94/book-to-skill",
+      "language": "Python",
+      "stars_today": "1,421",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    }
+  ]
+}
