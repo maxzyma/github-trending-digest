@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-03",
+  "weekday": "周一",
+  "count": 15,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "microsoft/AI-For-Beginners",
+      "language": "Jupyter Notebook",
+      "stars_today": "2,629",
+      "description": "12 Weeks, 24 Lessons, AI for All!"
+    },
+    {
+      "rank": 2,
+      "repo": "usekaneo/kaneo",
+      "language": "TypeScript",
+      "stars_today": "496",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you."
+    },
+    {
+      "rank": 3,
+      "repo": "lyogavin/airllm",
+      "language": "Jupyter Notebook",
+      "stars_today": "819",
+      "description": "AirLLM 70B inference with single 4GB GPU"
+    },
+    {
+      "rank": 4,
+      "repo": "iv-org/invidious",
+      "language": "Crystal",
+      "stars_today": "305",
+      "description": "Invidious is an alternative front-end to YouTube"
+    },
+    {
+      "rank": 5,
+      "repo": "codecrafters-io/build-your-own-x",
+      "language": "Markdown",
+      "stars_today": "674",
+      "description": "Master programming by recreating your favorite technologies from scratch."
+    },
+    {
+      "rank": 6,
+      "repo": "zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "stars_today": "1,141",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+    },
+    {
+      "rank": 7,
+      "repo": "different-ai/openwork",
+      "language": "TypeScript",
+      "stars_today": "280",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)"
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/generative-ai-for-beginners",
+      "language": "Jupyter Notebook",
+      "stars_today": "588",
+      "description": "21 Lessons, Get Started Building with Generative AI"
+    },
+    {
+      "rank": 9,
+      "repo": "Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars_today": "659",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "rank": 10,
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "language": "TypeScript",
+      "stars_today": "602",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks."
+    },
+    {
+      "rank": 11,
+      "repo": "mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars_today": "206",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "rank": 12,
+      "repo": "NomaDamas/k-skill",
+      "language": "JavaScript",
+      "stars_today": "177",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로"
+    },
+    {
+      "rank": 13,
+      "repo": "HarbourMasters/Lighthouse",
+      "language": "C",
+      "stars_today": "65",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
+    },
+    {
+      "rank": 14,
+      "repo": "antirez/ds4",
+      "language": "C",
+      "stars_today": "139",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+    },
+    {
+      "rank": 15,
+      "repo": "esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "stars_today": "333",
+      "description": ""
+    }
+  ]
+}
