@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-08",
+  "weekday": "周六",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "language": "TypeScript",
+      "stars_today": "2,293",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "1,131",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 3,
+      "repo": "cloudflare/computer",
+      "language": "TypeScript",
+      "stars_today": "872",
+      "description": "Give your agent a computer 👾"
+    },
+    {
+      "rank": 4,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "2,152",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 5,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "782",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 6,
+      "repo": "goauthentik/authentik",
+      "language": "Python",
+      "stars_today": "530",
+      "description": "The authentication glue you need."
+    },
+    {
+      "rank": 7,
+      "repo": "semantica-agi/semantica",
+      "language": "Python",
+      "stars_today": "122",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "rank": 8,
+      "repo": "666ghj/MiroFish",
+      "language": "Python",
+      "stars_today": "141",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物"
+    },
+    {
+      "rank": 9,
+      "repo": "chenyme/grok2api",
+      "language": "Go",
+      "stars_today": "55",
+      "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console"
+    },
+    {
+      "rank": 10,
+      "repo": "jdx/mise",
+      "language": "Rust",
+      "stars_today": "135",
+      "description": "dev tools, env vars, task runner"
+    },
+    {
+      "rank": 11,
+      "repo": "Significant-Gravitas/AutoGPT",
+      "language": "Python",
+      "stars_today": "355",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "rank": 12,
+      "repo": "google/guava",
+      "language": "Java",
+      "stars_today": "152",
+      "description": "Google core libraries for Java"
+    },
+    {
+      "rank": 13,
+      "repo": "unclebob/swarm-forge",
+      "language": "Clojure",
+      "stars_today": "81",
+      "description": "A simple tool for coordinating several AI agents."
+    },
+    {
+      "rank": 14,
+      "repo": "denoland/celld",
+      "language": "Rust",
+      "stars_today": "516",
+      "description": "self-hosted, distributed Durable Objects"
+    },
+    {
+      "rank": 15,
+      "repo": "K2SOsint/Legendary_OSINT",
+      "language": "Go",
+      "stars_today": "109",
+      "description": "A list of OSINT tools &amp; resources for (fraud-)investigators, CTI-analysts, KYC, AML and more."
+    },
+    {
+      "rank": 16,
+      "repo": "pranshuparmar/witr",
+      "language": "Python",
+      "stars_today": "234",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI."
+    },
+    {
+      "rank": 17,
+      "repo": "google/skills",
+      "language": "",
+      "stars_today": "327",
+      "description": "Agent Skills for Google products and technologies"
+    }
+  ]
+}
