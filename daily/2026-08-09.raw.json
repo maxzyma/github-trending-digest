@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-09",
+  "weekday": "周日",
+  "count": 12,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "language": "TypeScript",
+      "stars_today": "2,483",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "779",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 3,
+      "repo": "TapXWorld/ChinaTextbook",
+      "language": "Roff",
+      "stars_today": "118",
+      "description": "所有小初高、大学PDF教材。"
+    },
+    {
+      "rank": 4,
+      "repo": "google/skills",
+      "language": "Python",
+      "stars_today": "481",
+      "description": "Agent Skills for Google products and technologies"
+    },
+    {
+      "rank": 5,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "1,359",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 6,
+      "repo": "goauthentik/authentik",
+      "language": "Python",
+      "stars_today": "467",
+      "description": "The authentication glue you need."
+    },
+    {
+      "rank": 7,
+      "repo": "TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars_today": "153",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "rank": 8,
+      "repo": "google/guava",
+      "language": "Java",
+      "stars_today": "93",
+      "description": "Google core libraries for Java"
+    },
+    {
+      "rank": 9,
+      "repo": "LadybirdBrowser/ladybird",
+      "language": "C++",
+      "stars_today": "48",
+      "description": "Truly independent web browser"
+    },
+    {
+      "rank": 10,
+      "repo": "denoland/celld",
+      "language": "Rust",
+      "stars_today": "432",
+      "description": "self-hosted, distributed Durable Objects"
+    },
+    {
+      "rank": 11,
+      "repo": "litu54/DevOps-Interview-Guide",
+      "language": "Kotlin",
+      "stars_today": "68",
+      "description": "DevOps Interview Guide"
+    },
+    {
+      "rank": 12,
+      "repo": "bannedbook/fanqiang",
+      "language": "",
+      "stars_today": "101",
+      "description": "翻墙-科学上网"
+    }
+  ]
+}
