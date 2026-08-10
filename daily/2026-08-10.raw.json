@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-10",
+  "weekday": "周一",
+  "count": 12,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "language": "TypeScript",
+      "stars_today": "2,356",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+    },
+    {
+      "rank": 2,
+      "repo": "vitali87/code-graph-rag",
+      "language": "Python",
+      "stars_today": "96",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs"
+    },
+    {
+      "rank": 3,
+      "repo": "msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars_today": "858",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    },
+    {
+      "rank": 4,
+      "repo": "pranshuparmar/witr",
+      "language": "Go",
+      "stars_today": "210",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI."
+    },
+    {
+      "rank": 5,
+      "repo": "google-deepmind/weathernext",
+      "language": "Python",
+      "stars_today": "86",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "680",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "rank": 7,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars_today": "306",
+      "description": "The authentication glue you need."
+    },
+    {
+      "rank": 8,
+      "repo": "goauthentik/authentik",
+      "language": "Python",
+      "stars_today": "310",
+      "description": "Agent Skills for Google products and technologies"
+    },
+    {
+      "rank": 9,
+      "repo": "google/skills",
+      "language": "Python",
+      "stars_today": "528",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "rank": 10,
+      "repo": "Comfy-Org/ComfyUI",
+      "language": "Python",
+      "stars_today": "365",
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work."
+    },
+    {
+      "rank": 11,
+      "repo": "harveyai/harvey-labs",
+      "language": "Python",
+      "stars_today": "47",
+      "description": ""
+    },
+    {
+      "rank": 12,
+      "repo": "pingdotgg/t3code",
+      "language": "TypeScript",
+      "stars_today": "163",
+      "description": ""
+    }
+  ]
+}
