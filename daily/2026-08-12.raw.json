@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-12",
+  "weekday": "周三",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars_today": "958",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    },
+    {
+      "rank": 2,
+      "repo": "semantica-agi/semantica",
+      "language": "Python",
+      "stars_today": "893",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "rank": 3,
+      "repo": "nvm-sh/nvm",
+      "language": "Shell",
+      "stars_today": "22",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+    },
+    {
+      "rank": 4,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "578",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 5,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars_today": "243",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "rank": 6,
+      "repo": "vitali87/code-graph-rag",
+      "language": "Python",
+      "stars_today": "341",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs"
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/skills",
+      "language": "Python",
+      "stars_today": "485",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "rank": 8,
+      "repo": "3b1b/manim",
+      "language": "Python",
+      "stars_today": "197",
+      "description": "Animation engine for explanatory math videos"
+    },
+    {
+      "rank": 9,
+      "repo": "HKUDS/DeepTutor",
+      "language": "Python",
+      "stars_today": "812",
+      "description": "DeepTutor: Lifelong Personalized Tutoring."
+    },
+    {
+      "rank": 10,
+      "repo": "stablyai/orca",
+      "language": "TypeScript",
+      "stars_today": "875",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS."
+    },
+    {
+      "rank": 11,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "748",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 12,
+      "repo": "huggingface/transformers",
+      "language": "Python",
+      "stars_today": "80",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+    },
+    {
+      "rank": 13,
+      "repo": "harveyai/harvey-labs",
+      "language": "Python",
+      "stars_today": "28",
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work."
+    },
+    {
+      "rank": 14,
+      "repo": "jaywcjlove/awesome-mac",
+      "language": "Swift",
+      "stars_today": "298",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use."
+    },
+    {
+      "rank": 15,
+      "repo": "calesthio/OpenMontage",
+      "language": "Python",
+      "stars_today": "458",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+    },
+    {
+      "rank": 16,
+      "repo": "practical-tutorials/project-based-learning",
+      "language": "Python",
+      "stars_today": "401",
+      "description": "Curated list of project-based tutorials"
+    },
+    {
+      "rank": 17,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "language": "TypeScript",
+      "stars_today": "1,138",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+    }
+  ]
+}
