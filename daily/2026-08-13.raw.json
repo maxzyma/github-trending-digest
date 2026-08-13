@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-13",
+  "weekday": "周四",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "2,855",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+    },
+    {
+      "rank": 2,
+      "repo": "macro-inc/macro",
+      "language": "Rust",
+      "stars_today": "227",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
+    },
+    {
+      "rank": 3,
+      "repo": "semantica-agi/semantica",
+      "language": "Python",
+      "stars_today": "845",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    },
+    {
+      "rank": 4,
+      "repo": "stablyai/orca",
+      "language": "TypeScript",
+      "stars_today": "1,235",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS."
+    },
+    {
+      "rank": 5,
+      "repo": "msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars_today": "1,873",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    },
+    {
+      "rank": 6,
+      "repo": "shiyu-coder/Kronos",
+      "language": "Python",
+      "stars_today": "266",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "rank": 7,
+      "repo": "NanmiCoder/MediaCrawler",
+      "language": "Python",
+      "stars_today": "215",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫"
+    },
+    {
+      "rank": 8,
+      "repo": "hugohe3/ppt-master",
+      "language": "Python",
+      "stars_today": "476",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He"
+    },
+    {
+      "rank": 9,
+      "repo": "infiniflow/ragflow",
+      "language": "Go",
+      "stars_today": "139",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    },
+    {
+      "rank": 10,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "571",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 11,
+      "repo": "NVIDIA-NeMo/Switchyard",
+      "language": "Rust",
+      "stars_today": "421",
+      "description": "人人都能用英语"
+    },
+    {
+      "rank": 12,
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "language": "TypeScript",
+      "stars_today": "86",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface."
+    },
+    {
+      "rank": 13,
+      "repo": "smicallef/spiderfoot",
+      "language": "Python",
+      "stars_today": "74",
+      "description": "An open-source cross-platform alternative to AirDrop"
+    },
+    {
+      "rank": 14,
+      "repo": "localsend/localsend",
+      "language": "Dart",
+      "stars_today": "213",
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model."
+    },
+    {
+      "rank": 15,
+      "repo": "Lightricks/LTX-2",
+      "language": "Python",
+      "stars_today": "65",
+      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/"
+    },
+    {
+      "rank": 16,
+      "repo": "embabel/embabel-agent",
+      "language": "Kotlin",
+      "stars_today": "40",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots."
+    },
+    {
+      "rank": 17,
+      "repo": "cactus-compute/needle",
+      "language": "Python",
+      "stars_today": "315",
+      "description": ""
+    }
+  ]
+}
