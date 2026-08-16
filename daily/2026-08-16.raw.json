@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-16",
+  "weekday": "周日",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cordiverse/cordis",
+      "language": "TypeScript",
+      "stars_today": "599",
+      "description": "Meta-Framework of Spatiotemporal Composability"
+    },
+    {
+      "rank": 2,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "1,607",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+    },
+    {
+      "rank": 3,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "149",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 4,
+      "repo": "cactus-compute/needle",
+      "language": "Python",
+      "stars_today": "547",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots."
+    },
+    {
+      "rank": 5,
+      "repo": "unslothai/unsloth",
+      "language": "Python",
+      "stars_today": "434",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+    },
+    {
+      "rank": 6,
+      "repo": "public-apis/public-apis",
+      "language": "Python",
+      "stars_today": "2,260",
+      "description": "A collective list of free APIs"
+    },
+    {
+      "rank": 7,
+      "repo": "MakazhanAlpamys/Soup",
+      "language": "Python",
+      "stars_today": "297",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
+    },
+    {
+      "rank": 8,
+      "repo": "github/spec-kit",
+      "language": "Python",
+      "stars_today": "892",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development"
+    },
+    {
+      "rank": 9,
+      "repo": "megadose/holehe",
+      "language": "Python",
+      "stars_today": "382",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function."
+    },
+    {
+      "rank": 10,
+      "repo": "altic-dev/FluidVoice",
+      "language": "Swift",
+      "stars_today": "104",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 -"
+    },
+    {
+      "rank": 11,
+      "repo": "ToolJet/ToolJet",
+      "language": "JavaScript",
+      "stars_today": "544",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀"
+    },
+    {
+      "rank": 12,
+      "repo": "HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars_today": "118",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:"
+    },
+    {
+      "rank": 13,
+      "repo": "citrolabs/ego-lite",
+      "language": "JavaScript",
+      "stars_today": "545",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config."
+    }
+  ]
+}
