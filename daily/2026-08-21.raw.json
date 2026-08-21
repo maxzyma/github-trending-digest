@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-21",
+  "weekday": "周五",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "modular/modular",
+      "language": "Mojo",
+      "stars_today": "268",
+      "description": "The Modular Platform (includes MAX &amp; Mojo)"
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "2,192",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 3,
+      "repo": "AprilNEA/OpenLogi",
+      "language": "Rust",
+      "stars_today": "1,545",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry."
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "727",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 5,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "449",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 6,
+      "repo": "santifer/career-ops",
+      "language": "JavaScript",
+      "stars_today": "816",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+    },
+    {
+      "rank": 7,
+      "repo": "akitaonrails/ai-memory",
+      "language": "Rust",
+      "stars_today": "332",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+    },
+    {
+      "rank": 8,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars_today": "2,761",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "rank": 9,
+      "repo": "agent-substrate/substrate",
+      "language": "Go",
+      "stars_today": "22",
+      "description": "Agent Substrate: the core system"
+    },
+    {
+      "rank": 10,
+      "repo": "chaitanyagiri/munder-difflin",
+      "language": "TypeScript",
+      "stars_today": "507",
+      "description": "local multi-agent harness"
+    },
+    {
+      "rank": 11,
+      "repo": "PostHog/posthog",
+      "language": "Python",
+      "stars_today": "60",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP."
+    },
+    {
+      "rank": 12,
+      "repo": "mahlernim/google-timeline-visualizer",
+      "language": "Kotlin",
+      "stars_today": "657",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data"
+    },
+    {
+      "rank": 13,
+      "repo": "volcengine/OpenViking",
+      "language": "Python",
+      "stars_today": "950",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+    },
+    {
+      "rank": 14,
+      "repo": "JuliusBrussee/caveman",
+      "language": "Go",
+      "stars_today": "258",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+    },
+    {
+      "rank": 15,
+      "repo": "makeplane/plane",
+      "language": "TypeScript",
+      "stars_today": "98",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage."
+    },
+    {
+      "rank": 16,
+      "repo": "Tencent/AI-Infra-Guard",
+      "language": "Python",
+      "stars_today": "50",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation."
+    },
+    {
+      "rank": 17,
+      "repo": "RyanCodrai/turbovec",
+      "language": "Rust",
+      "stars_today": "230",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings"
+    }
+  ]
+}
