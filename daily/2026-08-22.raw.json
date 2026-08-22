@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-22",
+  "weekday": "周六",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "3,362",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 2,
+      "repo": "mahlernim/google-timeline-visualizer",
+      "language": "Kotlin",
+      "stars_today": "1,053",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data"
+    },
+    {
+      "rank": 3,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars_today": "1,201",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "rank": 4,
+      "repo": "AprilNEA/OpenLogi",
+      "language": "Rust",
+      "stars_today": "1,380",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry."
+    },
+    {
+      "rank": 5,
+      "repo": "PostHog/posthog",
+      "language": "Python",
+      "stars_today": "335",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP."
+    },
+    {
+      "rank": 6,
+      "repo": "microsoft/TypeScript",
+      "language": "Go",
+      "stars_today": "65",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
+    },
+    {
+      "rank": 7,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "790",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 8,
+      "repo": "santifer/career-ops",
+      "language": "JavaScript",
+      "stars_today": "921",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+    },
+    {
+      "rank": 9,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "388",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 10,
+      "repo": "modular/modular",
+      "language": "Mojo",
+      "stars_today": "913",
+      "description": "The Modular Platform (includes MAX &amp; Mojo)"
+    },
+    {
+      "rank": 11,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "357",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 12,
+      "repo": "TryGhost/Ghost",
+      "language": "JavaScript",
+      "stars_today": "32",
+      "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters."
+    },
+    {
+      "rank": 13,
+      "repo": "ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars_today": "140",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+    },
+    {
+      "rank": 14,
+      "repo": "apache/maka",
+      "language": "TypeScript",
+      "stars_today": "148",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log."
+    },
+    {
+      "rank": 15,
+      "repo": "protocolbuffers/protobuf",
+      "language": "C++",
+      "stars_today": "4",
+      "description": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "rank": 16,
+      "repo": "elder-plinius/OBLITERATUS",
+      "language": "Python",
+      "stars_today": "63",
+      "description": "OBLITERATE THE CHAINS THAT BIND YOU"
+    },
+    {
+      "rank": 17,
+      "repo": "microsoft/onnxruntime",
+      "language": "C++",
+      "stars_today": "5",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+    }
+  ]
+}
