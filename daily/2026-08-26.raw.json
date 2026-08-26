@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-26",
+  "weekday": "周三",
+  "count": 16,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "language": "JavaScript",
+      "stars_today": "1,698",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/claude-plugins-community",
+      "language": "Python",
+      "stars_today": "351",
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission."
+    },
+    {
+      "rank": 3,
+      "repo": "MadsLorentzen/ai-job-search",
+      "language": "Python",
+      "stars_today": "1,265",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+    },
+    {
+      "rank": 4,
+      "repo": "apache/maka",
+      "language": "TypeScript",
+      "stars_today": "543",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log."
+    },
+    {
+      "rank": 5,
+      "repo": "TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars_today": "218",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "rank": 6,
+      "repo": "AgriciDaniel/claude-obsidian",
+      "language": "Python",
+      "stars_today": "813",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
+    },
+    {
+      "rank": 7,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "569",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 8,
+      "repo": "tinyhumansai/openhuman",
+      "language": "Rust",
+      "stars_today": "542",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher."
+    },
+    {
+      "rank": 9,
+      "repo": "basecamp/omarchy",
+      "language": "Shell",
+      "stars_today": "1,083",
+      "description": "Beautiful, Modern &amp; Opinionated Linux"
+    },
+    {
+      "rank": 10,
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "language": "Python",
+      "stars_today": "161",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+    },
+    {
+      "rank": 11,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "language": "Rust",
+      "stars_today": "830",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+    },
+    {
+      "rank": 12,
+      "repo": "openai/codex",
+      "language": "Python",
+      "stars_today": "1,181",
+      "description": "Lightweight coding agent that runs in your terminal"
+    },
+    {
+      "rank": 13,
+      "repo": "marin-community/marin",
+      "language": "JavaScript",
+      "stars_today": "231",
+      "description": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "rank": 14,
+      "repo": "DietrichGebert/ponytail",
+      "language": "Python",
+      "stars_today": "982",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 15,
+      "repo": "anthropics/claude-plugins-official",
+      "language": "Go",
+      "stars_today": "55",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "rank": 16,
+      "repo": "asciimoo/hister",
+      "language": "",
+      "stars_today": "98",
+      "description": "Your own search engine"
+    }
+  ]
+}
