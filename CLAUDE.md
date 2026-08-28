@@ -104,6 +104,7 @@ Rules:
 - The first main line must answer the reader question: "今天 GitHub Trending 上有哪些方向和项目值得看？"
 - Later lines can cover signal quality, vanity, marketing amplification, security risks, or other caveats.
 - Each main line should include concrete data and one clear judgment.
+- **Never write an enumerated group list inline.** When a main line splits the day into groups (赛道 / 方向 / 主题), each group must be its own markdown list item. Inline `①②③` chains collapse into one dense block in DingTalk and every other renderer, which is the single most common readability defect in this section.
 
 Template:
 
@@ -114,6 +115,19 @@ Template:
 
 **主线二：<主题名> — <一句结论>**。<事实、数据、项目对照、读者视角判断>。
 ```
+
+Grouped main line — put a blank line before the list, one group per item:
+
+```markdown
+**主线一：榜单地图 — <一句结论>。** 今日可分 N 组：
+
+- **<组名>**（N 项，最大盘）—— `owner/repo`（↓3，#4，23,529 ⭐）、`owner/repo`（NEW，#5）
+- **<组名>** —— `owner/repo`（NEW 榜首，8,240 ⭐，+1,984）
+
+<和昨天的对照、一句判断，写在列表之后的独立段落>
+```
+
+Inline `①…②…③…` inside a paragraph is not allowed for grouped enumerations. Ordinal markers may still be used for short in-sentence references (例如"第 ① 组"), never as the group separator.
 
 If signal quality is a major issue, use a distinct main line such as:
 
@@ -248,6 +262,7 @@ Weekly narrative rules:
 - `## 如何理解热度信号` is the right place for method notes: stars are attention, not adoption; high stars/subscribers ratio is not enough for a vanity judgment; mature large repos can have structurally high ratios.
 - `## 风险观察` is the right place for career-ops/MemPalace/ECC/flowsint-style samples. Use evidence, but keep wording calibrated: prefer "热度与社区足迹不匹配" over "教科书级 vanity" in section titles.
 - Avoid repeating the same vanity argument in every section. Mention the method once, then apply it where needed.
+- The `本日主线` rule against inline `①②③` group enumerations applies here too: any grouping of 赛道 / 方向 / 主题 must be a markdown list, one group per item.
 
 ## Monthly Report: `monthly/YYYY-MM.md`
 
