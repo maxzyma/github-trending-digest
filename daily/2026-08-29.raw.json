@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-29",
+  "weekday": "周六",
+  "count": 20,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "tt-a1i/archify",
+      "language": "JavaScript",
+      "stars_today": "4,562",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export."
+    },
+    {
+      "rank": 2,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars_today": "720",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+    },
+    {
+      "rank": 3,
+      "repo": "anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars_today": "457",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "rank": 4,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "3,829",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 5,
+      "repo": "abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "stars_today": "202",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration"
+    },
+    {
+      "rank": 6,
+      "repo": "JetBrains/go-modern-guidelines",
+      "language": "Go",
+      "stars_today": "574",
+      "description": "Help AI coding agents write modern Go"
+    },
+    {
+      "rank": 7,
+      "repo": "calesthio/OpenMontage",
+      "language": "Python",
+      "stars_today": "1,144",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+    },
+    {
+      "rank": 8,
+      "repo": "abi/screenshot-to-code",
+      "language": "Python",
+      "stars_today": "326",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
+    },
+    {
+      "rank": 9,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "246",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 10,
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "language": "JavaScript",
+      "stars_today": "1,687",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+    },
+    {
+      "rank": 11,
+      "repo": "tailscale/tailcat",
+      "language": "Go",
+      "stars_today": "965",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+    },
+    {
+      "rank": 12,
+      "repo": "NationalSecurityAgency/ghidra",
+      "language": "Java",
+      "stars_today": "191",
+      "description": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "rank": 13,
+      "repo": "swoole/typephp",
+      "language": "PHP",
+      "stars_today": "188",
+      "description": "Compile PHP to Native Binaries"
+    },
+    {
+      "rank": 14,
+      "repo": "marin-community/marin",
+      "language": "Python",
+      "stars_today": "236",
+      "description": "Open-source framework for the research and development of foundation models."
+    },
+    {
+      "rank": 15,
+      "repo": "tashfeenahmed/freellmapi",
+      "language": "TypeScript",
+      "stars_today": "433",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    },
+    {
+      "rank": 16,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "language": "TypeScript",
+      "stars_today": "67",
+      "description": "Chrome DevTools for coding agents"
+    },
+    {
+      "rank": 17,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "703",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 18,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,396",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 19,
+      "repo": "google/googletest",
+      "language": "C++",
+      "stars_today": "156",
+      "description": "GoogleTest - Google Testing and Mocking Framework"
+    },
+    {
+      "rank": 20,
+      "repo": "livekit/agents",
+      "language": "Python",
+      "stars_today": "22",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹"
+    }
+  ]
+}
