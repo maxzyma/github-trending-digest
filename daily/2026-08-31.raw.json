@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-31",
+  "weekday": "周一",
+  "count": 19,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "stars_today": "1,370",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+    },
+    {
+      "rank": 2,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars_today": "1,114",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+    },
+    {
+      "rank": 3,
+      "repo": "Lakr233/vphone-cli",
+      "language": "Swift",
+      "stars_today": "361",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export."
+    },
+    {
+      "rank": 4,
+      "repo": "tt-a1i/archify",
+      "language": "JavaScript",
+      "stars_today": "3,722",
+      "description": "Fully automatic censorship removal for language models"
+    },
+    {
+      "rank": 5,
+      "repo": "p-e-w/heretic",
+      "language": "Python",
+      "stars_today": "369",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:"
+    },
+    {
+      "rank": 6,
+      "repo": "unclecode/crawl4ai",
+      "language": "Python",
+      "stars_today": "221",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "rank": 7,
+      "repo": "mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars_today": "230",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store."
+    },
+    {
+      "rank": 8,
+      "repo": "majd/ipatool",
+      "language": "Go",
+      "stars_today": "58",
+      "description": "A collection of MCP servers."
+    },
+    {
+      "rank": 9,
+      "repo": "punkpeye/awesome-mcp-servers",
+      "language": "Java",
+      "stars_today": "96",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+    },
+    {
+      "rank": 10,
+      "repo": "checkstyle/checkstyle",
+      "language": "Java",
+      "stars_today": "115",
+      "description": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "rank": 11,
+      "repo": "NationalSecurityAgency/ghidra",
+      "language": "Python",
+      "stars_today": "198",
+      "description": "RL training environments for Microduck (mjlab)"
+    },
+    {
+      "rank": 12,
+      "repo": "pollen-robotics/microduck_rl",
+      "language": "Python",
+      "stars_today": "168",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。"
+    },
+    {
+      "rank": 13,
+      "repo": "handsomestWei/patent-disclosure-skill",
+      "language": "TypeScript",
+      "stars_today": "62",
+      "description": "Connect your users to their apps"
+    },
+    {
+      "rank": 14,
+      "repo": "corsairdev/corsair",
+      "language": "TypeScript",
+      "stars_today": "126",
+      "description": "Open source alternative to Semrush and Ahrefs"
+    },
+    {
+      "rank": 15,
+      "repo": "every-app/open-seo",
+      "language": "TypeScript",
+      "stars_today": "469",
+      "description": "TypeScript-first schema validation with static type inference"
+    },
+    {
+      "rank": 16,
+      "repo": "colinhacks/zod",
+      "language": "TypeScript",
+      "stars_today": "31",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    },
+    {
+      "rank": 17,
+      "repo": "tashfeenahmed/freellmapi",
+      "language": "Python",
+      "stars_today": "504",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹"
+    },
+    {
+      "rank": 18,
+      "repo": "livekit/agents",
+      "language": "TypeScript",
+      "stars_today": "132",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration"
+    },
+    {
+      "rank": 19,
+      "repo": "abhigyanpatwari/GitNexus",
+      "language": "",
+      "stars_today": "182",
+      "description": ""
+    }
+  ]
+}
