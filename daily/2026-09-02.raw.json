@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-02",
+  "weekday": "周三",
+  "count": 14,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "Gitlawb/openclaude",
+      "language": "TypeScript",
+      "stars_today": "80",
+      "description": "runs anywhere. uses anything"
+    },
+    {
+      "rank": 2,
+      "repo": "Imbad0202/academic-research-skills",
+      "language": "Python",
+      "stars_today": "193",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
+    },
+    {
+      "rank": 3,
+      "repo": "THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "stars_today": "3,128",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+    },
+    {
+      "rank": 4,
+      "repo": "iv-org/invidious",
+      "language": "Crystal",
+      "stars_today": "577",
+      "description": "Invidious is an alternative front-end to YouTube"
+    },
+    {
+      "rank": 5,
+      "repo": "jingyaogong/minimind",
+      "language": "Python",
+      "stars_today": "1,005",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!"
+    },
+    {
+      "rank": 6,
+      "repo": "3b1b/manim",
+      "language": "Python",
+      "stars_today": "86",
+      "description": "Animation engine for explanatory math videos"
+    },
+    {
+      "rank": 7,
+      "repo": "firecrawl/pdf-inspector",
+      "language": "Rust",
+      "stars_today": "541",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
+    },
+    {
+      "rank": 8,
+      "repo": "browser-use/video-use",
+      "language": "Python",
+      "stars_today": "472",
+      "description": "Edit videos with coding agents"
+    },
+    {
+      "rank": 9,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars_today": "912",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+    },
+    {
+      "rank": 10,
+      "repo": "handsomestWei/patent-disclosure-skill",
+      "language": "Python",
+      "stars_today": "501",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。"
+    },
+    {
+      "rank": 11,
+      "repo": "VoltAgent/awesome-design-md",
+      "language": "HTML",
+      "stars_today": "323",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI."
+    },
+    {
+      "rank": 12,
+      "repo": "averygan/reclip",
+      "language": "JavaScript",
+      "stars_today": "56",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI."
+    },
+    {
+      "rank": 13,
+      "repo": "affaan-m/ECC",
+      "language": "Python",
+      "stars_today": "623",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 14,
+      "repo": "unclecode/crawl4ai",
+      "language": "",
+      "stars_today": "145",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:"
+    }
+  ]
+}
