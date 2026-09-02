@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /latest.json
+---
+{%- comment -%}
+  给聚合门户消费的最新条目清单。
+
+  门户（trending-diggest）在构建期读不到本仓的 Jekyll 产物——两站分属不同仓、
+  不同 Pages 部署，公网上是 CF Worker 运行时反代拼起来的。所以本仓把「最新几条」
+  以静态 JSON 发布出去，门户构建时拉这一个文件即可，不需要跨仓 submodule，
+  也不改变各源独立部署的前提。
+
+  只收 daily 深度分析（front matter 带 date 的页面）：daily/YYYY-MM-DD.md 是纯榜单、
+  无 front matter，不参与渲染也不该进「最新」。
+
+  path 带 baseurl 前缀，门户与本站同域（trending.theuntold.ai），可直接作站内链接。
+{%- endcomment -%}
+{%- assign items = site.pages | where_exp: "p", "p.date" | sort: "date" | reverse -%}
+{
+  "source": "github-trending",
+  "generated_at": {{ site.time | date: "%Y-%m-%dT%H:%M:%S%z" | jsonify }},
+  "items": [
+{%- assign n = 0 -%}
+{%- for p in items limit: 10 -%}
+{%- if n > 0 %},{% endif %}
+    {
+      "title": {{ p.title | jsonify }},
+      "path": {{ site.baseurl | append: p.url | jsonify }},
+      "published_at": {{ p.date | date: "%Y-%m-%d" | jsonify }}
+    }
+{%- assign n = n | plus: 1 -%}
+{%- endfor %}
+  ]
+}
