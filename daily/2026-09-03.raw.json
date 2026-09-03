@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-03",
+  "weekday": "周四",
+  "count": 19,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "fmtlib/fmt",
+      "language": "C++",
+      "stars_today": "14",
+      "description": "A modern formatting library"
+    },
+    {
+      "rank": 2,
+      "repo": "google-research/timesfm",
+      "language": "Python",
+      "stars_today": "343",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
+    },
+    {
+      "rank": 3,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,354",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 4,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "832",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 5,
+      "repo": "sngyai/Sequoia-X",
+      "language": "Python",
+      "stars_today": "63",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书"
+    },
+    {
+      "rank": 6,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "language": "TypeScript",
+      "stars_today": "148",
+      "description": "Chrome DevTools for coding agents"
+    },
+    {
+      "rank": 7,
+      "repo": "NousResearch/hermes-agent",
+      "language": "Python",
+      "stars_today": "533",
+      "description": "The agent that grows with you"
+    },
+    {
+      "rank": 8,
+      "repo": "superlinked/sie",
+      "language": "Python",
+      "stars_today": "60",
+      "description": "Open-source inference server and production cluster for all the models your agent needs."
+    },
+    {
+      "rank": 9,
+      "repo": "pacifio/atlas",
+      "language": "Rust",
+      "stars_today": "888",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place"
+    },
+    {
+      "rank": 10,
+      "repo": "zyronon/TypeWords",
+      "language": "Vue",
+      "stars_today": "21",
+      "description": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；"
+    },
+    {
+      "rank": 11,
+      "repo": "Imbad0202/academic-research-skills",
+      "language": "Python",
+      "stars_today": "799",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
+    },
+    {
+      "rank": 12,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "516",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 13,
+      "repo": "protocolbuffers/protobuf",
+      "language": "C++",
+      "stars_today": "18",
+      "description": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "rank": 14,
+      "repo": "vercel-labs/portless",
+      "language": "TypeScript",
+      "stars_today": "73",
+      "description": "Replace port numbers with stable, named local URLs. For humans and agents."
+    },
+    {
+      "rank": 15,
+      "repo": "blader/humanizer",
+      "language": "Python",
+      "stars_today": "374",
+      "description": "Agent skill that removes signs of AI-generated writing from text"
+    },
+    {
+      "rank": 16,
+      "repo": "JuliusBrussee/caveman",
+      "language": "Go",
+      "stars_today": "238",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+    },
+    {
+      "rank": 17,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "1,166",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 18,
+      "repo": "Gitlawb/openclaude",
+      "language": "TypeScript",
+      "stars_today": "775",
+      "description": "runs anywhere. uses anything"
+    },
+    {
+      "rank": 19,
+      "repo": "firecrawl/pdf-inspector",
+      "language": "Rust",
+      "stars_today": "586",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
+    }
+  ]
+}
