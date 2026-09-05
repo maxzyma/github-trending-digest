@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-05",
+  "weekday": "周六",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "2,758",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 2,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,679",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 3,
+      "repo": "fmtlib/fmt",
+      "language": "C++",
+      "stars_today": "688",
+      "description": "A modern formatting library"
+    },
+    {
+      "rank": 4,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,135",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/skills",
+      "language": "Python",
+      "stars_today": "511",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "rank": 6,
+      "repo": "blader/humanizer",
+      "language": "Python",
+      "stars_today": "1,130",
+      "description": "Agent skill that removes signs of AI-generated writing from text"
+    },
+    {
+      "rank": 7,
+      "repo": "NousResearch/hermes-agent",
+      "language": "Python",
+      "stars_today": "720",
+      "description": "The agent that grows with you"
+    },
+    {
+      "rank": 8,
+      "repo": "JuliusBrussee/caveman",
+      "language": "Go",
+      "stars_today": "501",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+    },
+    {
+      "rank": 9,
+      "repo": "magnitudedev/magnitude",
+      "language": "TypeScript",
+      "stars_today": "391",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline."
+    },
+    {
+      "rank": 10,
+      "repo": "bikini/exploitarium",
+      "language": "Python",
+      "stars_today": "74",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way."
+    },
+    {
+      "rank": 11,
+      "repo": "bannedbook/fanqiang",
+      "language": "Kotlin",
+      "stars_today": "730",
+      "description": "翻墙-科学上网"
+    },
+    {
+      "rank": 12,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "1,345",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 13,
+      "repo": "google-research/timesfm",
+      "language": "Python",
+      "stars_today": "342",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
+    },
+    {
+      "rank": 14,
+      "repo": "radixark/miles",
+      "language": "Python",
+      "stars_today": "64",
+      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime."
+    },
+    {
+      "rank": 15,
+      "repo": "anomalyco/opencode",
+      "language": "TypeScript",
+      "stars_today": "345",
+      "description": "The open source coding agent."
+    },
+    {
+      "rank": 16,
+      "repo": "clshortfuse/renodx",
+      "language": "HLSL",
+      "stars_today": "261",
+      "description": "Renovation Engine for DirectX Games"
+    },
+    {
+      "rank": 17,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "437",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    }
+  ]
+}
