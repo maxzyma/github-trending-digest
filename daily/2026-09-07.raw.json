@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-07",
+  "weekday": "周一",
+  "count": 18,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,485",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "2,207",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 3,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "620",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 4,
+      "repo": "NousResearch/hermes-agent",
+      "language": "Python",
+      "stars_today": "520",
+      "description": "The agent that grows with you"
+    },
+    {
+      "rank": 5,
+      "repo": "openai/skills",
+      "language": "Python",
+      "stars_today": "46",
+      "description": "Skills Catalog for Codex"
+    },
+    {
+      "rank": 6,
+      "repo": "anomalyco/opencode",
+      "language": "TypeScript",
+      "stars_today": "551",
+      "description": "The open source coding agent."
+    },
+    {
+      "rank": 7,
+      "repo": "blader/humanizer",
+      "language": "Python",
+      "stars_today": "748",
+      "description": "Agent skill that removes signs of AI-generated writing from text"
+    },
+    {
+      "rank": 8,
+      "repo": "llvm/llvm-project",
+      "language": "LLVM",
+      "stars_today": "23",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "rank": 9,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,539",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 10,
+      "repo": "ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars_today": "276",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+    },
+    {
+      "rank": 11,
+      "repo": "magnitudedev/magnitude",
+      "language": "TypeScript",
+      "stars_today": "604",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline."
+    },
+    {
+      "rank": 12,
+      "repo": "BraveOPotato/FckSignups",
+      "language": "TypeScript",
+      "stars_today": "436",
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!"
+    },
+    {
+      "rank": 13,
+      "repo": "coreyhaines31/marketingskills",
+      "language": "JavaScript",
+      "stars_today": "329",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+    },
+    {
+      "rank": 14,
+      "repo": "aipoch/open-science",
+      "language": "TypeScript",
+      "stars_today": "146",
+      "description": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance."
+    },
+    {
+      "rank": 15,
+      "repo": "OpenWhispr/openwhispr",
+      "language": "JavaScript",
+      "stars_today": "121",
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform."
+    },
+    {
+      "rank": 16,
+      "repo": "humanlayer/skills",
+      "language": "TypeScript",
+      "stars_today": "451",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution."
+    },
+    {
+      "rank": 17,
+      "repo": "The-Swarm-Corporation/AutoHedge",
+      "language": "Python",
+      "stars_today": "142",
+      "description": "Stremio - Freedom to Stream"
+    },
+    {
+      "rank": 18,
+      "repo": "Stremio/stremio-web",
+      "language": "JavaScript",
+      "stars_today": "122",
+      "description": ""
+    }
+  ]
+}
