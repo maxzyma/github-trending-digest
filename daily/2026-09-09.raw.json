@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-09",
+  "weekday": "周三",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "656",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 2,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "710",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 3,
+      "repo": "openai/skills",
+      "language": "Python",
+      "stars_today": "490",
+      "description": "Skills Catalog for Codex"
+    },
+    {
+      "rank": 4,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,427",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 5,
+      "repo": "heygen-com/hyperframes",
+      "language": "TypeScript",
+      "stars_today": "2,627",
+      "description": "Write HTML. Render video. Built for agents."
+    },
+    {
+      "rank": 6,
+      "repo": "coreyhaines31/marketingskills",
+      "language": "JavaScript",
+      "stars_today": "666",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+    },
+    {
+      "rank": 7,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "452",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 8,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "language": "Python",
+      "stars_today": "333",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+    },
+    {
+      "rank": 9,
+      "repo": "microsoft/markitdown",
+      "language": "JavaScript",
+      "stars_today": "2,047",
+      "description": "Python tool for converting files and office documents to Markdown."
+    },
+    {
+      "rank": 10,
+      "repo": "jo-inc/camofox-browser",
+      "language": "TypeScript",
+      "stars_today": "871",
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement."
+    },
+    {
+      "rank": 11,
+      "repo": "MoonTechLab/LunaTV",
+      "language": "Python",
+      "stars_today": "505",
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源"
+    },
+    {
+      "rank": 12,
+      "repo": "browser-use/browser-use",
+      "language": "TypeScript",
+      "stars_today": "228",
+      "description": "Agents that use the browser."
+    },
+    {
+      "rank": 13,
+      "repo": "mksglu/context-mode",
+      "language": "Python",
+      "stars_today": "651",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+    },
+    {
+      "rank": 14,
+      "repo": "The-Swarm-Corporation/AutoHedge",
+      "language": "JavaScript",
+      "stars_today": "494",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution."
+    },
+    {
+      "rank": 15,
+      "repo": "liquidslr/system-design-notes",
+      "language": "JavaScript",
+      "stars_today": "910",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide"
+    },
+    {
+      "rank": 16,
+      "repo": "viarotel-org/escrcpy",
+      "language": "",
+      "stars_today": "178",
+      "description": "📱 Display and control your Android device graphically with scrcpy."
+    },
+    {
+      "rank": 17,
+      "repo": "openai/plugins",
+      "language": "",
+      "stars_today": "105",
+      "description": "OpenAI Plugins"
+    }
+  ]
+}
