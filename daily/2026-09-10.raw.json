@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-10",
+  "weekday": "周四",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "4,650",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 2,
+      "repo": "Tencent/teamai-cli",
+      "language": "TypeScript",
+      "stars_today": "556",
+      "description": "Make Every Team AI Native"
+    },
+    {
+      "rank": 3,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "688",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 4,
+      "repo": "pascalorg/editor",
+      "language": "TypeScript",
+      "stars_today": "107",
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
+    },
+    {
+      "rank": 5,
+      "repo": "earthtojake/text-to-cad",
+      "language": "Python",
+      "stars_today": "124",
+      "description": "A library of agent skills for CAD, CAE and CAM"
+    },
+    {
+      "rank": 6,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "2,249",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 7,
+      "repo": "TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars_today": "367",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "rank": 8,
+      "repo": "liquidslr/system-design-notes",
+      "language": "JavaScript",
+      "stars_today": "1,397",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide"
+    },
+    {
+      "rank": 9,
+      "repo": "openai/plugins",
+      "language": "JavaScript",
+      "stars_today": "498",
+      "description": "OpenAI Plugins"
+    },
+    {
+      "rank": 10,
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "language": "Python",
+      "stars_today": "705",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。"
+    },
+    {
+      "rank": 11,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "TypeScript",
+      "stars_today": "343",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 12,
+      "repo": "vastsa/PI-Desktop",
+      "language": "JavaScript",
+      "stars_today": "417",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+    },
+    {
+      "rank": 13,
+      "repo": "affaan-m/ECC",
+      "language": "",
+      "stars_today": "1,133",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    }
+  ]
+}
