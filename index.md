@@ -44,6 +44,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-11](daily/2026-09-11-analysis) — 榜单从 13 项扩到 16 项，「本地跑大模型」三条不同路线同日同框：llmfit 量硬件选型、colibri 把 MoE 专家权重留在 NVMe 上流式读入、OmniRoute 聚合 352 家供应商兜底云端，合起来是一条完整决策链；八年 early access 的 ArmorPaint 9-03 发 1.0（全程 C 重写、零依赖）成为今天唯一由真实发版而非传播推上榜的项目；两个新面孔需要看清社区底子——llm_wiki 221:1 的 stars/subscribers 对应 HN 一条 2 分帖，CloddsBot 的「有人真赚到钱吗」在 issue 区 0 回复
 - [2026-09-10](daily/2026-09-10-analysis) — 13 项的收缩榜里，skill 层长出两个新方向：腾讯 teamai-cli 把 skill 从"个人装"变成"团队共享仓 + MR 评审"（仓内列了 34 个 agent 的目录约定），建筑/CAD 双仓 pascalorg/editor 与 text-to-cad 同日回榜标记垂直领域起量；榜首 i-have-adhd 日增从 +656 跳到 +4,650，HN 已累到 526 分 363 评论；昨天点出的"OpenAI 装错仓风险"今天自我修正——已弃用的 openai/skills 掉榜、继任仓 openai/plugins 升到 #9；两个新面孔需要谨慎解读：system-design-notes 无 license 且插图直取付费书，PI-Desktop 是 2023 年一个 OpenAI key 查询工具改名重写而来
 - [2026-09-09](daily/2026-09-09-analysis) — 榜单回到 16 项，前八席被 skill 盘重新占满，但主题从"给 agent 加能力"换成"给 agent 立规矩"：榜首 i-have-adhd 只有 140 行规则却拿下 HN 首页 324 分、日增 656 星，diagram-design 管图表、andrej-karpathy-skills 管行为，三个都是输出规范而非功能包；OpenAI 的 skills（已弃用）与 plugins（继任仓）同日在榜，装错仓的风险就在榜单上
 - [2026-09-08](daily/2026-09-08-analysis) — 周二榜单收缩到 14 项、8 席换血：榜首让给两个"给 agent 用的内容工具"回榜（HTML 转视频的 hyperframes、文件转 Markdown 的 markitdown），3 个新面孔里 2 个是 agent 上网层的无头浏览器（camofox-browser 走 Firefox 指纹伪装，lightpanda 走 Zig 自研内核）且都撞上 robots.txt 伦理；影视聚合 LunaTV、AutoHedge、已弃用的 openai/skills 三个停更仓同日在榜，需要谨慎解读
