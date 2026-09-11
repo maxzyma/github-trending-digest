@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-11",
+  "weekday": "周五",
+  "count": 16,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "3,882",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 2,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "1,762",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 3,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "732",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 4,
+      "repo": "alsk1992/CloddsBot",
+      "language": "TypeScript",
+      "stars_today": "277",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude."
+    },
+    {
+      "rank": 5,
+      "repo": "Tencent/teamai-cli",
+      "language": "TypeScript",
+      "stars_today": "841",
+      "description": "Make Every Team AI Native"
+    },
+    {
+      "rank": 6,
+      "repo": "AlexsJones/llmfit",
+      "language": "Rust",
+      "stars_today": "258",
+      "description": "Hundreds of models &amp; providers. One command to find what runs on your hardware."
+    },
+    {
+      "rank": 7,
+      "repo": "liquidslr/system-design-notes",
+      "language": "HTML",
+      "stars_today": "900",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide"
+    },
+    {
+      "rank": 8,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "JavaScript",
+      "stars_today": "1,294",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 9,
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "language": "C",
+      "stars_today": "962",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。"
+    },
+    {
+      "rank": 10,
+      "repo": "armory3d/armorpaint",
+      "language": "TypeScript",
+      "stars_today": "72",
+      "description": "Graphics Creation Tools"
+    },
+    {
+      "rank": 11,
+      "repo": "diegosouzapw/OmniRoute",
+      "language": "C",
+      "stars_today": "626",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors"
+    },
+    {
+      "rank": 12,
+      "repo": "JustVugg/colibri",
+      "language": "TypeScript",
+      "stars_today": "98",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+    },
+    {
+      "rank": 13,
+      "repo": "THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "stars_today": "837",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+    },
+    {
+      "rank": 14,
+      "repo": "nashsu/llm_wiki",
+      "language": "TypeScript",
+      "stars_today": "142",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。"
+    },
+    {
+      "rank": 15,
+      "repo": "vercel-labs/skills",
+      "language": "TypeScript",
+      "stars_today": "122",
+      "description": "The open agent skills tool - npx skills"
+    },
+    {
+      "rank": 16,
+      "repo": "vastsa/PI-Desktop",
+      "language": "",
+      "stars_today": "624",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+    }
+  ]
+}
