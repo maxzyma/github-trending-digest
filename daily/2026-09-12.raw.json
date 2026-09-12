@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-12",
+  "weekday": "周六",
+  "count": 16,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "3,463",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 2,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "3,680",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 3,
+      "repo": "nab138/iloader",
+      "language": "TypeScript",
+      "stars_today": "50",
+      "description": "User friendly sideloader"
+    },
+    {
+      "rank": 4,
+      "repo": "melgarafael/DeskcommCRM",
+      "language": "TypeScript",
+      "stars_today": "152",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
+    },
+    {
+      "rank": 5,
+      "repo": "vastsa/PI-Desktop",
+      "language": "TypeScript",
+      "stars_today": "552",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+    },
+    {
+      "rank": 6,
+      "repo": "armory3d/armorpaint",
+      "language": "C",
+      "stars_today": "350",
+      "description": "Graphics Creation Tools"
+    },
+    {
+      "rank": 7,
+      "repo": "alsk1992/CloddsBot",
+      "language": "TypeScript",
+      "stars_today": "626",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude."
+    },
+    {
+      "rank": 8,
+      "repo": "nashsu/llm_wiki",
+      "language": "TypeScript",
+      "stars_today": "647",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。"
+    },
+    {
+      "rank": 9,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "729",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 10,
+      "repo": "Sonarr/Sonarr",
+      "language": "C#",
+      "stars_today": "191",
+      "description": "Smart PVR for newsgroup and bittorrent users."
+    },
+    {
+      "rank": 11,
+      "repo": "jihe520/MathModelAgent",
+      "language": "Python",
+      "stars_today": "129",
+      "description": "🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission."
+    },
+    {
+      "rank": 12,
+      "repo": "p1neappleXpress/OpenFlux",
+      "language": "Go",
+      "stars_today": "198",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports."
+    },
+    {
+      "rank": 13,
+      "repo": "jordan-gibbs/hyperresearch",
+      "language": "Python",
+      "stars_today": "153",
+      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki."
+    },
+    {
+      "rank": 14,
+      "repo": "alphaXiv/OpenResearch",
+      "language": "Rust",
+      "stars_today": "120",
+      "description": "Run parallel research agents with any model"
+    },
+    {
+      "rank": 15,
+      "repo": "github/spec-kit",
+      "language": "Python",
+      "stars_today": "1,015",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development"
+    },
+    {
+      "rank": 16,
+      "repo": "pascalorg/editor",
+      "language": "TypeScript",
+      "stars_today": "106",
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
+    }
+  ]
+}
