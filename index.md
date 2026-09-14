@@ -44,6 +44,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-14](daily/2026-09-14-analysis) — 回流日：19 项里 6 项回归、只有 5 个真新面孔；内容下载器一天三项同框，AI 科研 agent 开始管实验而不只是写代码
 - [2026-09-13](daily/2026-09-13-analysis) — AI agent 集体下沉到具体行业活儿：卖货、数学建模、交易各占一席；YuE2 把音乐生成的中间层打开却把权重许可退回非商用；安全赛道四项同框
 - [2026-09-11](daily/2026-09-11-analysis) — 榜单从 13 项扩到 16 项，「本地跑大模型」三条不同路线同日同框：llmfit 量硬件选型、colibri 把 MoE 专家权重留在 NVMe 上流式读入、OmniRoute 聚合 352 家供应商兜底云端，合起来是一条完整决策链；八年 early access 的 ArmorPaint 9-03 发 1.0（全程 C 重写、零依赖）成为今天唯一由真实发版而非传播推上榜的项目；两个新面孔需要看清社区底子——llm_wiki 221:1 的 stars/subscribers 对应 HN 一条 2 分帖，CloddsBot 的「有人真赚到钱吗」在 issue 区 0 回复
 - [2026-09-10](daily/2026-09-10-analysis) — 13 项的收缩榜里，skill 层长出两个新方向：腾讯 teamai-cli 把 skill 从"个人装"变成"团队共享仓 + MR 评审"（仓内列了 34 个 agent 的目录约定），建筑/CAD 双仓 pascalorg/editor 与 text-to-cad 同日回榜标记垂直领域起量；榜首 i-have-adhd 日增从 +656 跳到 +4,650，HN 已累到 526 分 363 评论；昨天点出的"OpenAI 装错仓风险"今天自我修正——已弃用的 openai/skills 掉榜、继任仓 openai/plugins 升到 #9；两个新面孔需要谨慎解读：system-design-notes 无 license 且插图直取付费书，PI-Desktop 是 2023 年一个 OpenAI key 查询工具改名重写而来
