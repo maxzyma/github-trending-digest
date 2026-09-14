@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-14",
+  "weekday": "周一",
+  "count": 19,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "JustVugg/colibri",
+      "language": "C",
+      "stars_today": "868",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+    },
+    {
+      "rank": 2,
+      "repo": "ever-co/ever-gauzy",
+      "language": "TypeScript",
+      "stars_today": "191",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -"
+    },
+    {
+      "rank": 3,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "2,680",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 4,
+      "repo": "tech-leads-club/agent-skills",
+      "language": "TypeScript",
+      "stars_today": "265",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence."
+    },
+    {
+      "rank": 5,
+      "repo": "melgarafael/DeskcommCRM",
+      "language": "TypeScript",
+      "stars_today": "432",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
+    },
+    {
+      "rank": 6,
+      "repo": "calesthio/OpenMontage",
+      "language": "Python",
+      "stars_today": "380",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+    },
+    {
+      "rank": 7,
+      "repo": "asgeirtj/system_prompts_leaks",
+      "language": "JavaScript",
+      "stars_today": "706",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
+    },
+    {
+      "rank": 8,
+      "repo": "vxcontrol/pentagi",
+      "language": "Go",
+      "stars_today": "590",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
+    },
+    {
+      "rank": 9,
+      "repo": "multimodal-art-projection/YuE",
+      "language": "Python",
+      "stars_today": "487",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+    },
+    {
+      "rank": 10,
+      "repo": "yuliskov/SmartTube",
+      "language": "Java",
+      "stars_today": "233",
+      "description": "Browse media content with your own rules on Android TV"
+    },
+    {
+      "rank": 11,
+      "repo": "alphaXiv/OpenResearch",
+      "language": "Rust",
+      "stars_today": "289",
+      "description": "Turn your coding agents into research agents"
+    },
+    {
+      "rank": 12,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "2,632",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 13,
+      "repo": "SnailSploit/Claude-Red",
+      "language": "Python",
+      "stars_today": "506",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+    },
+    {
+      "rank": 14,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "443",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 15,
+      "repo": "jihe520/MathModelAgent",
+      "language": "Python",
+      "stars_today": "246",
+      "description": "🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission."
+    },
+    {
+      "rank": 16,
+      "repo": "tonhowtf/omniget",
+      "language": "Rust",
+      "stars_today": "507",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer."
+    },
+    {
+      "rank": 17,
+      "repo": "jiji262/douyin-downloader",
+      "language": "Python",
+      "stars_today": "452",
+      "description": "A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。"
+    },
+    {
+      "rank": 18,
+      "repo": "Swordfish90/cool-retro-term",
+      "language": "QML",
+      "stars_today": "57",
+      "description": "A good looking terminal emulator which mimics the old cathode display..."
+    },
+    {
+      "rank": 19,
+      "repo": "huggingface/transformers",
+      "language": "Python",
+      "stars_today": "152",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+    }
+  ]
+}
