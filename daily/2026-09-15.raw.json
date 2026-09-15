@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-15",
+  "weekday": "周二",
+  "count": 20,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "JustVugg/colibri",
+      "language": "C",
+      "stars_today": "2,173",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+    },
+    {
+      "rank": 2,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "1,571",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 3,
+      "repo": "multimodal-art-projection/YuE",
+      "language": "Python",
+      "stars_today": "559",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+    },
+    {
+      "rank": 4,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "2,776",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 5,
+      "repo": "666ghj/MiroFish",
+      "language": "Python",
+      "stars_today": "560",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物"
+    },
+    {
+      "rank": 6,
+      "repo": "Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars_today": "651",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "rank": 7,
+      "repo": "asgeirtj/system_prompts_leaks",
+      "language": "JavaScript",
+      "stars_today": "764",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
+    },
+    {
+      "rank": 8,
+      "repo": "rlaope/oh-my-hermes",
+      "language": "Python",
+      "stars_today": "77",
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages"
+    },
+    {
+      "rank": 9,
+      "repo": "localsend/localsend",
+      "language": "Dart",
+      "stars_today": "251",
+      "description": "An open-source cross-platform alternative to AirDrop"
+    },
+    {
+      "rank": 10,
+      "repo": "dani-garcia/vaultwarden",
+      "language": "Rust",
+      "stars_today": "115",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs"
+    },
+    {
+      "rank": 11,
+      "repo": "TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars_today": "745",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "rank": 12,
+      "repo": "ruvnet/RuView",
+      "language": "Rust",
+      "stars_today": "383",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+    },
+    {
+      "rank": 13,
+      "repo": "tech-leads-club/agent-skills",
+      "language": "TypeScript",
+      "stars_today": "512",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence."
+    },
+    {
+      "rank": 14,
+      "repo": "OpenBMB/VoxCPM",
+      "language": "Python",
+      "stars_today": "216",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+    },
+    {
+      "rank": 15,
+      "repo": "huggingface/transformers",
+      "language": "Python",
+      "stars_today": "536",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+    },
+    {
+      "rank": 16,
+      "repo": "ever-co/ever-gauzy",
+      "language": "TypeScript",
+      "stars_today": "1,130",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -"
+    },
+    {
+      "rank": 17,
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "language": "TypeScript",
+      "stars_today": "40",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required."
+    },
+    {
+      "rank": 18,
+      "repo": "reconurge/flowsint",
+      "language": "TypeScript",
+      "stars_today": "280",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators."
+    },
+    {
+      "rank": 19,
+      "repo": "peetzweg/opendisplay",
+      "language": "Swift",
+      "stars_today": "229",
+      "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input."
+    },
+    {
+      "rank": 20,
+      "repo": "SnailSploit/Claude-Red",
+      "language": "Python",
+      "stars_today": "579",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+    }
+  ]
+}
