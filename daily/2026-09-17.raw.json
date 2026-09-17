@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-17",
+  "weekday": "周四",
+  "count": 21,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "3,231",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 2,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "927",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 3,
+      "repo": "JustVugg/colibri",
+      "language": "C",
+      "stars_today": "1,546",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+    },
+    {
+      "rank": 4,
+      "repo": "abue-ammar/tinycast",
+      "language": "Swift",
+      "stars_today": "1,179",
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history."
+    },
+    {
+      "rank": 5,
+      "repo": "jamiepine/voicebox",
+      "language": "TypeScript",
+      "stars_today": "417",
+      "description": "The open-source AI voice studio. Clone, dictate, create."
+    },
+    {
+      "rank": 6,
+      "repo": "Lakr233/vphone-cli",
+      "language": "Swift",
+      "stars_today": "547",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars_today": "110",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -"
+    },
+    {
+      "rank": 8,
+      "repo": "ever-co/ever-gauzy",
+      "language": "TypeScript",
+      "stars_today": "778",
+      "description": "Anki is a smart spaced repetition flashcard program"
+    },
+    {
+      "rank": 9,
+      "repo": "ankitects/anki",
+      "language": "Rust",
+      "stars_today": "58",
+      "description": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "rank": 10,
+      "repo": "NationalSecurityAgency/ghidra",
+      "language": "Java",
+      "stars_today": "1,059",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "rank": 11,
+      "repo": "anthropics/claude-code",
+      "language": "TypeScript",
+      "stars_today": "165",
+      "description": "We write your reusable computer vision tools. 💜"
+    },
+    {
+      "rank": 12,
+      "repo": "roboflow/supervision",
+      "language": "Python",
+      "stars_today": "260",
+      "description": "Turn your coding agents into research agents"
+    },
+    {
+      "rank": 13,
+      "repo": "alphaXiv/OpenResearch",
+      "language": "Rust",
+      "stars_today": "1,017",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+    },
+    {
+      "rank": 14,
+      "repo": "supabase/supabase",
+      "language": "TypeScript",
+      "stars_today": "120",
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages"
+    },
+    {
+      "rank": 15,
+      "repo": "rlaope/oh-my-hermes",
+      "language": "Python",
+      "stars_today": "80",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
+    },
+    {
+      "rank": 16,
+      "repo": "Tencent/WeKnora",
+      "language": "Go",
+      "stars_today": "1,197",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+    },
+    {
+      "rank": 17,
+      "repo": "SnailSploit/Claude-Red",
+      "language": "Python",
+      "stars_today": "367",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+    },
+    {
+      "rank": 18,
+      "repo": "multimodal-art-projection/YuE",
+      "language": "Python",
+      "stars_today": "332",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 19,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "658",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
+    },
+    {
+      "rank": 20,
+      "repo": "cline/cline",
+      "language": "TypeScript",
+      "stars_today": "112",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 21,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,057",
+      "description": ""
+    }
+  ]
+}
