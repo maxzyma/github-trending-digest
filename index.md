@@ -45,6 +45,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-18](daily/2026-09-18-analysis) — "agent 技能包"成了榜单最大单一赛道：20 项里 6 项是给编码 agent 装能力的包，Cloudflare 的安全审计 skill 一天 +3,607 冲到第二；另一条线是 cilium、coder、n8n 三个基础设施老项目同日回流
 - [2026-09-16](daily/2026-09-16-analysis) — Homebrew 发布官方 GUI 首次上榜，LibreChat 首入 tracker；14 项里 8 项是回归老面孔，今天是典型的"存量重新分配"日
 - [2026-09-15](daily/2026-09-15-analysis) — 全榜只有 2 个新面孔、9 个项目回流：语音与音乐生成三连、自托管替代品扎堆，而回流里有一半是代码早已停更的老热度
 - [2026-09-14](daily/2026-09-14-analysis) — 回流日：19 项里 6 项回归、只有 5 个真新面孔；内容下载器一天三项同框，AI 科研 agent 开始管实验而不只是写代码
