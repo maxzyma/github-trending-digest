@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-19",
+  "weekday": "周六",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "3,006",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/claude-code",
+      "language": "TypeScript",
+      "stars_today": "444",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "rank": 3,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "2,704",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 4,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "958",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 5,
+      "repo": "Tencent/BrowserSkill",
+      "language": "TypeScript",
+      "stars_today": "1,306",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent."
+    },
+    {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "675",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 7,
+      "repo": "TencentCloud/Octop",
+      "language": "Python",
+      "stars_today": "569",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+    },
+    {
+      "rank": 8,
+      "repo": "Fission-AI/OpenSpec",
+      "language": "TypeScript",
+      "stars_today": "296",
+      "description": "Spec-driven development (SDD) for AI coding assistants."
+    },
+    {
+      "rank": 9,
+      "repo": "ankitects/anki",
+      "language": "Rust",
+      "stars_today": "174",
+      "description": "Anki is a smart spaced repetition flashcard program"
+    },
+    {
+      "rank": 10,
+      "repo": "anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars_today": "299",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "rank": 11,
+      "repo": "supermemoryai/supermemory",
+      "language": "TypeScript",
+      "stars_today": "140",
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era."
+    },
+    {
+      "rank": 12,
+      "repo": "tradesdontlie/tradingview-mcp",
+      "language": "JavaScript",
+      "stars_today": "79",
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation"
+    },
+    {
+      "rank": 13,
+      "repo": "rustfs/rustfs",
+      "language": "Rust",
+      "stars_today": "267",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph."
+    },
+    {
+      "rank": 14,
+      "repo": "supabase/supabase",
+      "language": "TypeScript",
+      "stars_today": "120",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+    },
+    {
+      "rank": 15,
+      "repo": "coder/coder",
+      "language": "Go",
+      "stars_today": "478",
+      "description": "Secure environments for developers and their agents"
+    },
+    {
+      "rank": 16,
+      "repo": "ahmedkhaleel2004/gitdiagram",
+      "language": "TypeScript",
+      "stars_today": "152",
+      "description": "Free, simple, fast interactive diagrams for any GitHub repository"
+    },
+    {
+      "rank": 17,
+      "repo": "asciimoo/hister",
+      "language": "Go",
+      "stars_today": "889",
+      "description": "Your own search engine"
+    }
+  ]
+}
