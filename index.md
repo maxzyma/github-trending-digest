@@ -45,6 +45,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-19](daily/2026-09-19-analysis) — 竞争从"给 agent 塞能力"上移到"约束 agent 的流程"：69,373 ⭐ 的规格驱动框架 OpenSpec 首入 tracker，HN 196 分；同时 rustfs、anki、hister 三个老项目回流，且三者的热度都能追到具体的发版或 HN 事件
 - [2026-09-18](daily/2026-09-18-analysis) — "agent 技能包"成了榜单最大单一赛道：20 项里 6 项是给编码 agent 装能力的包，Cloudflare 的安全审计 skill 一天 +3,607 冲到第二；另一条线是 cilium、coder、n8n 三个基础设施老项目同日回流
 - [2026-09-16](daily/2026-09-16-analysis) — Homebrew 发布官方 GUI 首次上榜，LibreChat 首入 tracker；14 项里 8 项是回归老面孔，今天是典型的"存量重新分配"日
 - [2026-09-15](daily/2026-09-15-analysis) — 全榜只有 2 个新面孔、9 个项目回流：语音与音乐生成三连、自托管替代品扎堆，而回流里有一半是代码早已停更的老热度
