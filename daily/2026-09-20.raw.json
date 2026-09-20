@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-20",
+  "weekday": "周日",
+  "count": 15,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "3,155",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 2,
+      "repo": "trycua/cua",
+      "language": "HTML",
+      "stars_today": "859",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+    },
+    {
+      "rank": 3,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "556",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 4,
+      "repo": "coder/coder",
+      "language": "Go",
+      "stars_today": "402",
+      "description": "Secure environments for developers and their agents"
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/claude-code",
+      "language": "TypeScript",
+      "stars_today": "483",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "rank": 6,
+      "repo": "Open-Dev-Society/OpenStock",
+      "language": "TypeScript",
+      "stars_today": "472",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free."
+    },
+    {
+      "rank": 7,
+      "repo": "higgsfield-ai/higgsfield",
+      "language": "Jupyter Notebook",
+      "stars_today": "196",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters"
+    },
+    {
+      "rank": 8,
+      "repo": "docling-project/docling",
+      "language": "Python",
+      "stars_today": "129",
+      "description": "Get your documents ready for gen AI"
+    },
+    {
+      "rank": 9,
+      "repo": "cloudflare/quiche",
+      "language": "Rust",
+      "stars_today": "31",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3"
+    },
+    {
+      "rank": 10,
+      "repo": "asciimoo/hister",
+      "language": "Go",
+      "stars_today": "420",
+      "description": "Your own search engine"
+    },
+    {
+      "rank": 11,
+      "repo": "ruanyf/weekly",
+      "language": "TypeScript",
+      "stars_today": "98",
+      "description": "科技爱好者周刊，每周五发布"
+    },
+    {
+      "rank": 12,
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "language": "Python",
+      "stars_today": "48",
+      "description": "人人都能用英语"
+    },
+    {
+      "rank": 13,
+      "repo": "anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars_today": "281",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "rank": 14,
+      "repo": "cactus-compute/needle",
+      "language": "Rust",
+      "stars_today": "234",
+      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers."
+    },
+    {
+      "rank": 15,
+      "repo": "yynxxxxx/Codex-X",
+      "language": "",
+      "stars_today": "32",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。"
+    }
+  ]
+}
