@@ -45,6 +45,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-21](daily/2026-09-21-analysis) — 榜单缩到 13 项、昨日前六名全线下滑，4 个老仓回流撑住席位；两个新面孔分别是 Vercel 的生成式 UI 框架 json-render 和斯坦福 CS146S 开学前的作业仓——今天的热度更多来自日历和回流，而不是新发版
 - [2026-09-20](daily/2026-09-20-analysis) — 周日榜单缩到 15 项，一半是老仓回流：计算机操作 agent 框架 trycua/cua 带着自训模型 CUA-S1 回来，coder/coder 单日蹿升 11 位，IBM 系文档解析器 docling 与 Cloudflare 的 QUIC 实现 quiche 首入 tracker——今天的新面孔几乎都能对上一个具体的发版
 - [2026-09-19](daily/2026-09-19-analysis) — 竞争从"给 agent 塞能力"上移到"约束 agent 的流程"：69,373 ⭐ 的规格驱动框架 OpenSpec 首入 tracker，HN 196 分；同时 rustfs、anki、hister 三个老项目回流，且三者的热度都能追到具体的发版或 HN 事件
 - [2026-09-18](daily/2026-09-18-analysis) — "agent 技能包"成了榜单最大单一赛道：20 项里 6 项是给编码 agent 装能力的包，Cloudflare 的安全审计 skill 一天 +3,607 冲到第二；另一条线是 cilium、coder、n8n 三个基础设施老项目同日回流
