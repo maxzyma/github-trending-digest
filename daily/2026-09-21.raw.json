@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-21",
+  "weekday": "周一",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "826",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 2,
+      "repo": "BuilderIO/agent-native",
+      "language": "TypeScript",
+      "stars_today": "98",
+      "description": "A framework for building agentic apps"
+    },
+    {
+      "rank": 3,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "2,428",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 4,
+      "repo": "trycua/cua",
+      "language": "HTML",
+      "stars_today": "1,018",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/financial-services",
+      "language": "Python",
+      "stars_today": "260",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents"
+    },
+    {
+      "rank": 6,
+      "repo": "paperless-ngx/paperless-ngx",
+      "language": "Python",
+      "stars_today": "57",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/claude-code",
+      "language": "TypeScript",
+      "stars_today": "419",
+      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)"
+    },
+    {
+      "rank": 8,
+      "repo": "mihail911/modern-software-dev-assignments",
+      "language": "Python",
+      "stars_today": "172",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters"
+    },
+    {
+      "rank": 9,
+      "repo": "higgsfield-ai/higgsfield",
+      "language": "Jupyter Notebook",
+      "stars_today": "465",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free."
+    },
+    {
+      "rank": 10,
+      "repo": "Open-Dev-Society/OpenStock",
+      "language": "TypeScript",
+      "stars_today": "755",
+      "description": "Secure environments for developers and their agents"
+    },
+    {
+      "rank": 11,
+      "repo": "coder/coder",
+      "language": "Go",
+      "stars_today": "379",
+      "description": "The Generative UI framework"
+    },
+    {
+      "rank": 12,
+      "repo": "vercel-labs/json-render",
+      "language": "TypeScript",
+      "stars_today": "291",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 13,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "736",
+      "description": ""
+    }
+  ]
+}
