@@ -46,6 +46,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-23](daily/2026-09-23-analysis) — Google 的 agent 底座两层同日同榜：编排器 google/ax 首次上榜就拿下今日唯一的四位数增长（+2,305），它脚下的沙箱运行时 agent-substrate/substrate 一个月后回归；另一侧 dream-num/univer 和 superdesigndev/treg 分别从文档侧和工具侧补上"agent 能操作什么"这一层
 - [2026-09-22](daily/2026-09-22-analysis) — Agent 基建仍占榜单近半，但今天真正的看点在两侧：akitaonrails/ai-memory 一个月 star 翻倍回归，而手机间谍软件取证工具 mvt-project/mvt 首次进入 tracker——榜单里久未出现的非 AI 严肃工具
 - [2026-09-21](daily/2026-09-21-analysis) — 榜单缩到 13 项、昨日前六名全线下滑，4 个老仓回流撑住席位；两个新面孔分别是 Vercel 的生成式 UI 框架 json-render 和斯坦福 CS146S 开学前的作业仓——今天的热度更多来自日历和回流，而不是新发版
 - [2026-09-20](daily/2026-09-20-analysis) — 周日榜单缩到 15 项，一半是老仓回流：计算机操作 agent 框架 trycua/cua 带着自训模型 CUA-S1 回来，coder/coder 单日蹿升 11 位，IBM 系文档解析器 docling 与 Cloudflare 的 QUIC 实现 quiche 首入 tracker——今天的新面孔几乎都能对上一个具体的发版
