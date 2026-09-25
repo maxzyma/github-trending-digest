@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-25",
+  "weekday": "周五",
+  "count": 14,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "347",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 2,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "1,668",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 3,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "1,082",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    },
+    {
+      "rank": 4,
+      "repo": "google/ax",
+      "language": "Go",
+      "stars_today": "1,373",
+      "description": "Google's open agentic orchestration runtime"
+    },
+    {
+      "rank": 5,
+      "repo": "NVIDIA/Model-Optimizer",
+      "language": "Python",
+      "stars_today": "44",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "rank": 6,
+      "repo": "FxEmbed/FxEmbed",
+      "language": "TypeScript",
+      "stars_today": "182",
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others"
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/financial-services",
+      "language": "Python",
+      "stars_today": "509",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:"
+    },
+    {
+      "rank": 8,
+      "repo": "HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars_today": "413",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise."
+    },
+    {
+      "rank": 9,
+      "repo": "mvt-project/mvt",
+      "language": "Python",
+      "stars_today": "272",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "611",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud."
+    },
+    {
+      "rank": 11,
+      "repo": "strands-agents/harness-sdk",
+      "language": "Python",
+      "stars_today": "455",
+      "description": "An offline-first photo manager for large local libraries"
+    },
+    {
+      "rank": 12,
+      "repo": "julyx10/lap",
+      "language": "Vue",
+      "stars_today": "122",
+      "description": "OpenRouter for agent tools. Join community here:"
+    },
+    {
+      "rank": 13,
+      "repo": "superdesigndev/treg",
+      "language": "Python",
+      "stars_today": "468",
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "rank": 14,
+      "repo": "leejet/stable-diffusion.cpp",
+      "language": "C++",
+      "stars_today": "36",
+      "description": ""
+    }
+  ]
+}
