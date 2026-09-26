@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-26",
+  "weekday": "周六",
+  "count": 16,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "2,109",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars_today": "83",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "rank": 3,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "1,653",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "468",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 5,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "583",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 6,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "1,050",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/skills",
+      "language": "Python",
+      "stars_today": "189",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "rank": 8,
+      "repo": "androoAGI/starnet",
+      "language": "JavaScript",
+      "stars_today": "93",
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run."
+    },
+    {
+      "rank": 9,
+      "repo": "derv82/wifit3",
+      "language": "Python",
+      "stars_today": "183",
+      "description": "Wifite but USB-only &amp; cross-platform."
+    },
+    {
+      "rank": 10,
+      "repo": "kelseyhightower/kubernetes-the-hard-way",
+      "language": "Python",
+      "stars_today": "119",
+      "description": "Bootstrap Kubernetes the hard way. No scripts."
+    },
+    {
+      "rank": 11,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "1,177",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 12,
+      "repo": "shy3130/tick-stock-panel",
+      "language": "Go",
+      "stars_today": "44",
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源"
+    },
+    {
+      "rank": 13,
+      "repo": "google/ax",
+      "language": "Python",
+      "stars_today": "1,379",
+      "description": "Google's open agentic orchestration runtime"
+    },
+    {
+      "rank": 14,
+      "repo": "NVIDIA/Model-Optimizer",
+      "language": "JavaScript",
+      "stars_today": "359",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "rank": 15,
+      "repo": "pbakaus/impeccable",
+      "language": "Go",
+      "stars_today": "306",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "rank": 16,
+      "repo": "openbao/openbao",
+      "language": "",
+      "stars_today": "49",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys."
+    }
+  ]
+}
