@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-27",
+  "weekday": "周日",
+  "count": 15,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "2,608",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 2,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "2,147",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 3,
+      "repo": "NVIDIA/Model-Optimizer",
+      "language": "Python",
+      "stars_today": "357",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+    },
+    {
+      "rank": 4,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "849",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    },
+    {
+      "rank": 5,
+      "repo": "tensorflow/tensorflow",
+      "language": "C++",
+      "stars_today": "46",
+      "description": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "rank": 6,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "827",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 7,
+      "repo": "openbao/openbao",
+      "language": "Go",
+      "stars_today": "364",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys."
+    },
+    {
+      "rank": 8,
+      "repo": "block/buzz",
+      "language": "Rust",
+      "stars_today": "339",
+      "description": "A hive mind communication platform"
+    },
+    {
+      "rank": 9,
+      "repo": "microsoft/vscode",
+      "language": "TypeScript",
+      "stars_today": "95",
+      "description": "Visual Studio Code"
+    },
+    {
+      "rank": 10,
+      "repo": "zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "stars_today": "361",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+    },
+    {
+      "rank": 11,
+      "repo": "llvm/llvm-project",
+      "language": "LLVM",
+      "stars_today": "41",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies."
+    },
+    {
+      "rank": 12,
+      "repo": "anthropics/claude-code-action",
+      "language": "TypeScript",
+      "stars_today": "31",
+      "description": "GitHub Actions runner images"
+    },
+    {
+      "rank": 13,
+      "repo": "actions/runner-images",
+      "language": "PowerShell",
+      "stars_today": "19",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)"
+    },
+    {
+      "rank": 14,
+      "repo": "mobile-next/mobile-mcp",
+      "language": "TypeScript",
+      "stars_today": "168",
+      "description": "The React Framework"
+    },
+    {
+      "rank": 15,
+      "repo": "vercel/next.js",
+      "language": "JavaScript",
+      "stars_today": "54",
+      "description": ""
+    }
+  ]
+}
