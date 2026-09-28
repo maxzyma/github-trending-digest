@@ -46,6 +46,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-09-28](daily/2026-09-28-analysis) — 榜单缩到 9 项、几乎整张换血：paperclipai/paperclip、vectorize-io/hindsight、debpalash/VoiceStudio 三个回流老面孔包揽前三，agent 运营与记忆层重新成为主盘；vercel-labs/scriptc（TypeScript 编译成原生程序）和 willfaust/Madeira（iPhone 上跑 Windows 游戏）代表另一条线：把"本来跑不起来"的东西做成可演示的实验品。
 - [2026-09-24](daily/2026-09-24-analysis) — 榜单从 8 项扩到 17 项，昨日 8 个项目全部留榜：AWS 把 Strands Agents SDK 改名 strands-agents/harness-sdk 首次入榜，和 google/ax、agent-substrate/substrate 凑齐一层 agent 执行底座；dream-num/univer 发布 1.0，日增从 +255 跳到 +1,142；obra/superpowers、DeusData/codebase-memory-mcp、pbakaus/impeccable 等 6 个老面孔同日回流。
 - [2026-09-23](daily/2026-09-23-analysis) — Google 的 agent 底座两层同日同榜：编排器 google/ax 首次上榜就拿下今日唯一的四位数增长（+2,305），它脚下的沙箱运行时 agent-substrate/substrate 一个月后回归；另一侧 dream-num/univer 和 superdesigndev/treg 分别从文档侧和工具侧补上"agent 能操作什么"这一层
 - [2026-09-22](daily/2026-09-22-analysis) — Agent 基建仍占榜单近半，但今天真正的看点在两侧：akitaonrails/ai-memory 一个月 star 翻倍回归，而手机间谍软件取证工具 mvt-project/mvt 首次进入 tracker——榜单里久未出现的非 AI 严肃工具
