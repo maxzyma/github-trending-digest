@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-28",
+  "weekday": "周一",
+  "count": 9,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "2,401",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 2,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "4,520",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 3,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "3,086",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 4,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "790",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 5,
+      "repo": "InfinityLoop1308/PipePipe",
+      "language": "Shell",
+      "stars_today": "242",
+      "description": "An open-source Android app to let you browse YouTube and other services freely."
+    },
+    {
+      "rank": 6,
+      "repo": "vercel-labs/scriptc",
+      "language": "TypeScript",
+      "stars_today": "102",
+      "description": "TypeScript-to-Native Compiler"
+    },
+    {
+      "rank": 7,
+      "repo": "mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars_today": "114",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system"
+    },
+    {
+      "rank": 8,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "895",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    },
+    {
+      "rank": 9,
+      "repo": "willfaust/Madeira",
+      "language": "C",
+      "stars_today": "83",
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT"
+    }
+  ]
+}
