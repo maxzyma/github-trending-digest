@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-29",
+  "weekday": "周二",
+  "count": 8,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "3,221",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 2,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "3,197",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 3,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "4,561",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 4,
+      "repo": "NawfalMotii79/PLFM_RADAR",
+      "language": "PLSQL",
+      "stars_today": "158",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system"
+    },
+    {
+      "rank": 5,
+      "repo": "cs341-illinois/coursebook",
+      "language": "TeX",
+      "stars_today": "195",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois"
+    },
+    {
+      "rank": 6,
+      "repo": "byoungd/up",
+      "language": "JavaScript",
+      "stars_today": "327",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语"
+    },
+    {
+      "rank": 7,
+      "repo": "mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars_today": "734",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system"
+    },
+    {
+      "rank": 8,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "1,099",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    }
+  ]
+}
