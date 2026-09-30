@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-30",
+  "weekday": "周三",
+  "count": 14,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "4,758",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 2,
+      "repo": "NVIDIA/OpenShell",
+      "language": "Rust",
+      "stars_today": "990",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "rank": 3,
+      "repo": "vectorize-io/hindsight",
+      "language": "Python",
+      "stars_today": "2,575",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "rank": 4,
+      "repo": "paperclipai/paperclip",
+      "language": "TypeScript",
+      "stars_today": "2,458",
+      "description": "The open-source app everyone uses to manage agents at work"
+    },
+    {
+      "rank": 5,
+      "repo": "t8y2/dbx",
+      "language": "Rust",
+      "stars_today": "232",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。"
+    },
+    {
+      "rank": 6,
+      "repo": "mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars_today": "737",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system"
+    },
+    {
+      "rank": 7,
+      "repo": "oblien/openship",
+      "language": "TypeScript",
+      "stars_today": "437",
+      "description": "Self-hosted deployment platform"
+    },
+    {
+      "rank": 8,
+      "repo": "averygan/reclip",
+      "language": "HTML",
+      "stars_today": "113",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI."
+    },
+    {
+      "rank": 9,
+      "repo": "cs341-illinois/coursebook",
+      "language": "TeX",
+      "stars_today": "572",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois"
+    },
+    {
+      "rank": 10,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "stars_today": "786",
+      "description": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "rank": 11,
+      "repo": "VectifyAI/PageIndex",
+      "language": "Python",
+      "stars_today": "835",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+    },
+    {
+      "rank": 12,
+      "repo": "willfaust/Madeira",
+      "language": "C",
+      "stars_today": "81",
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT"
+    },
+    {
+      "rank": 13,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "696",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+    },
+    {
+      "rank": 14,
+      "repo": "rakyll/hey",
+      "language": "Go",
+      "stars_today": "34",
+      "description": "HTTP load generator, ApacheBench (ab) replacement"
+    }
+  ]
+}
