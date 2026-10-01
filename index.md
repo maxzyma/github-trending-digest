@@ -22,6 +22,8 @@ title: GitHub Trending Digest
 
 ## Monthly Reports
 
+- [2026-09](monthly/2026-09) — 九月 GitHub Trending 月度趋势分析
+
 - [2026-08](monthly/2026-08) — agent 生态从「比 star」换挡到「按层选型 + 治理落地」：执行环境（cloudflare/computer、google/agent-substrate）、记忆层（TencentDB-Agent-Memory、字节 OpenViking、git+markdown 的 ai-memory 三种互不兼容答案）、技能分发（mattpocock/skills、superpowers、agent-skills 三形态各 8 天在榜）、安全治理（腾讯 AI-Infra-Guard、Uber ADR）、成本路由（free-claude-code、freellmapi、workweave/router）五层各自独立成线，Apache 孵化 maka + Anthropic 官方与社区两个插件目录同月落地，`npx skills add <owner>/<repo>` 成跨 harness 事实安装约定；skill 层从「收录清单」换挡到「单点工具」（archify 5 天 18,088→34,858 为全月星增第二，同日 awesome-list 退到 #16）；最扎实真信号在榜单下半区——tailcat（HN 659 分）、hister（HN 491 分）、typephp、htmx v4.0.0 日增只有两三位数却拿走全月最高 HN 分数，而星增最猛的 skill 项目 HN 讨论普遍为零；风险集中在加密任务体系换 star（genlayer 脚手架 15,973⭐ 是其运行时 166⭐ 的 96 倍 + Galxe 任务页）与停更仓吸星（ponytail 409:1 全周零提交涨 5,589、karpathy-skills 四个月零动作 20.7 万星）；nitter 被 X Corp. 法律下架成为首个「墓碑式上榜」（只涨 71 星、fork +28%）；数据侧为 tracker 迄今最好——31/31 天零缺漏
 - [2026-06](monthly/2026-06) — agent/skills 生态大厂化（OpenAI/Google/Anthropic/AWS/阿里官方项目同月在榜，月末落地 design.md/claude-plugins-official/page-agent 权威锚点）+ vanity 方法论完成收口（高 ratio 单指标 → 组合判据 → 比值是入口信号结论靠足迹 → 模板复制/厂商主导/真营销驱动三成因）；最扎实真信号是成熟基础设施集中回流（apple/container/firecrawl/MinerU/MediaCrawler/Stirling-PDF）+ 事件驱动双强发版（GLM-5 HN 883 分/iroh HN 1,351 分/LMCache 生产集成）；最需谨慎是短龄高失衡投资·交易·视频仓（ECC 198:1/MemPalace 造假闭环/OpenMontage 五天涨 13K/TREK 481:1/ai-berkshire 397:1）；数据侧持续恶化（全月缺 6 天 + 周末 cron 空档连续三周 + 脚本连续三日误标全 NEW）
 
