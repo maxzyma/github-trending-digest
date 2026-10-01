@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-01",
+  "weekday": "周四",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "NVIDIA/OpenShell",
+      "language": "Rust",
+      "stars_today": "1,281",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "rank": 2,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "3,483",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 3,
+      "repo": "mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars_today": "624",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system"
+    },
+    {
+      "rank": 4,
+      "repo": "mksglu/context-mode",
+      "language": "TypeScript",
+      "stars_today": "90",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+    },
+    {
+      "rank": 5,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "743",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 6,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars_today": "431",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "rank": 7,
+      "repo": "openclaw/openclaw",
+      "language": "TypeScript",
+      "stars_today": "136",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞"
+    },
+    {
+      "rank": 8,
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "language": "Python",
+      "stars_today": "123",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "rank": 9,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "876",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 10,
+      "repo": "heygen-com/hyperframes",
+      "language": "TypeScript",
+      "stars_today": "349",
+      "description": "Write HTML. Render video. Built for agents."
+    },
+    {
+      "rank": 11,
+      "repo": "firebase/firebase-ios-sdk",
+      "language": "C++",
+      "stars_today": "8",
+      "description": "Firebase SDK for Apple App Development"
+    },
+    {
+      "rank": 12,
+      "repo": "modelcontextprotocol/servers",
+      "language": "TypeScript",
+      "stars_today": "50",
+      "description": "Model Context Protocol Servers"
+    },
+    {
+      "rank": 13,
+      "repo": "byoungd/up",
+      "language": "JavaScript",
+      "stars_today": "743",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语"
+    },
+    {
+      "rank": 14,
+      "repo": "colbymchenry/codegraph",
+      "language": "C",
+      "stars_today": "118",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+    },
+    {
+      "rank": 15,
+      "repo": "t8y2/dbx",
+      "language": "Rust",
+      "stars_today": "1,138",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。"
+    },
+    {
+      "rank": 16,
+      "repo": "NawfalMotii79/PLFM_RADAR",
+      "language": "PLSQL",
+      "stars_today": "263",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system"
+    },
+    {
+      "rank": 17,
+      "repo": "VectifyAI/PageIndex",
+      "language": "Python",
+      "stars_today": "1,097",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+    }
+  ]
+}
