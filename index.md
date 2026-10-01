@@ -46,6 +46,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-01](daily/2026-10-01-analysis) — 榜单扩到 17 项：NVIDIA 的 agent 安全运行时 NVIDIA/OpenShell 上榜第二天登顶；context-mode、codegraph、ponytail、mattpocock/skills 等 coding agent 的上下文与技能工具集体回流，MCP 官方参考实现 modelcontextprotocol/servers 首次进入 tracker；AI 音视频生成线由 VoiceStudio、MoneyPrinterTurbo、hyperframes 撑起。
 - [2026-09-30](daily/2026-09-30-analysis) — 榜单扩到 14 项：NVIDIA 的 agent 安全运行时 NVIDIA/OpenShell 首次上榜即排第二，和 hindsight、paperclip、openrig 连成从记忆、隔离到团队协作的 agent 基础设施链；另一条线是开发者自托管工具——Rust 数据库客户端 t8y2/dbx、自托管部署平台 oblien/openship 首入，debpalash/VoiceStudio 连续第三天登顶。
 - [2026-09-29](daily/2026-09-29-analysis) — debpalash/VoiceStudio、paperclipai/paperclip、vectorize-io/hindsight 连续第二天包揽前三，本地语音、agent 管理与 agent 记忆三条线继续领跑；后半张榜转向"长青资料"：UIUC 系统编程教材 cs341-illinois/coursebook 首次上榜，改名为 byoungd/up 的人生进阶指南和开源相控阵雷达 PLFM_RADAR 回流。
 - [2026-09-28](daily/2026-09-28-analysis) — 榜单缩到 9 项、几乎整张换血：paperclipai/paperclip、vectorize-io/hindsight、debpalash/VoiceStudio 三个回流老面孔包揽前三，agent 运营与记忆层重新成为主盘；vercel-labs/scriptc（TypeScript 编译成原生程序）和 willfaust/Madeira（iPhone 上跑 Windows 游戏）代表另一条线：把"本来跑不起来"的东西做成可演示的实验品。
