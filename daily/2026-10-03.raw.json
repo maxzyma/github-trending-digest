@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-03",
+  "weekday": "周六",
+  "count": 17,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars_today": "696",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "rank": 2,
+      "repo": "JuliusBrussee/caveman",
+      "language": "Go",
+      "stars_today": "209",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+    },
+    {
+      "rank": 3,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "556",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 4,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,435",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 5,
+      "repo": "pbakaus/impeccable",
+      "language": "JavaScript",
+      "stars_today": "722",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "rank": 6,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "955",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 7,
+      "repo": "NVIDIA/OpenShell",
+      "language": "Rust",
+      "stars_today": "594",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "rank": 8,
+      "repo": "coreyhaines31/marketingskills",
+      "language": "JavaScript",
+      "stars_today": "140",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+    },
+    {
+      "rank": 9,
+      "repo": "heygen-com/hyperframes",
+      "language": "TypeScript",
+      "stars_today": "580",
+      "description": "Write HTML. Render video. Built for agents."
+    },
+    {
+      "rank": 10,
+      "repo": "mksglu/context-mode",
+      "language": "TypeScript",
+      "stars_today": "282",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+    },
+    {
+      "rank": 11,
+      "repo": "google/skills",
+      "language": "Python",
+      "stars_today": "39",
+      "description": "Agent Skills for Google products and technologies"
+    },
+    {
+      "rank": 12,
+      "repo": "getsentry/sentry",
+      "language": "Python",
+      "stars_today": "16",
+      "description": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "rank": 13,
+      "repo": "colbymchenry/codegraph",
+      "language": "C",
+      "stars_today": "98",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+    },
+    {
+      "rank": 14,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "163",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 15,
+      "repo": "mvschwarz/openrig",
+      "language": "TypeScript",
+      "stars_today": "683",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
+    },
+    {
+      "rank": 16,
+      "repo": "Effect-TS/effect",
+      "language": "TypeScript",
+      "stars_today": "80",
+      "description": "Build production-ready applications in TypeScript"
+    },
+    {
+      "rank": 17,
+      "repo": "pablostanley/yoinks",
+      "language": "TypeScript",
+      "stars_today": "623",
+      "description": "yoink any video from your terminal. no shady ads."
+    }
+  ]
+}
