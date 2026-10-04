@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-04](daily/2026-10-04-analysis) — 19 项里 15 项围绕 AI agent：pi 发布 1.0、claude-code 连续三天发版、t3code 一天多个 nightly，agent 客户端本身成了新的一组；Cloudflare 开源的企业 agent 工作台 cloudflare-os 在托管版发布后首入 tracker，美团视频生成模型 LongCat-Video 也首次上榜。
 - [2026-10-03](daily/2026-10-03-analysis) — 17 项里 13 项围绕 coding agent：superpowers、ponytail、impeccable、mattpocock/skills 等 skill 与方法库占 7 席，google/skills、cursor/plugins 代表厂商官方目录同场回流；caveman 发 3.0 并全仓改为 Apache-2.0，TypeScript 函数式框架 Effect 4.0 正式版发布后首入 tracker。
 - [2026-10-01](daily/2026-10-01-analysis) — 榜单扩到 17 项：NVIDIA 的 agent 安全运行时 NVIDIA/OpenShell 上榜第二天登顶；context-mode、codegraph、ponytail、mattpocock/skills 等 coding agent 的上下文与技能工具集体回流，MCP 官方参考实现 modelcontextprotocol/servers 首次进入 tracker；AI 音视频生成线由 VoiceStudio、MoneyPrinterTurbo、hyperframes 撑起。
 - [2026-09-30](daily/2026-09-30-analysis) — 榜单扩到 14 项：NVIDIA 的 agent 安全运行时 NVIDIA/OpenShell 首次上榜即排第二，和 hindsight、paperclip、openrig 连成从记忆、隔离到团队协作的 agent 基础设施链；另一条线是开发者自托管工具——Rust 数据库客户端 t8y2/dbx、自托管部署平台 oblien/openship 首入，debpalash/VoiceStudio 连续第三天登顶。
