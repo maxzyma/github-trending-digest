@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-07",
+  "weekday": "周三",
+  "count": 12,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "tester-army/e2e",
+      "language": "TypeScript",
+      "stars_today": "1,725",
+      "description": "Next generation e2e testing framework for web and mobile apps."
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "889",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 3,
+      "repo": "earthtojake/text-to-cad",
+      "language": "Python",
+      "stars_today": "619",
+      "description": "Give your agent CAD superpowers."
+    },
+    {
+      "rank": 4,
+      "repo": "boykopovar/AnyPS5",
+      "language": "C++",
+      "stars_today": "949",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+    },
+    {
+      "rank": 5,
+      "repo": "pbakaus/impeccable",
+      "language": "JavaScript",
+      "stars_today": "616",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "rank": 6,
+      "repo": "thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars_today": "534",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+    },
+    {
+      "rank": 7,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "326",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 8,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "2,956",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 9,
+      "repo": "deepseek-ai/DeepGEMM",
+      "language": "Cuda",
+      "stars_today": "199",
+      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU"
+    },
+    {
+      "rank": 10,
+      "repo": "msitarzewski/agency-agents",
+      "language": "Shell",
+      "stars_today": "623",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    },
+    {
+      "rank": 11,
+      "repo": "DuarteSantos8/openGym",
+      "language": "JavaScript",
+      "stars_today": "1,419",
+      "description": "Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+    },
+    {
+      "rank": 12,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "228",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    }
+  ]
+}
