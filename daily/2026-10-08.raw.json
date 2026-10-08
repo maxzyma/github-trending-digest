@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-08",
+  "weekday": "周四",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "4,655",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "1,403",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 3,
+      "repo": "boykopovar/AnyPS5",
+      "language": "C++",
+      "stars_today": "2,716",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+    },
+    {
+      "rank": 4,
+      "repo": "ayghri/i-have-adhd",
+      "language": "Python",
+      "stars_today": "619",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "rank": 5,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "825",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "677",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 7,
+      "repo": "EpicGames/raddebugger",
+      "language": "C",
+      "stars_today": "90",
+      "description": "A native, user-mode, multi-process, graphical debugger."
+    },
+    {
+      "rank": 8,
+      "repo": "thedotmack/claude-mem",
+      "language": "TypeScript",
+      "stars_today": "578",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+    },
+    {
+      "rank": 9,
+      "repo": "manaflow-ai/cmux",
+      "language": "Swift",
+      "stars_today": "44",
+      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability."
+    },
+    {
+      "rank": 10,
+      "repo": "trycua/cua",
+      "language": "Rust",
+      "stars_today": "228",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+    },
+    {
+      "rank": 11,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "576",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 12,
+      "repo": "tester-army/e2e",
+      "language": "TypeScript",
+      "stars_today": "1,390",
+      "description": "Next generation e2e testing framework for web and mobile apps."
+    },
+    {
+      "rank": 13,
+      "repo": "DuarteSantos8/openGym",
+      "language": "JavaScript",
+      "stars_today": "1,493",
+      "description": "Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+    }
+  ]
+}
