@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-08](daily/2026-10-08-analysis) — 逆向工具 rea 一天再涨 4,655 星登顶，唯一 NEW 是刚出 Linux 版的 RAD Debugger，加上 PS5 移植的 AnyPS5，前七名里三项都在拆解原生程序；agent 终端 cmux、桌面操控 cua 和 Cloudflare 安全审计 skill 同日回榜。
 - [2026-10-07](daily/2026-10-07-analysis) — 昨天全部退场的 skill 包今天回来四个，mattpocock/skills 重回第 2；唯一 NEW rea 以 +2,956 拿下全榜日增第一，把应用和二进制逆向接进 coding agent；DeepSeek 的 GPU 计算库 DeepGEMM 时隔五个半月回榜。
 - [2026-10-06](daily/2026-10-06-analysis) — e2e 连续两天榜首、一天再涨约 1,700 星；三个 NEW 都在 agent 之外：PS5 游戏原生移植 AnyPS5、自托管健身记录 openGym、2 美元芯片上的 DNS 广告拦截 esp32-c3-adblock；在榜的 agent 工具把更新集中在提速和省配额上。
 - [2026-10-05](daily/2026-10-05-analysis) — YC 公司 TesterArmy 开源的 agent 式 E2E 测试框架 tester-army/e2e 首入即登榜首，与 impeccable、ponytail、pstack-claude 一起把“让 agent 拿证据验收”推到台前；Cursor 的 pstack 被移植到 Claude Code 等宿主，ponytail 修复 Codex 下规则不生效，跨宿主分发的成本开始显形；Caddy 一周三个补丁版后首入 tracker。
