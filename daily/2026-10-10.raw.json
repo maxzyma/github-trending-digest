@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-10",
+  "weekday": "周六",
+  "count": 11,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "14,927",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 2,
+      "repo": "boykopovar/AnyPS5",
+      "language": "C++",
+      "stars_today": "5,868",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+    },
+    {
+      "rank": 3,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "1,687",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 4,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "1,739",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 5,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "326",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 6,
+      "repo": "anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars_today": "709",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "rank": 7,
+      "repo": "BerriAI/litellm",
+      "language": "Python",
+      "stars_today": "95",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
+    },
+    {
+      "rank": 8,
+      "repo": "addyosmani/agent-skills",
+      "language": "JavaScript",
+      "stars_today": "436",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 9,
+      "repo": "storytold/artcraft",
+      "language": "Rust",
+      "stars_today": "3,752",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+    },
+    {
+      "rank": 10,
+      "repo": "Robbyant/lingbot-map",
+      "language": "Python",
+      "stars_today": "110",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction"
+    },
+    {
+      "rank": 11,
+      "repo": "twostraws/SwiftUI-Agent-Skill",
+      "language": "",
+      "stars_today": "65",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+    }
+  ]
+}
