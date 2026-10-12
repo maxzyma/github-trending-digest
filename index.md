@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-12](daily/2026-10-12-analysis) — rea 单日再涨约 3 万星，总星数破 10 万，连续第三天居榜首；前四名与昨日完全相同；God's Eye View 以接入 Claude、Codex 的 MCP 版本回榜，Apollo-11 在阿波罗软件负责人 Margaret Hamilton 去世的新闻后重回榜单。
 - [2026-10-11](daily/2026-10-11-analysis) — rea 发 6.4.0 接入安卓与 JEB，连续第二天居榜首；ArtCraft 改为双许可并起步纯 Rust 桌面端，升到第 3；TensorFlow 首入 tracker，与 PyTorch、Transformers、Flutter 四个成熟框架同日回到榜单。
 - [2026-10-10](daily/2026-10-10-analysis) — 逆向工具 rea 一天发两版、重回榜首；agent skill 包占 5 席，Paul Hudson 的 SwiftUI skill 随 2.0 版首次上榜；阿里开源代码评审工具回榜，LLM 网关 LiteLLM 首入 tracker。
 - [2026-10-09](daily/2026-10-09-analysis) — PS5 移植工具 AnyPS5 连涨四天登顶，逆向工具 rea 以 +7,738 拿下全榜日增第一并两天连发 6.0、6.1；唯一 NEW 是 AI 出图出视频工作台 ArtCraft，Anthropic 的 Cowork 插件库和系统设计读书笔记同日回榜。
