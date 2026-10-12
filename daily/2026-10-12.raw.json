@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-12",
+  "weekday": "周一",
+  "count": 8,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "25,599",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 2,
+      "repo": "boykopovar/AnyPS5",
+      "language": "C++",
+      "stars_today": "3,952",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+    },
+    {
+      "rank": 3,
+      "repo": "storytold/artcraft",
+      "language": "Rust",
+      "stars_today": "2,957",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+    },
+    {
+      "rank": 4,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "1,083",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 5,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "886",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 6,
+      "repo": "pytorch/pytorch",
+      "language": "Python",
+      "stars_today": "315",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "rank": 7,
+      "repo": "lyogavin/airllm",
+      "language": "Jupyter Notebook",
+      "stars_today": "548",
+      "description": "AirLLM 70B inference with single 4GB GPU"
+    },
+    {
+      "rank": 8,
+      "repo": "chrislgarry/Apollo-11",
+      "language": "Assembly",
+      "stars_today": "466",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules."
+    }
+  ]
+}
