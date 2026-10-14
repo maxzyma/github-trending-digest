@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-14](daily/2026-10-14-analysis) — rea 总星数越过 20 万，连续第八天居首；在 Linux 和 Windows 上开发 iOS 应用的 xtool 首次上榜，当天发版修复 Apple ID 登录；vercel-labs/skills 与 VoiceStudio 回榜，编程 Agent 的技能与插件工具占三席。
 - [2026-10-13](daily/2026-10-13-analysis) — rea 一天再涨约 5.3 万星，总星数到 16 万，连续第七天在榜；Open WebUI 发布 0.12.0 后首次进入 tracker，和微软 BitNet、AirLLM 凑成一组"在自己机器上跑模型"；context-mode 与 free-claude-code 回榜，编程 Agent 周边工具占三席。
 - [2026-10-12](daily/2026-10-12-analysis) — rea 单日再涨约 3 万星，总星数破 10 万，连续第三天居榜首；前四名与昨日完全相同；God's Eye View 以接入 Claude、Codex 的 MCP 版本回榜，Apollo-11 在阿波罗软件负责人 Margaret Hamilton 去世的新闻后重回榜单。
 - [2026-10-11](daily/2026-10-11-analysis) — rea 发 6.4.0 接入安卓与 JEB，连续第二天居榜首；ArtCraft 改为双许可并起步纯 Rust 桌面端，升到第 3；TensorFlow 首入 tracker，与 PyTorch、Transformers、Flutter 四个成熟框架同日回到榜单。
