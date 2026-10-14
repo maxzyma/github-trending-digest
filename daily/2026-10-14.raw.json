@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-14",
+  "weekday": "周三",
+  "count": 9,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "54,679",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 2,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "language": "JavaScript",
+      "stars_today": "1,961",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    },
+    {
+      "rank": 3,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "1,748",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 4,
+      "repo": "mksglu/context-mode",
+      "language": "TypeScript",
+      "stars_today": "969",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+    },
+    {
+      "rank": 5,
+      "repo": "cathrynlavery/diagram-design",
+      "language": "HTML",
+      "stars_today": "1,815",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+    },
+    {
+      "rank": 6,
+      "repo": "vercel-labs/skills",
+      "language": "TypeScript",
+      "stars_today": "190",
+      "description": "The open agent skills tool - npx skills"
+    },
+    {
+      "rank": 7,
+      "repo": "lyogavin/airllm",
+      "language": "Jupyter Notebook",
+      "stars_today": "1,001",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU"
+    },
+    {
+      "rank": 8,
+      "repo": "storytold/artcraft",
+      "language": "Rust",
+      "stars_today": "4,081",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+    },
+    {
+      "rank": 9,
+      "repo": "xtool-org/xtool",
+      "language": "Swift",
+      "stars_today": "1,198",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS."
+    }
+  ]
+}
