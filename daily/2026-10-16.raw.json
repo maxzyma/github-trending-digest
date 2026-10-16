@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-16",
+  "weekday": "周五",
+  "count": 13,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "morluto/rea",
+      "language": "TypeScript",
+      "stars_today": "32,314",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/claude-plugins-official",
+      "language": "Python",
+      "stars_today": "307",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    },
+    {
+      "rank": 3,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "stars_today": "1,091",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+    },
+    {
+      "rank": 4,
+      "repo": "JuliusBrussee/caveman",
+      "language": "Go",
+      "stars_today": "433",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+    },
+    {
+      "rank": 5,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "3,024",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 6,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "582",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 7,
+      "repo": "ruvnet/ruflo",
+      "language": "TypeScript",
+      "stars_today": "147",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+    },
+    {
+      "rank": 8,
+      "repo": "mksglu/context-mode",
+      "language": "TypeScript",
+      "stars_today": "904",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+    },
+    {
+      "rank": 9,
+      "repo": "NationalSecurityAgency/ghidra",
+      "language": "Java",
+      "stars_today": "1,369",
+      "description": "Ghidra is a software reverse engineering (SRE) framework"
+    },
+    {
+      "rank": 10,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,013",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 11,
+      "repo": "lightseekorg/tokenspeed",
+      "language": "Python",
+      "stars_today": "30",
+      "description": "TokenSpeed is a speed-of-light LLM inference engine."
+    },
+    {
+      "rank": 12,
+      "repo": "xerj-org/xerj",
+      "language": "Rust",
+      "stars_today": "715",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work."
+    },
+    {
+      "rank": 13,
+      "repo": "LibreSpark/LibreTV",
+      "language": "TypeScript",
+      "stars_today": "978",
+      "description": "一分钟搭建影视站，支持Docker等部署方式"
+    }
+  ]
+}
