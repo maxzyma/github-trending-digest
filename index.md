@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-17](daily/2026-10-17-analysis) — Anthropic、Cursor、Google 的官方插件与技能目录同日在榜，13 项里 11 项和编程 Agent 有关；rea 连续十天居首后退榜，Android 官方技能库和网盘直链脚本 LinkSwift 首次上榜。
 - [2026-10-16](daily/2026-10-16-analysis) — 编程 Agent 插件与技能包集体回榜，13 项里占 7 席，superpowers、caveman、ruflo 都在上榜前一周发了新版本；rea 连续第十天居首，推理引擎 TokenSpeed、本地检索工具 XERJ 和自建影视站 LibreTV 首次上榜。
 - [2026-10-15](daily/2026-10-15-analysis) — rea 连续第九天居首，Ghidra 和 PentAGI 回榜，逆向与安全工具占四席；nvm、Rust、tiny11builder 等开发者老工具同日回流，AI Agent 审计工具 iFixAi 首次上榜。
 - [2026-10-14](daily/2026-10-14-analysis) — rea 总星数越过 20 万，连续第八天居首；在 Linux 和 Windows 上开发 iOS 应用的 xtool 首次上榜，当天发版修复 Apple ID 登录；vercel-labs/skills 与 VoiceStudio 回榜，编程 Agent 的技能与插件工具占三席。
