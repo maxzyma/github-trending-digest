@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-19](daily/2026-10-19-analysis) — 求职框架 ai-job-search 首次登顶、日增 2,232 居全榜第一；Cursor 官方插件目录回榜，和 Claude Code 官方目录、Android 技能库同榜；ComfyUI 发布 v0.42 后回归，另有 LLM 学习路线图和去马赛克工具两个新面孔。
 - [2026-10-18](daily/2026-10-18-analysis) — Claude Code、OpenCode、Orca 三个编程 Agent 客户端同日回榜，13 项里 12 项围绕编程 Agent；今日没有新面孔，求职框架 ai-job-search 升到第二并跨过 5 万星。
 - [2026-10-17](daily/2026-10-17-analysis) — Anthropic、Cursor、Google 的官方插件与技能目录同日在榜，13 项里 11 项和编程 Agent 有关；rea 连续十天居首后退榜，Android 官方技能库和网盘直链脚本 LinkSwift 首次上榜。
 - [2026-10-16](daily/2026-10-16-analysis) — 编程 Agent 插件与技能包集体回榜，13 项里占 7 席，superpowers、caveman、ruflo 都在上榜前一周发了新版本；rea 连续第十天居首，推理引擎 TokenSpeed、本地检索工具 XERJ 和自建影视站 LibreTV 首次上榜。
