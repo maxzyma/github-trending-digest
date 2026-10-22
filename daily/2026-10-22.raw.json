@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-22",
+  "weekday": "周四",
+  "count": 11,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "2,012",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 2,
+      "repo": "vllm-project/vllm",
+      "language": "Python",
+      "stars_today": "441",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "rank": 3,
+      "repo": "stablyai/orca",
+      "language": "TypeScript",
+      "stars_today": "1,541",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+    },
+    {
+      "rank": 4,
+      "repo": "headroomlabs-ai/headroom",
+      "language": "Python",
+      "stars_today": "474",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+    },
+    {
+      "rank": 5,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "2,079",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 6,
+      "repo": "Comfy-Org/ComfyUI",
+      "language": "Python",
+      "stars_today": "939",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+    },
+    {
+      "rank": 7,
+      "repo": "supabase/supabase",
+      "language": "TypeScript",
+      "stars_today": "504",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+    },
+    {
+      "rank": 8,
+      "repo": "twentyhq/twenty",
+      "language": "TypeScript",
+      "stars_today": "112",
+      "description": "The open alternative to Salesforce, designed for AI."
+    },
+    {
+      "rank": 9,
+      "repo": "shiyu-coder/Kronos",
+      "language": "Python",
+      "stars_today": "575",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets"
+    },
+    {
+      "rank": 10,
+      "repo": "akitaonrails/ai-memory",
+      "language": "Rust",
+      "stars_today": "286",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+    },
+    {
+      "rank": 11,
+      "repo": "Graphify-Labs/graphify",
+      "language": "Python",
+      "stars_today": "1,433",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+    }
+  ]
+}
