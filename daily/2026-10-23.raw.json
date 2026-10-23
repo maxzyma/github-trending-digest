@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-23",
+  "weekday": "周五",
+  "count": 9,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "php/php-src",
+      "language": "C",
+      "stars_today": "287",
+      "description": "The PHP Interpreter"
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "stars_today": "303",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "rank": 3,
+      "repo": "DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "stars_today": "1,948",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "rank": 4,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "2,979",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 5,
+      "repo": "Graphify-Labs/graphify",
+      "language": "Python",
+      "stars_today": "1,408",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+    },
+    {
+      "rank": 6,
+      "repo": "supabase/supabase",
+      "language": "TypeScript",
+      "stars_today": "693",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+    },
+    {
+      "rank": 7,
+      "repo": "fastapi/fastapi",
+      "language": "Python",
+      "stars_today": "101",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "rank": 8,
+      "repo": "luongnv89/claude-howto",
+      "language": "Python",
+      "stars_today": "177",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+    },
+    {
+      "rank": 9,
+      "repo": "Meloong-Git/PCL",
+      "language": "Visual Basic .NET",
+      "stars_today": "119",
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。"
+    }
+  ]
+}
