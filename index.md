@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-23](daily/2026-10-23-analysis) — PHP 修复两个可远程执行代码的严重漏洞，php-src 首次上榜就排第 1；编程 Agent 技能与指南占 5 席，Cloudflare 安全审计技能日增近 3,000 星；FastAPI 连发三个版本，Minecraft 启动器 PCL 因关闭游戏下载功能引发社区讨论而上榜。
 - [2026-10-22](daily/2026-10-22-analysis) — Cloudflare 安全审计技能升到榜首，目录型技能包一天内全部离榜，只留下审计、精简代码和代码图谱三个流程型技能；Supabase、Twenty 两个成熟开源平台回榜，vLLM 跃升 13 位到第 2，Orca 发版庆祝 10 万星；求职方向从 ai-job-search 换成直接抓企业招聘系统的 freehire。
 - [2026-10-21](daily/2026-10-21-analysis) — Agent 技能包占 15 席中的 7 席：Cloudflare 安全审计技能回榜升至第 2，Ponytail、Graphify 带着大版本回归，wshobson/agents 与 2,600+ 技能目录 AAS 首次上榜；vLLM 发布 v0.32.0 后首入 tracker，ai-job-search 连续第三天居首。
 - [2026-10-20](daily/2026-10-20-analysis) — 求职框架 ai-job-search 日增 3,856 连续两天居首，同日发布收紧权限的 v1.7.3；Claude Code 和 Orca 也在调整 Agent 审批方式。Token 压缩工具 Headroom 换组织后回榜，ComfyUI 日增破千，儿童知识点图谱 os-taxonomy 首次上榜。
