@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-25](daily/2026-10-25-analysis) — 10 项里 8 项和编程 Agent 有关：Cloudflare 安全审计技能连续第 5 天在榜，Impeccable 与 Hallmark 两个“让 AI 做的界面不再千篇一律”的设计技能同日回榜，Gemini CLI 和心动出品的 Cindy 首次进入 tracker；其余两项是 Pollen Robotics 的开源双足小鸭机器人和一份中文电子书链接目录。
 - [2026-10-24](daily/2026-10-24-analysis) — 8 项里 5 项和安全有关：Cloudflare 安全审计技能回到榜首，NVIDIA 的 Agent 隔离运行时 OpenShell 借 HN 热帖回榜，PHP 与 Node.js 同在 10-21 发布安全版本；唯一新面孔是附带 877 万段解读数据集的紫微斗数排盘引擎。
 - [2026-10-23](daily/2026-10-23-analysis) — PHP 修复两个可远程执行代码的严重漏洞，php-src 首次上榜就排第 1；编程 Agent 技能与指南占 5 席，Cloudflare 安全审计技能日增近 3,000 星；FastAPI 连发三个版本，Minecraft 启动器 PCL 因关闭游戏下载功能引发社区讨论而上榜。
 - [2026-10-22](daily/2026-10-22-analysis) — Cloudflare 安全审计技能升到榜首，目录型技能包一天内全部离榜，只留下审计、精简代码和代码图谱三个流程型技能；Supabase、Twenty 两个成熟开源平台回榜，vLLM 跃升 13 位到第 2，Orca 发版庆祝 10 万星；求职方向从 ai-job-search 换成直接抓企业招聘系统的 freehire。
