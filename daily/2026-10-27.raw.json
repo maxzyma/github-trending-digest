@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-27",
+  "weekday": "周二",
+  "count": 14,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "Nutlope/hallmark",
+      "language": "CSS",
+      "stars_today": "2,244",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    },
+    {
+      "rank": 2,
+      "repo": "TauricResearch/TradingAgents",
+      "language": "Python",
+      "stars_today": "1,395",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "rank": 3,
+      "repo": "JetBrains/thinkrail",
+      "language": "TypeScript",
+      "stars_today": "1,173",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+    },
+    {
+      "rank": 4,
+      "repo": "makecindy/cindy",
+      "language": "TypeScript",
+      "stars_today": "1,296",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "896",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 6,
+      "repo": "pbakaus/impeccable",
+      "language": "Rust",
+      "stars_today": "1,506",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "rank": 7,
+      "repo": "NVIDIA/SkillSpector",
+      "language": "Python",
+      "stars_today": "214",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+    },
+    {
+      "rank": 8,
+      "repo": "pollen-robotics/microduck",
+      "language": "Rust",
+      "stars_today": "843",
+      "description": "A Tiny biped duck robot 🦆"
+    },
+    {
+      "rank": 9,
+      "repo": "nightly-labs/openbot",
+      "language": "TypeScript",
+      "stars_today": "176",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration."
+    },
+    {
+      "rank": 10,
+      "repo": "Panniantong/Agent-Reach",
+      "language": "Python",
+      "stars_today": "746",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "rank": 11,
+      "repo": "debpalash/VoiceStudio",
+      "language": "Python",
+      "stars_today": "2,297",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages."
+    },
+    {
+      "rank": 12,
+      "repo": "gitroomhq/postiz-app",
+      "language": "TypeScript",
+      "stars_today": "188",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖"
+    },
+    {
+      "rank": 13,
+      "repo": "alchaincyf/huashu-design",
+      "language": "HTML",
+      "stars_today": "251",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent"
+    },
+    {
+      "rank": 14,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "language": "",
+      "stars_today": "638",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+    }
+  ]
+}
