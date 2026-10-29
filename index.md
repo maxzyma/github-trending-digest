@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-10-29](daily/2026-10-29-analysis) — JetBrains ThinkRail 升到榜首，Agent 工作区占四席；Expo 官方技能包首次上榜，DeepTutor 发布 v1.7.0 后单日增星全榜最高，李笑来的开源书《自学是门手艺》也进了榜。
 - [2026-10-28](daily/2026-10-28-analysis) — 新设计技能 ai-design-skills 首次上榜即登顶，和 Hallmark、Impeccable 占据前五中的三席；OpenBot、Cindy、ThinkRail 三个 Agent 工作区两天合入两百多个 PR，Superpowers 与 DeepTutor 回榜，越狱提示合集 jailbreaks 首次上榜。
 - [2026-10-27](daily/2026-10-27-analysis) — 设计技能 Hallmark 升到榜首，中文设计技能 Huashu Design 首次上榜，同榜设计类技能增至 3 个；Agent 工作区新增本地常驻队友 OpenBot，ECC、SkillSpector、Agent-Reach、karpathy-skills 四个 Agent 生态项目同日回榜。
 - [2026-10-26](daily/2026-10-26-analysis) — 心动出品的多 Agent 客户端 Cindy 从第 10 跳到榜首，JetBrains 围绕 pi 编程 Agent 做的 IDE ThinkRail 首次上榜；设计、安全、SEO 三类技能包同榜，自托管部署平台 Coolify、本地语音工具 VoiceStudio 和 TradingAgents 回到视野。
