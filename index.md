@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-01](daily/2026-11-01-analysis) — 周日 14 个项目里，编程助手的技能包和外围工具占 8 席；三张新面孔是 Mac 菜单栏工具箱 vorssaint-utils、DevOps 题库 devops-exercises 和多 Agent 桌面应用 Orkas。t3code 发布 v0.1.6 正式版，DeepTutor、OpenMAIC 两个 AI 教学项目也各出了新版本。
 - [2026-10-31](daily/2026-10-31-analysis) — 今天的 15 个项目全部上过榜，技能包占 5 席：mattpocock/skills 与 obra/superpowers 都在 30.7 万到 31 万星之间，Anthropic 和 Expo 的官方技能库同日回榜；claude-mem 升到榜首，新版本修复了后台误用 Codex 账号的问题。
 - [2026-10-30](daily/2026-10-30-analysis) — DeepTutor 升到榜首，Agent 工作区占四席：OpenMausBot 和 CopilotKit 的 OpenBot 同日首次上榜，都给每个 AI 助手配一台自己的电脑；claude-mem 两天连发三版后回榜。
 - [2026-10-29](daily/2026-10-29-analysis) — JetBrains ThinkRail 升到榜首，Agent 工作区占四席；Expo 官方技能包首次上榜，DeepTutor 发布 v1.7.0 后单日增星全榜最高，李笑来的开源书《自学是门手艺》也进了榜。
