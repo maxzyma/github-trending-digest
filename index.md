@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-04](daily/2026-11-04-analysis) — claude-mem 重回榜首，agent-desktop 单日 +3,791 为全榜最高；本机模拟 AWS 的 floci、Spotify 给编程 Agent 做的 Portal 插件和闲鱼捡漏监控首次上榜，Hex 带着 3.3 版回榜。
 - [2026-11-03](daily/2026-11-03-analysis) — Vercel Labs 的 agent-desktop 以 +2,275 登上榜首，让 AI 代理直接操作电脑上的原生应用；Karpathy 的 nanochat 首次进入 tracker，colibri v2.1、heretic 2.0 带着大版本回榜，t3code 单日 +3,229 仍是全榜最高。
 - [2026-11-02](daily/2026-11-02-analysis) — 周一 17 个项目里有 7 张新面孔：两款本地语音听写 Handy 和 Hex 同日上榜，本地 MoE 推理引擎 FreeToken、开源 AI 安全运营中心 AiSOC 也首次进榜；kornia 0.9.0、Hyprland 0.57 两个成熟项目随大版本进入 tracker，t3code 单日 +3,094 为全榜最高。
 - [2026-11-01](daily/2026-11-01-analysis) — 周日 14 个项目里，编程助手的技能包和外围工具占 8 席；三张新面孔是 Mac 菜单栏工具箱 vorssaint-utils、DevOps 题库 devops-exercises 和多 Agent 桌面应用 Orkas。t3code 发布 v0.1.6 正式版，DeepTutor、OpenMAIC 两个 AI 教学项目也各出了新版本。
