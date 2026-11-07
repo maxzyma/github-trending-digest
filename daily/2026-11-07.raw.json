@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-07",
+  "weekday": "周六",
+  "count": 18,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "zed-industries/zed",
+      "language": "Rust",
+      "stars_today": "306",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "rank": 2,
+      "repo": "NVIDIA/auto-ontology",
+      "language": "Python",
+      "stars_today": "2,015",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows."
+    },
+    {
+      "rank": 3,
+      "repo": "rails/rails",
+      "language": "Ruby",
+      "stars_today": "142",
+      "description": "Ruby on Rails"
+    },
+    {
+      "rank": 4,
+      "repo": "mpv-player/mpv",
+      "language": "C",
+      "stars_today": "37",
+      "description": "🎥 Command line media player"
+    },
+    {
+      "rank": 5,
+      "repo": "rust-lang/rust",
+      "language": "Rust",
+      "stars_today": "192",
+      "description": "Empowering everyone to build reliable and efficient software."
+    },
+    {
+      "rank": 6,
+      "repo": "react/react",
+      "language": "JavaScript",
+      "stars_today": "248",
+      "description": "The library for web and native user interfaces."
+    },
+    {
+      "rank": 7,
+      "repo": "angular/angular",
+      "language": "TypeScript",
+      "stars_today": "135",
+      "description": "Deliver web apps with confidence 🚀"
+    },
+    {
+      "rank": 8,
+      "repo": "symfony/symfony",
+      "language": "PHP",
+      "stars_today": "128",
+      "description": "The Symfony PHP framework"
+    },
+    {
+      "rank": 9,
+      "repo": "prometheus/prometheus",
+      "language": "Go",
+      "stars_today": "148",
+      "description": "The Prometheus monitoring system and time series database."
+    },
+    {
+      "rank": 10,
+      "repo": "google/skills",
+      "language": "Python",
+      "stars_today": "534",
+      "description": "Agent Skills for Google products and technologies"
+    },
+    {
+      "rank": 11,
+      "repo": "microsoft/vscode",
+      "language": "TypeScript",
+      "stars_today": "301",
+      "description": "Visual Studio Code"
+    },
+    {
+      "rank": 12,
+      "repo": "lz4/lz4",
+      "language": "C",
+      "stars_today": "315",
+      "description": "Extremely Fast Compression algorithm"
+    },
+    {
+      "rank": 13,
+      "repo": "nushell/nushell",
+      "language": "Rust",
+      "stars_today": "131",
+      "description": "A new type of shell"
+    },
+    {
+      "rank": 14,
+      "repo": "etcd-io/etcd",
+      "language": "Go",
+      "stars_today": "128",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system"
+    },
+    {
+      "rank": 15,
+      "repo": "openssl/openssl",
+      "language": "C",
+      "stars_today": "26",
+      "description": "General purpose TLS and crypto library"
+    },
+    {
+      "rank": 16,
+      "repo": "mattpocock/skills",
+      "language": "Shell",
+      "stars_today": "2,070",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "rank": 17,
+      "repo": "cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "stars_today": "2,548",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "rank": 18,
+      "repo": "astral-sh/ruff",
+      "language": "Rust",
+      "stars_today": "169",
+      "description": "An extremely fast Python linter and code formatter, written in Rust."
+    }
+  ]
+}
