@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-07](daily/2026-11-07-analysis) — 老牌项目集体上榜：Zed 登顶，Rails 发出含 21 个安全公告的补丁，mpv 时隔 11 个月发布 0.42，Prometheus、Symfony、VS Code 同周发版；新增 star 仍主要流向 4 个 Agent 相关项目。
 - [2026-11-06](daily/2026-11-06-analysis) — Agent 技能包占了 5 席，google/skills 和 garden-skills 回榜；Vercel 的 agent-browser 首次进入 tracker，与 agent-desktop 同榜，一个操作浏览器、一个操作整台电脑；auto-ontology 连续两天第一。
 - [2026-11-05](daily/2026-11-05-analysis) — NVIDIA 开源的企业数据口径层 auto-ontology 首次上榜即登榜首；PR-Agent 交给社区后的新仓、在光盘上刻图案的 DiscImageStudio 和万亿参数 Kimi K3 的纯 C 推理一同上榜，spec-kit、gstack、MoneyPrinterTurbo 回榜。
 - [2026-11-04](daily/2026-11-04-analysis) — claude-mem 重回榜首，agent-desktop 单日 +3,791 为全榜最高；本机模拟 AWS 的 floci、Spotify 给编程 Agent 做的 Portal 插件和闲鱼捡漏监控首次上榜，Hex 带着 3.3 版回榜。
