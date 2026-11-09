@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-09](daily/2026-11-09-analysis) — 榜单缩到 9 项，技能包只剩 anthropics/skills；MuJoCo 4.0 和 Anthropic 的 Claude 示例仓随新版本首次进入 tracker，NVIDIA 的 GPU Kubernetes 管理面升到第二。
 - [2026-11-08](daily/2026-11-08-analysis) — Google、Anthropic、Cloudflare 的官方技能包与 mattpocock/skills 同时排进前五，Anthropic 把 Office 技能改为 Apache 2.0；新面孔是 NVIDIA 的 GPU Kubernetes 管理面、三星家电本地控制和长会话上下文压缩。
 - [2026-11-07](daily/2026-11-07-analysis) — 老牌项目集体上榜：Zed 登顶，Rails 发出含 21 个安全公告的补丁，mpv 时隔 11 个月发布 0.42，Prometheus、Symfony、VS Code 同周发版；新增 star 仍主要流向 4 个 Agent 相关项目。
 - [2026-11-06](daily/2026-11-06-analysis) — Agent 技能包占了 5 席，google/skills 和 garden-skills 回榜；Vercel 的 agent-browser 首次进入 tracker，与 agent-desktop 同榜，一个操作浏览器、一个操作整台电脑；auto-ontology 连续两天第一。
