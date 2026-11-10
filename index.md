@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-10](daily/2026-11-10-analysis) — Agent 接入私人数据成为今天的新看点：YC 掌门 Garry Tan 的个人记忆库 gbrain 和社区版 Home Assistant MCP 首次上榜；agent-browser 发布可回放的 saved flows，RuView 与 daily_stock_analysis 带着新版本回榜。
 - [2026-11-09](daily/2026-11-09-analysis) — 榜单缩到 9 项，技能包只剩 anthropics/skills；MuJoCo 4.0 和 Anthropic 的 Claude 示例仓随新版本首次进入 tracker，NVIDIA 的 GPU Kubernetes 管理面升到第二。
 - [2026-11-08](daily/2026-11-08-analysis) — Google、Anthropic、Cloudflare 的官方技能包与 mattpocock/skills 同时排进前五，Anthropic 把 Office 技能改为 Apache 2.0；新面孔是 NVIDIA 的 GPU Kubernetes 管理面、三星家电本地控制和长会话上下文压缩。
 - [2026-11-07](daily/2026-11-07-analysis) — 老牌项目集体上榜：Zed 登顶，Rails 发出含 21 个安全公告的补丁，mpv 时隔 11 个月发布 0.42，Prometheus、Symfony、VS Code 同周发版；新增 star 仍主要流向 4 个 Agent 相关项目。
