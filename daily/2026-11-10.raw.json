@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-10",
+  "weekday": "周二",
+  "count": 11,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "anthropics/skills",
+      "language": "Python",
+      "stars_today": "1,038",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "rank": 2,
+      "repo": "meta/astryx",
+      "language": "TypeScript",
+      "stars_today": "3,278",
+      "description": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "rank": 3,
+      "repo": "sherlock-project/sherlock",
+      "language": "Python",
+      "stars_today": "4,267",
+      "description": "Hunt down social media accounts by username across social networks"
+    },
+    {
+      "rank": 4,
+      "repo": "google-deepmind/mujoco",
+      "language": "C++",
+      "stars_today": "574",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/claude-quickstarts",
+      "language": "Python",
+      "stars_today": "551",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+    },
+    {
+      "rank": 6,
+      "repo": "garrytan/gbrain",
+      "language": "TypeScript",
+      "stars_today": "216",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain"
+    },
+    {
+      "rank": 7,
+      "repo": "vercel-labs/agent-browser",
+      "language": "Rust",
+      "stars_today": "916",
+      "description": "Browser automation CLI for AI agents"
+    },
+    {
+      "rank": 8,
+      "repo": "ruvnet/RuView",
+      "language": "Rust",
+      "stars_today": "172",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+    },
+    {
+      "rank": 9,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars_today": "506",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "rank": 10,
+      "repo": "homeassistant-ai/ha-mcp",
+      "language": "Python",
+      "stars_today": "31",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants."
+    },
+    {
+      "rank": 11,
+      "repo": "milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "stars_today": "1,587",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+    }
+  ]
+}
