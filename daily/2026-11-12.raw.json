@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-12",
+  "weekday": "周四",
+  "count": 10,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "meta/astryx",
+      "language": "TypeScript",
+      "stars_today": "2,776",
+      "description": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "rank": 2,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "stars_today": "278",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "rank": 3,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "language": "TypeScript",
+      "stars_today": "159",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute."
+    },
+    {
+      "rank": 4,
+      "repo": "shadcn/improve",
+      "language": "JavaScript",
+      "stars_today": "361",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "rank": 5,
+      "repo": "addyosmani/agent-skills",
+      "language": "Rust",
+      "stars_today": "787",
+      "description": "Browser automation CLI for AI agents"
+    },
+    {
+      "rank": 6,
+      "repo": "vercel-labs/agent-browser",
+      "language": "Ruby",
+      "stars_today": "708",
+      "description": "The personal finance app for everyone (by everyone)"
+    },
+    {
+      "rank": 7,
+      "repo": "we-promise/sure",
+      "language": "Python",
+      "stars_today": "1,078",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants."
+    },
+    {
+      "rank": 8,
+      "repo": "homeassistant-ai/ha-mcp",
+      "language": "TypeScript",
+      "stars_today": "645",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:"
+    },
+    {
+      "rank": 9,
+      "repo": "openai/codex-security",
+      "language": "Java",
+      "stars_today": "52",
+      "description": "All Algorithms implemented in Java"
+    },
+    {
+      "rank": 10,
+      "repo": "TheAlgorithms/Java",
+      "language": "",
+      "stars_today": "51",
+      "description": ""
+    }
+  ]
+}
