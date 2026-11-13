@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-13](daily/2026-11-13-analysis) — 昨天首次上榜的 Modern Web Guidance 和 Codex Security 升到前两位；本地推理引擎 TensorFold 首次上榜，llama.cpp 同日回榜；Node.js 在 11-11 的安全版本之后与 nvm 一起回来，阿里的终端编码 Agent Qwen Code 首次进入 tracker。
 - [2026-11-12](daily/2026-11-12-analysis) — 给编码 Agent 配"专业知识"成为今天的新看点：Chrome 团队的现代 Web 指南、shadcn 的代码审计技能和 OpenAI 的 Codex Security 首次上榜；astryx 连续第二天居首，Sure 日增量从 +159 涨到 +1,078。
 - [2026-11-11](daily/2026-11-11-analysis) — 技能包回到榜上，12 项里占 3 席；Tokio 组织下的全栈 Rust 框架 Topcoat 和 Maybe Finance 的社区续作 Sure 首次上榜，astryx 以 +3,108 升到榜首。
 - [2026-11-10](daily/2026-11-10-analysis) — Agent 接入私人数据成为今天的新看点：YC 掌门 Garry Tan 的个人记忆库 gbrain 和社区版 Home Assistant MCP 首次上榜；agent-browser 发布可回放的 saved flows，RuView 与 daily_stock_analysis 带着新版本回榜。
