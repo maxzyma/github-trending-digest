@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-16](daily/2026-11-16-analysis) — Univer 与 AG-UI 双双升到前二，Agent 接入产品界面成了今天的头条；Agent Skills 一组 4 项同时在榜，NVIDIA 开源技能评测框架 SkillEvaluator 首次上榜，ggml 发布 1.0 后首次进入 tracker。
 - [2026-11-15](daily/2026-11-15-analysis) — Plannotator 升到榜首，腾讯 LoopForge 首次上榜，编码 Agent 的审查与流程编排继续占最大盘；AG-UI 协议、Univer 和 TensorFold 指向 Agent 接入产品界面与本地推理，老牌 WiFi 审计工具 airgorah 首次进入 tracker。
 - [2026-11-14](daily/2026-11-14-analysis) — 阿里的 Open Code Review 回到榜首，和 Modern Web Guidance、Codex Security、首次上榜的 Plannotator 一起围着"Agent 写完代码之后怎么审"；个人理财和炒股工具占 3 席，Uptime Kuma 首次进入 tracker。
 - [2026-11-13](daily/2026-11-13-analysis) — 昨天首次上榜的 Modern Web Guidance 和 Codex Security 升到前两位；本地推理引擎 TensorFold 首次上榜，llama.cpp 同日回榜；Node.js 在 11-11 的安全版本之后与 nvm 一起回来，阿里的终端编码 Agent Qwen Code 首次进入 tracker。
