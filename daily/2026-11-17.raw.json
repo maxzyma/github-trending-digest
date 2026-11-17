@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-17",
+  "weekday": "周二",
+  "count": 15,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "ag-ui-protocol/ag-ui",
+      "language": "TypeScript",
+      "stars_today": "791",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
+    },
+    {
+      "rank": 2,
+      "repo": "backnotprop/plannotator",
+      "language": "TypeScript",
+      "stars_today": "696",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+    },
+    {
+      "rank": 3,
+      "repo": "dream-num/univer",
+      "language": "TypeScript",
+      "stars_today": "1,828",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core."
+    },
+    {
+      "rank": 4,
+      "repo": "tradermonty/claude-trading-skills",
+      "language": "Python",
+      "stars_today": "837",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+    },
+    {
+      "rank": 5,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "language": "Python",
+      "stars_today": "1,094",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+    },
+    {
+      "rank": 6,
+      "repo": "getarcaneapp/arcane",
+      "language": "Go",
+      "stars_today": "46",
+      "description": "Modern Docker Management, Designed for Everyone"
+    },
+    {
+      "rank": 7,
+      "repo": "DeanChensj/jiangshan-map",
+      "language": "JavaScript",
+      "stars_today": "288",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes"
+    },
+    {
+      "rank": 8,
+      "repo": "google-labs-code/stitch-skills",
+      "language": "TypeScript",
+      "stars_today": "529",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+    },
+    {
+      "rank": 9,
+      "repo": "mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars_today": "135",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "rank": 10,
+      "repo": "NVIDIA/SkillEvaluator",
+      "language": "Python",
+      "stars_today": "873",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior."
+    },
+    {
+      "rank": 11,
+      "repo": "alibaba/open-code-review",
+      "language": "Go",
+      "stars_today": "951",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible."
+    },
+    {
+      "rank": 12,
+      "repo": "google-research/paper-orchestra",
+      "language": "Python",
+      "stars_today": "313",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing."
+    },
+    {
+      "rank": 13,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "language": "TypeScript",
+      "stars_today": "841",
+      "description": "Chrome DevTools for coding agents"
+    },
+    {
+      "rank": 14,
+      "repo": "sveltejs/svelte",
+      "language": "JavaScript",
+      "stars_today": "115",
+      "description": "web development for the rest of us"
+    },
+    {
+      "rank": 15,
+      "repo": "kajisho5/ffmpeg-skill",
+      "language": "Python",
+      "stars_today": "367",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys."
+    }
+  ]
+}
