@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-18](daily/2026-11-18-analysis) — 漏洞挖掘技能包 Claude-BugHunter 回榜登顶，superpowers 与 ECC 两个大型技能框架同日回归；阿里 open-code-review 升到 #3，腾讯 LoopForge 发布 v0.4.0 后回榜。今日 15 项全是老面孔，没有首次上榜项目。
 - [2026-11-17](daily/2026-11-17-analysis) — AG-UI 登上榜首，Univer 日增 +1,828 领跑全榜；Agent Skills 扩到 5 项，新增视频剪辑技能 ffmpeg-skill；Google Research 的自动写论文框架、中国历史地图「江山时序」和 Docker 面板 Arcane 首次上榜。
 - [2026-11-16](daily/2026-11-16-analysis) — Univer 与 AG-UI 双双升到前二，Agent 接入产品界面成了今天的头条；Agent Skills 一组 4 项同时在榜，NVIDIA 开源技能评测框架 SkillEvaluator 首次上榜，ggml 发布 1.0 后首次进入 tracker。
 - [2026-11-15](daily/2026-11-15-analysis) — Plannotator 升到榜首，腾讯 LoopForge 首次上榜，编码 Agent 的审查与流程编排继续占最大盘；AG-UI 协议、Univer 和 TensorFold 指向 Agent 接入产品界面与本地推理，老牌 WiFi 审计工具 airgorah 首次进入 tracker。
