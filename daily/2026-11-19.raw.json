@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-19",
+  "weekday": "周四",
+  "count": 19,
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "cursor/plugins",
+      "language": "TypeScript",
+      "stars_today": "314",
+      "description": "Cursor plugin specification and official plugins"
+    },
+    {
+      "rank": 2,
+      "repo": "HKUDS/CLI-Anything",
+      "language": "Python",
+      "stars_today": "389",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:"
+    },
+    {
+      "rank": 3,
+      "repo": "mvanhorn/last30days-skill",
+      "language": "Python",
+      "stars_today": "1,059",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "rank": 4,
+      "repo": "getarcaneapp/arcane",
+      "language": "Go",
+      "stars_today": "547",
+      "description": "Modern Docker Management, Designed for Everyone"
+    },
+    {
+      "rank": 5,
+      "repo": "NVIDIA/SkillEvaluator",
+      "language": "Python",
+      "stars_today": "312",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository."
+    },
+    {
+      "rank": 6,
+      "repo": "nvm-sh/nvm",
+      "language": "Shell",
+      "stars_today": "237",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions."
+    },
+    {
+      "rank": 7,
+      "repo": "astral-sh/uv",
+      "language": "Rust",
+      "stars_today": "258",
+      "description": "An extremely fast Python package and project manager, written in Rust."
+    },
+    {
+      "rank": 8,
+      "repo": "google-research/paper-orchestra",
+      "language": "Python",
+      "stars_today": "1,524",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing."
+    },
+    {
+      "rank": 9,
+      "repo": "google-labs-code/stitch-skills",
+      "language": "TypeScript",
+      "stars_today": "365",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+    },
+    {
+      "rank": 10,
+      "repo": "sveltejs/svelte",
+      "language": "JavaScript",
+      "stars_today": "692",
+      "description": "web development for the rest of us"
+    },
+    {
+      "rank": 11,
+      "repo": "jquery/jquery",
+      "language": "JavaScript",
+      "stars_today": "266",
+      "description": "jQuery JavaScript Library"
+    },
+    {
+      "rank": 12,
+      "repo": "appwrite/appwrite",
+      "language": "TypeScript",
+      "stars_today": "232",
+      "description": "The open-source cloud for agents &amp; devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more"
+    },
+    {
+      "rank": 13,
+      "repo": "openvinotoolkit/openvino",
+      "language": "C++",
+      "stars_today": "24",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "rank": 14,
+      "repo": "obra/superpowers",
+      "language": "Shell",
+      "stars_today": "822",
+      "description": "An agentic skills framework &amp; software development methodology that works."
+    },
+    {
+      "rank": 15,
+      "repo": "affaan-m/ECC",
+      "language": "JavaScript",
+      "stars_today": "1,108",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "rank": 16,
+      "repo": "DeanChensj/jiangshan-map",
+      "language": "JavaScript",
+      "stars_today": "218",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes"
+    },
+    {
+      "rank": 17,
+      "repo": "n8n-io/n8n",
+      "language": "TypeScript",
+      "stars_today": "325",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    },
+    {
+      "rank": 18,
+      "repo": "solidjs/solid",
+      "language": "TypeScript",
+      "stars_today": "40",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+    },
+    {
+      "rank": 19,
+      "repo": "punkpeye/awesome-mcp-servers",
+      "language": "",
+      "stars_today": "53",
+      "description": "A collection of MCP servers."
+    }
+  ]
+}
