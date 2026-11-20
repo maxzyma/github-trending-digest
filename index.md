@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-20](daily/2026-11-20-analysis) — nginx 发布安全更新后回榜，Firecrawl 把本地版放到 README 首位；技能包占 7 席，Claude-BugHunter 回到榜首；新面孔是应用商店提审检查、CI 排障 Agent、知识库 AFFiNE 和多协议下载器 Ghost Downloader。
 - [2026-11-19](daily/2026-11-19-analysis) — jQuery 4.1、Solid 2.0、Svelte 5.58 在三天内相继发版，三个前端库同日在榜；uv、jQuery、Appwrite、OpenVINO、Solid 五个成熟项目首次进入 tracker；NVIDIA SkillEvaluator 发布 1.0 后回榜，cursor/plugins 升到榜首。
 - [2026-11-18](daily/2026-11-18-analysis) — 漏洞挖掘技能包 Claude-BugHunter 回榜登顶，superpowers 与 ECC 两个大型技能框架同日回归；阿里 open-code-review 升到 #3，腾讯 LoopForge 发布 v0.4.0 后回榜。今日 15 项全是老面孔，没有首次上榜项目。
 - [2026-11-17](daily/2026-11-17-analysis) — AG-UI 登上榜首，Univer 日增 +1,828 领跑全榜；Agent Skills 扩到 5 项，新增视频剪辑技能 ffmpeg-skill；Google Research 的自动写论文框架、中国历史地图「江山时序」和 Docker 面板 Arcane 首次上榜。
