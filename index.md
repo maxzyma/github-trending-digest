@@ -48,6 +48,7 @@ title: GitHub Trending Digest
 
 ## Daily Analysis
 
+- [2026-11-24](daily/2026-11-24-analysis) — 同一份 16 项名单连续第五天原样上榜；日增合计回升两成，nginx 发布 ssl_early_data 漏洞修复版，last30days 一夜合入至少十个安全加固提交，Claude-BugHunter 今日 +2,029 星。
 - [2026-11-23](daily/2026-11-23-analysis) — 同一份 16 项名单连续第四天原样上榜；周一日增合计再降，stitch-skills 和 last30days 逆势走高，AutoClip 给诊断接口补索引，opensre 照常出日版。
 - [2026-11-22](daily/2026-11-22-analysis) — 同一份 16 项名单连续第三天原样上榜，周日日增整体回落；仓库侧动作更多：last30days 两天连发 v4.5.0 和 v4.6.0，AutoClip 发布 1.5.9，opensre 把 MCP 服务接进 agent 工具。
 - [2026-11-21](daily/2026-11-21-analysis) — 榜单 16 项与昨天相同，名次一个没动；后半榜的日增普遍放大，last30days 发布 v4.4.0，Claude-BugHunter 新增披露报告查询工具并修掉一批 Windows 问题，Ghost Downloader 再发一版。
